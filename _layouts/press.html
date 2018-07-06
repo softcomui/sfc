@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<section class="success-stories bg-platinum">
+    <div class="maxwidth-xl mx-auto wrapper will-grow">
+        <ul class="none grid is-multi-col mostly-3 mt-1 mb-0">
+            {% assign sorted = site.press_coverage | sort: 'release_date' | reverse %}
+            {% for item in sorted %}
+                {% include lists/press-list.html %}
+            {% endfor %}
+        </ul>
+    </div>
+</section>

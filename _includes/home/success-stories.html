@@ -1,0 +1,22 @@
+<section class="success-stories bg-platinum">
+    <div class="maxwidth-xl mx-auto wrapper will-grow">
+        <div class="section-header co-readable-gray">
+            <h2 class="section-title">
+                Our impact
+            </h2>
+            <p class="section-summary">
+                Enormous positive impact through software and programs
+            </p>
+        </div>
+        <ul class="none pt-1 grid is-multi-col mostly-3">
+            {% assign sorted = site.success_stories | sort: 'release_date' | reverse %}
+            {% for item in sorted limit: 3 %}
+                {% include lists/impact-list-item.html %}
+            {% endfor %}
+        </ul>
+        <a href="{{ site.url }}/success-stories" class="btn btn-standard btn-dark mt-2h mx-auto">
+            <span>View more</span>
+            {% include icons.html icon="chevron-right" %}
+        </a>
+    </div>
+</section>

@@ -1,0 +1,18 @@
+<section class="recognitions bg-platinum">
+    <div class="maxwidth-xl mx-auto wrapper">
+        <div class="section-header co-readable-gray">
+            <h2 class="section-title">
+                Recognitions
+            </h2>
+            <p class="section-summary">
+                Noteworthy recognitions and mentions.
+            </p>
+        </div>
+        <ul class="none pt-1 grid is-multi-col mostly-3">
+            {% assign sorted = site.recognitions | sort: 'release_date' | reverse %}
+            {% for item in sorted limit: 6 %}
+                {% include lists/recognitions-list.html %}
+            {% endfor %}
+        </ul>
+    </div>
+</section>

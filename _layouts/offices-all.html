@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<section class="leadership bg-platinum">
+    <div class="maxwidth-xl mx-auto wrapper will-grow">
+        <ul class="none offices mt-1 mb-0">
+            {% assign sorted = site.offices | sort: 'position' %}
+            {% for item in sorted %}
+                {% include lists/offices-list.html %}
+            {% endfor %}
+        </ul>
+    </div>
+</section>
+{% include about/join-contact.html %}

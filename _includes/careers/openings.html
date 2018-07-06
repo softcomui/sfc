@@ -1,0 +1,70 @@
+<section class="openings bg-platinum">
+    <h2 class="sr">Available careers in {{ site.title }} per department</h2>
+    <div class="grid is-multi-col mostly-2 maxwidth-xl mx-auto wrapper will-grow">
+        {% assign sorted_careers    = site.careers %}
+        {% assign client_services   = sorted_careers | where: "department", "Client Services" %}
+        {% assign engineering       = sorted_careers | where: "department", "Engineering" %}
+        {% assign marketing         = sorted_careers | where: "department", "Marketing" %}
+        {% assign operations        = sorted_careers | where: "department", "Operations" %}
+        {% if client_services %}
+            <section>
+                <div class="section-header co-readable-gray">
+                    <h3 class="section-title">
+                        Client Services
+                        <sup class="fw-normal co-faint-gray">({{ client_services | size }})</sup>
+                    </h3>
+                </div>
+                <ul class="none">
+                    {% for item in client_services %}
+                        {% include lists/careers-list-item.html %}
+                    {% endfor %}
+                </ul>
+            </section>
+        {% endif %}
+        {% if engineering %}
+            <section>
+                <div class="section-header co-readable-gray">
+                    <h3 class="section-title">
+                        Engineering
+                        <sup class="fw-normal co-faint-gray">({{ engineering | size }})</sup>
+                    </h3>
+                </div>
+                <ul class="none">
+                    {% for item in engineering %}
+                        {% include lists/careers-list-item.html %}
+                    {% endfor %}
+                </ul>
+            </section>
+        {% endif %}
+        {% if marketing %}
+            <section>
+                <div class="section-header co-readable-gray">
+                    <h3 class="section-title">
+                        Marketing
+                        <sup class="fw-normal co-faint-gray">({{ marketing | size }})</sup>
+                    </h3>
+                </div>
+                <ul class="none">
+                    {% for item in marketing %}
+                        {% include lists/careers-list-item.html %}
+                    {% endfor %}
+                </ul>
+            </section>
+        {% endif %}
+        {% if operations %}
+            <section>
+                <div class="section-header co-readable-gray">
+                    <h3 class="section-title">
+                        Operations
+                        <sup class="fw-normal co-faint-gray">({{ operations | size }})</sup>
+                    </h3>
+                </div>
+                <ul class="none">
+                    {% for item in operations %}
+                        {% include lists/careers-list-item.html %}
+                    {% endfor %}
+                </ul>
+            </section>
+        {% endif %}
+    </div>
+</section>

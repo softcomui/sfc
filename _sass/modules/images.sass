@@ -1,0 +1,75 @@
+// 
+    // Images
+
+    // @package sfc
+    // @author  Kabolobari Benakole <i@kb.life>
+    // @version 1.0.0
+
+// SVGs
+svg
+    fill:                   transparent
+
+.obj-fit-cover
+    object-fit:             cover
+.avatar
+    border-radius:          50%
+    &.is-micro
+        width:              45px
+        height:             45px
+    &.is-small
+        width:              72px
+        height:             72px
+    &.is-medium
+        width:              104px
+        height:             104px
+    &.is-large
+        width:              128px
+        height:             128px
+
+
+// Image Decorations
+.background-is-filtered
+    position:               relative
+    &::before
+        content:            ''
+        @extend .absolute-zero
+        z-index:            1
+    &.brand-filtering::before
+        background-image:   linear-gradient( 180deg, rgba( 0, 151, 205, 0.3 ) 28%, transparent 44%, rgba( 0, 0, 0, 0.8 ) )
+    &.black-filtering::before
+        background-color:   rgba( 0, 0, 0, 0.4 )
+    &.bottom-only::before
+        background-image:   linear-gradient( 180deg, transparent 0%, transparent 72%, rgba( 0, 0, 0, 0.5 ) )
+        border-radius:      $preferredradius
+    &.top-and-bottom::before
+        background-image:   linear-gradient( 180deg, rgba( 0, 0, 0, 0.4 ) 0, transparent 36%, transparent 65%, rgba( 0, 0, 0, 0.9 ) )
+        border-radius:      $preferredradius
+    &.has-border-top-radius::before
+        border-top-right-radius: $preferredradius
+        border-top-left-radius:  $preferredradius
+.main-header
+    .background-is-filtered
+        &.top-and-bottom::before
+            border-radius:  0
+
+.thin-border-top
+    border-top:             1px solid
+    &.border-is-light
+        border-color:       rgba( 255, 255, 255, 0.15 )
+
+.border-radius-preferred
+    border-radius:          $preferredradius
+
+
+// Videos
+.video-wrapper
+    position:               relative
+    padding-bottom:         56.25%
+    padding-top:            25px
+    height:                 0
+    iframe
+        position:           absolute
+        top:                0
+        left:               0
+        width:              100%
+        height:             100%

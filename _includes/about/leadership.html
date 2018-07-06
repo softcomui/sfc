@@ -1,0 +1,19 @@
+{% assign leadership_meta = site.pages | where: 'permalink', '/about/leadership/' %}
+<section class="leadership bg-platinum">
+    <div class="maxwidth-xl mx-auto wrapper will-grow negate-top-largeup">
+        <div class="section-header co-readable-gray">
+            <h2 class="section-title">
+                Leadership
+            </h2>
+            <p class="section-summary">
+                {{ leadership_meta[0].copy }}
+            </p>
+        </div>
+        <ul class="none pt-1 grid is-multi-col mostly-4">
+            {% assign sorted = site.leadership | sort: 'position' %}
+            {% for item in sorted %}
+                {% include lists/leadership-list.html %}
+            {% endfor %}
+        </ul>
+    </div>
+</section>

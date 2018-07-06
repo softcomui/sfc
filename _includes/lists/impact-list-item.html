@@ -1,0 +1,19 @@
+<li>
+    <a href="{{ item.url }}" class="landscape-tile co-rich-black">
+        <div class="show-cta background-is-filtered black-filtering has-border-top-radius">
+            <img src="{{ item.featured_image }}" alt="" />
+            <span class="btn btn-white btn-standard absolute-middle z-depth-1">
+                <span>View story</span>
+                {% include icons.html icon="chevron-right" %}
+            </span>
+        </div>
+        <div class="landscape-tile-body dashed-border p-1">
+            <span class="nano-caps ff-sans-serif fw-bold" {% if item.color %}style="color: {{ item.color }}"{% endif %}>
+                {{ item.client }}
+            </span>
+            <h3 class="mb-0 fw-normal">
+                {{ item.title | truncatewords: 10, '...' }}
+            </h3>
+        </div>
+    </a>
+</li>

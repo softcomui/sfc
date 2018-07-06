@@ -1,0 +1,19 @@
+<section class="from-the-ceo bg-platinum">
+    <h2 class="sr">What's Softcom &amp; what do we do?</h2>
+    <div class="maxwidth-xl mx-auto wrapper will-grow grid al-i-fs">
+        <div class="col-12 col-6-md">
+            <p class="lead lh-1-3h">
+                {{ page.lead_text }}
+            </p>
+            <div class="lead-credit d-flx al-i-c">
+                <img src="{{ site.url }}{{ page.credit_image }}" alt="{{ page.lead_credit }}">
+                <span class="credit d-blk smalltext">
+                    {{ page.lead_credit }}, {{ page.credit_title }}
+                </span>
+            </div>
+        </div>
+        <div class="col-12 col-6-md offset-6-cols-from-left">
+            {{ content | markdownify }}
+        </div>
+    </div>
+</section>

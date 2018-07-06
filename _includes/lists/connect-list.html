@@ -1,0 +1,21 @@
+{% for item in site.data.options.social_media %}
+    <h3 class="sr">{{ item.title }}</h3>
+    <ul class="none m-0 social-media-links">
+        {% for entry in item.subpages %}
+            <li>
+                <a href="//{{ entry.name }}.com/{{ entry.link }}" target="_blank">
+                    {% case entry.name %}
+                        {% when 'Facebook' %}
+                            {% include icons.html icon="facebook" %}
+                        {% when 'Twitter' %}
+                            {% include icons.html icon="twitter" %}
+                        {% when 'Instagram' %}
+                            {% include icons.html icon="instagram" %}
+                        {% when 'Linkedin' %}
+                            {% include icons.html icon="linkedin" %}
+                    {% endcase %}
+                </a>
+            </li>
+        {% endfor %}
+    </ul>
+{% endfor %}

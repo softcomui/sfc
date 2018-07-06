@@ -1,0 +1,36 @@
+// 
+    // Labs page
+
+    // @package sfc
+    // @author  Kabolobari Benakole <kb@softcom.ng>
+
+.logo-grid
+    display:                    grid
+    grid-template-columns:      repeat(auto-fit, minmax(152px, 1fr))
+    grid-gap:                   $space-xs
+    grid-auto-flow:             dense
+    @media #{$smallup}
+        grid-template-rows:     repeat(auto-fit, minmax(152px, 1fr))
+    .grid-item
+        background-color:       $platinum
+        min-height:             152px
+        @extend .grid-center-center
+        img
+            width:              96px
+        &:nth-child(3)
+            grid-column:        span 2
+            @extend .flex-center-center
+            flex-direction:     column
+            align-items:        flex-start!important
+        @media #{$smallup}
+            &:nth-child(1), &:nth-child(2)
+                padding:        0
+            &:nth-child(3)
+                grid-row:       span 2
+        @media #{$mediumup}
+            &:nth-child(3)
+                grid-column:    span 4
+        @media #{$largeup}
+            &:nth-child(3)
+                grid-column:    span 5
+            

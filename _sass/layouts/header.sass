@@ -1,0 +1,78 @@
+// 
+    // Global Header
+
+    // @package sfc
+    // @author  Kabolobari Benakole <i@kb.life>
+
+.main-header, .main-header-background
+    position:               relative
+    height:                 372px
+    @media #{$smallup}
+        height:             392px
+    @media #{$mediumup}
+        height:             496px
+    @media #{$largeup}
+        height:             592px
+
+    .site-branding, .main-header-content, .desktopnav
+        z-index:                2
+
+    .site-branding
+        position:           absolute
+        top:                0
+        width:              100%
+        @media #{ $mediumup }
+            display:        block
+        @media #{ $mediumdown }
+            position:       fixed
+            z-index:        3
+            background-color:   rgba( 0, 0, 0, 0.64 )
+        .logo-holder
+            display:        block
+            width:          108px
+            @media #{ $mediumup }
+                width:      136px
+                margin:     auto
+                transform:  none
+                margin-top: $space
+        .site-tools
+            @media #{ $mediumup }
+                display:    none
+            .the-tools
+                padding:    0 $space
+                @media #{ $mediumup }
+                    padding: 0
+        .wrapper
+            padding:        0.8rem $space
+
+    .main-header-background
+        object-fit:         cover
+    
+    a:not(.logo-holder), button
+        color:                  #fff
+        opacity:                0.9
+        transition:             all 0.32s ease
+        &.is-active, &:active, &:focus, &:hover
+            opacity:            1
+            color:              $alternatecolor
+
+    .main-header-content
+        position:               absolute
+        top:                    50%
+        transform:              translateY(-50%)
+        color:                  #fff
+        text-align:             center
+        .headline
+            @media #{ $smallup }
+                font-size:      2.64rem
+            @media #{ $mediumup }
+                font-size:      3.32rem
+        @media #{ $mediumup }
+            z-index:            1
+
+.logo-holder
+    transform:                  translateY(-2.5px)
+
+.fullheight-header, .fullheight-header .main-header-background
+    @media #{ $smallup }
+        height:                 100vh

@@ -1,0 +1,31 @@
+// 
+    // Carousels (custom settings)
+
+    // @package sfc
+    // @author  Kabolobari Benakole <kb@softcom.ng>
+
+.selfies-carousel
+    .carousel-cell
+        margin-right:       $space-sm
+        .image
+            width:          576px
+            height:         320px
+            object-fit:     cover
+            @media #{ $smallup }
+                width:      768px
+                height:     416px
+            @media #{ $mediumup }
+                width:      992px
+                height:     560px
+    .flickity-button, .flickity-page-dots .dot
+        background:         rgba( 0, 151, 205, 0.75 )
+        color:              #fff
+        svg
+            fill:           #fff
+
+.quotes-carousel
+    .carousel-cell
+        width:              100%
+    .flickity-page-dots
+        text-align:         right
+        bottom:             40px

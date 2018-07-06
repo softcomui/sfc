@@ -1,0 +1,70 @@
+<section {% if page.layout == 'success-stories-single' %}class="background-is-filtered black-filtering"{% else %}class="background-is-filtered black-filtering top-and-bottom"{% endif %}>
+    <h2 class="sr">
+        Page Header &amp; Details
+    </h2>
+    {% if page.layout == 'success-stories-single' %}
+        <img src="{{ page.featured_image }}" alt="{{ page.image_description }}" class="main-header-background">
+        <div class="main-header-content wrapper width-100-pc maxwidth-xl mx-auto">
+            <a href="{{ site.url }}/success-stories" class="badge mb-1 nano-caps fw-bold co-white">
+                {% include icons.html icon="chevron-left" %}
+                <span class="suffix">
+                    Success Stories
+                </span>
+            </a>
+            <h2 class="mt-0 headline fw-normal maxwidth-tb">
+                {{ page.title }}
+            </h2>
+            <p class="m-0 nano-caps fw-bold opacity-7">
+                Client:
+                <span>
+                    {{ page.client }}
+                </span>
+            </p>
+        </div>
+    {% elsif page.layout == 'leadership-single' %}
+    <img src="{{ page.featured_image }}" alt="{{ page.image_description }}" class="main-header-background">
+    <div class="main-header-content wrapper width-100-pc maxwidth-xl mx-auto">
+        <a href="{{ site.url }}/about/leadership" class="badge mb-1 nano-caps fw-bold co-white">
+            {% include icons.html icon="chevron-left" %}
+            <span class="suffix">
+                Leadership
+            </span>
+        </a>
+        <h2 class="m-0 headline fw-normal maxwidth-tb">
+            {{ page.title }}
+        </h2>
+        <p class="m-0 nano-caps fw-bold ff-sans-serif opacity-7">
+            {{ page.designation }}
+        </p>
+    </div>
+    {% elsif page.layout == 'careers-single' %}
+    <img src="{{ page.featured_image }}" alt="{{ page.image_description }}" class="main-header-background">
+    <div class="main-header-content wrapper width-100-pc maxwidth-xl mx-auto">
+        <a href="{{ site.url }}/careers/openings/" class="badge mb-1 nano-caps fw-bold co-white">
+            {% include icons.html icon="chevron-left" %}
+            <span class="suffix">
+                All openings
+            </span>
+        </a>
+        <h2 class="mt-0 headline fw-normal maxwidth-tb">
+            {{ page.title }}
+        </h2>
+        <p class="m-0 micro-caps fw-bold opacity-7">
+            {{ page.department }},
+            <span class="nano-caps"> {{ page.subunit }}</span>
+        </p>
+    </div>
+    {% else %}
+        <img src="{{ page.featured_image }}" alt="{{ page.image_description }}" class="main-header-background">
+        <div class="main-header-content wrapper width-100-pc">
+            <h2 class="m-0 headline">
+                {{ page.headline }}
+            </h2>
+            {% if page.copy %}
+                <p class="m-0 smalltext maxwidth-sm mx-auto pt-1">
+                    {{ page.copy }}
+                </p>
+            {% endif %}
+        </div>
+    {% endif %}
+</section>

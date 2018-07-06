@@ -1,0 +1,10 @@
+<ul class="none quotes-carousel" data-flickity='{ 
+    "wrapAround":       true, 
+    "autoPlay":         5000,
+    "percentPosition":  false,
+    "prevNextButtons":  false
+}'>
+    {% for item in site.peoplequotes %}
+        {% include lists/peoplequotes.html %}
+    {% endfor %}
+</ul>

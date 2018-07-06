@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<section class="accounts-contacts bg-platinum">
+    {% assign contacts   = site.contact_persons %}
+    {% assign accounts   = contacts | where: "department", "Accounts Managers" %}
+    {% assign operations = contacts | where: "department", "Operations" %}
+    {% assign media      = contacts | where: "department", "Media Inquiries" %}
+    <div class="maxwidth-xl mx-auto wrapper will-grow">
+        <div class="wrapper-y negate-top">
+            {% include contacts/accounts.html %}
+        </div>
+        <div class="wrapper-y">
+            {% include contacts/operations.html %}
+        </div>
+        <div class="wrapper-y negate-bottom">
+            {% include contacts/media.html %}
+        </div>
+    </div>
+</section>

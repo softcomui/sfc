@@ -1,0 +1,14 @@
+<section class="selfies bg-platinum">
+    <h2 class="sr">Softcom "Selfies"</h2>
+    <div class="maxwidth-xl mx-auto wrapper will-grow">
+        <ul class="selfies-carousel none" data-flickity='{ 
+            "wrapAround":       true, 
+            "autoPlay":         4000,
+            "percentPosition":  false
+        }'>
+            {% for image in site.selfies %}
+                {% include lists/selfies-list.html %}
+            {% endfor %}
+        </ul>
+    </div>
+</section>

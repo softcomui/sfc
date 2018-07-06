@@ -1,0 +1,22 @@
+<section class="press-coverage bg-platinum">
+    <div class="maxwidth-xl mx-auto wrapper will-grow">
+        <div class="section-header co-readable-gray">
+            <h2 class="section-title">
+                In the news
+            </h2>
+            <p class="section-summary">
+                How we're doing as told by you around the world
+            </p>
+            <ul class="none pt-1 grid is-multi-col mostly-3">
+                {% assign sorted = site.press_coverage | sort: 'release_date' | reverse %}
+                {% for item in sorted limit: 3 %}
+                    {% include lists/press-list.html %}
+                {% endfor %}
+            </ul>
+            <a href="{{ site.url }}/press" class="btn btn-standard btn-dark mt-2h mx-auto">
+                <span>Press archive</span>
+                {% include icons.html icon="chevron-right" %}
+            </a>
+        </div>
+    </div>
+</section>

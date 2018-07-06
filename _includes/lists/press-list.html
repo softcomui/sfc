@@ -1,0 +1,14 @@
+<li class="press-coverage-unit dashed-border">
+    <a class="d-blk richblack-link p-1" href="{{ item.link }}" target="_blank">
+        <span class="date nano-caps co-faint-gray fw-bold d-blk pb-h">
+            {{ item.date | date_to_string }}
+        </span>
+        <h3 class="mt-0 title fw-normal mediumtext">
+            {{ item.title | truncatewords: 8, '...' }}
+        </h3>
+        <p class="co-faint-gray underline">
+            {{ item.source }}
+            <sup>{% include icons.html icon="xlink" %}</sup>
+        </p>
+    </a>
+</li>

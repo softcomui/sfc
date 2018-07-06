@@ -1,0 +1,14 @@
+<li class="carousel-cell">
+    <p class="lead lh-1-3h">
+        {{ item.quote }}
+    </p>
+    <div class="lead-credit d-flx al-i-c">
+        <img src="{{ site.url }}{{ item.quote_author_image }}" alt="{{ item.quote_author }}">
+        <span class="credit d-blk smalltext">
+            {{ item.quote_author }}
+            <span class="d-blk nano-caps opacity-7 ff-sans-serif">
+                {{ item.quote_author_job }}
+            </span>
+        </span>
+    </div>
+</li>

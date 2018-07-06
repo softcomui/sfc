@@ -1,0 +1,50 @@
+<footer class="site-footer bg-white">
+    <h2 class="sr">
+        Page Footer, Sitemap &amp; Colophon
+    </h2>
+    <div class="content-area wrapper will-grow maxwidth-xl mx-auto">
+        <div class="grid exclusive-to-footer">
+            <div>
+                <h3 class="mt-0 smalltext">
+                    {{ site.data.options.headquarters.title }}
+                </h3>
+                <div class="microtext">
+                    <p class="opacity-7 lh-1-2h">
+                        {{ site.data.options.headquarters.address }}
+                    </p>
+                    <div>
+                        <a href="tel:{{ site.data.options.headquarters.phone }}" class="underline d-blk">{{ site.data.options.headquarters.phone }}</a>
+                        <a href="mailto:{{ site.data.options.headquarters.email }}" class="underline d-blk">{{ site.data.options.headquarters.email }}</a>
+                    </div>
+                </div>
+            </div>
+            {% for item in site.data.options.footer.sitemap %}
+                <div>
+                    <h3 class="mt-0 smalltext">
+                        {{ item.title }}
+                    </h3>
+                    <ul class="none m-0">
+                        {% for entry in item.subpages %}
+                            <li>
+                                <a href="{% if entry.new_window %}{{ entry.link }}{% else %}{{ site.url }}{{ entry.link }}{% endif %}" class="opacity-7-link co-rich-black" {% if entry.new_window %}target="_blank"{% endif %}>
+                                    {{ entry.page }}
+                                    {% if entry.new_window %}
+                                        <sup>
+                                            {% include icons.html icon="xlink" %}
+                                        </sup>
+                                    {% endif %}
+                                </a>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            {% endfor %}
+            <div>
+                {% include lists/connect-list.html %}
+            </div>
+        </div>
+        <div class="mb-0 pt-1h nanotext opacity-7">
+            Copyright <span currentYear></span> Softcom Ltd.
+        </div>
+    </div>
+</footer>

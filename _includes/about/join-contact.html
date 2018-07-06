@@ -1,0 +1,50 @@
+{% assign careers_meta = site.pages | where: 'permalink', '/careers/' %}
+{% assign contact_meta = site.pages | where: 'permalink', '/contact/' %}
+{% assign offices_meta = site.pages | where: 'permalink', '/about/offices/' %}
+<section class="join-contact bg-platinum">
+    <h2 class="sr">Careers, Contact, Offices</h2>
+    <div class="maxwidth-xl mx-auto wrapper will-grow negate-top-largeup grid">
+        <div class="section-header co-readable-gray col col-12 col-6-sm">
+            <h3 class="section-title">
+                {{ careers_meta[0].title }}
+            </h3>
+            <p class="microtext">
+                {{ careers_meta[0].copy }}
+            </p>
+            <a href="{{ careers_meta[0].url | prepend: site.url }}" class="btn btn-standard btn-dark mt-1h">
+                <span>
+                    {{ careers_meta[0].cta_link_text }}
+                </span>
+                {% include icons.html icon="chevron-right" %}
+            </a>
+        </div>
+        <div class="section-header co-readable-gray col col-12 col-6-sm offset-6-cols-from-left">
+            <h3 class="section-title">
+                {{ contact_meta[0].title }}
+            </h3>
+            <p class="microtext">
+                {{ contact_meta[0].cta_copy }}
+            </p>
+            <a href="{{ contact_meta[0].url | prepend: site.url }}" class="btn btn-standard btn-dark mt-1h">
+                <span>
+                    {{ contact_meta[0].cta_link_text }}
+                </span>
+                {% include icons.html icon="chevron-right" %}
+            </a>
+        </div>
+        <div class="section-header co-readable-gray col col-12 col-6-sm">
+            <h3 class="section-title">
+                {{ offices_meta[0].title }}
+            </h3>
+            <p class="microtext">
+                {{ offices_meta[0].cta_copy }}
+            </p>
+            <a href="{{ offices_meta[0].url | prepend: site.url }}" class="btn btn-standard btn-dark mt-1h">
+                <span>
+                    {{ offices_meta[0].cta_link_text }}
+                </span>
+                {% include icons.html icon="chevron-right" %}
+            </a>
+        </div>
+    </div>
+</section>

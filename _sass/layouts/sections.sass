@@ -1,0 +1,40 @@
+// 
+    // Sections
+
+    // @package sfc
+    // @author  Kabolobari Benakole <i@kb.life>
+
+.minibar
+    display:            flex
+    align-items:        center
+    height:             3rem
+
+.section-title
+    position:           relative
+    display:            inline-block
+    margin-top:         0
+    margin-bottom:      $space-md
+    color:              $richblack
+    &::after
+        content:        ''
+        position:       absolute
+        bottom:         -$space
+        width:          36px
+        height:         4px
+        background-color:   $primarycolor
+        border-radius:  $space
+        display:        block // correct firefox bug
+
+.section-summary
+    font-size:          $microfont
+    line-height:        $headinglh
+    padding:            $space-xs 0
+    margin:             0
+
+hr
+    border:             0
+    border-top-width:   1px
+    border-color:       #dddddd
+    margin:             $space-md 0
+    &.dashed
+        border-style:   dashed

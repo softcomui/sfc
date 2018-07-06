@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+    {% include shell/head.html %}
+    <body {% if page.layout %}class="is-{{ page.layout }}"{% endif %}>
+        <a class="skip-link sr" href="#mainContent">
+            Skip to main content
+        </a>
+        <h1 class="sr">
+            {{ site.title }}
+        </h1>
+        <div class="to-release-mobilenav">
+            <header class="main-header text-shadow-light {% if page.layout == 'home' %}fullheight-header{% endif %}">
+                {% include shell/logobar.html %}
+                {% include shell/header.html %}
+                {% include shell/mainnav.html %}
+            </header>
+            <main class="main" id="mainContent">
+                {{ content }}
+            </main>
+            {% include shell/footer.html %}
+        </div>
+        {% include shell/mobilenav.html %}
+        {% include shell/foot.html %}
+    </body>
+</html>

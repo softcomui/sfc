@@ -1,0 +1,17 @@
+<section class="blogs-reel">
+    <div class="maxwidth-xl mx-auto wrapper will-grow negate-top">
+        <div class="section-header co-readable-gray">
+            <h2 class="section-title">
+                Our thinking
+            </h2>
+            <p class="section-summary">
+                Leading in thoughts, grounding engineers.
+            </p>
+        </div>
+        <ul class="blogs-reel-carousel none pt-1" data-flickity='{ "wrapAround": true, "prevNextButtons": false }'>
+            {% for blog in site.data.blogs %}
+                {% include lists/blogs-list.html %}
+            {% endfor %}
+        </ul>
+    </div>
+</section>

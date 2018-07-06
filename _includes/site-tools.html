@@ -1,0 +1,17 @@
+<section class="site-tools">
+    <h2 class="sr">Site Tools</h2>
+    <div class="the-tools d-flx al-i-c">
+        {% assign class = 'contact d-flx al-i-c' %}
+        {% if page.url == '/contact/' %}
+            {% assign class = class | append: ' is-active' %}
+        {% endif %}
+        <a class="{{ class }}" href="{{ site.url }}/contact">
+            {% include icons.html icon="map-pin" %}
+            <span class="suffix show-mediumup">Contact</span>
+        </a>
+        <span class="vertical-divider"></span>
+        <a class="call" href="tel:+2347007638266">
+            {% include icons.html icon="phone" %}
+        </a>
+    </div>
+</section>

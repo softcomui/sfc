@@ -1,0 +1,12 @@
+- name: Home
+  slug: /
+- name: About
+  slug: /about/
+- name: Success Stories
+  slug: /success-stories/
+- name: Labs
+  slug: /labs/
+- name: Blog
+  slug: /blog/
+- name: Join us
+  slug: /careers/

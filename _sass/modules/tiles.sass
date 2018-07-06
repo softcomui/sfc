@@ -1,0 +1,74 @@
+// 
+    // Cards
+
+    // @package sfc
+    // @author  Kabolobari Benakole <i@kb.life>
+
+.is-raised
+    box-shadow:                     $subtleboxshadow
+
+.landscape-tile
+    display:                        block
+    img
+        height:                     312px
+        object-fit:                 cover
+        border-top-right-radius:    $preferredradius
+        border-top-left-radius:     $preferredradius
+        @media #{ $smallup }
+            height:                 296px
+    .landscape-tile-body
+        min-height:                 160px
+        border-top:                 0
+        border-top-right-radius:    0
+        border-top-left-radius:     0
+        border-bottom-right-radius: $preferredradius
+        border-bottom-left-radius:  $preferredradius
+
+    .black-filtering::before
+        transition:         all 0.32s ease
+        opacity:            0
+    &:hover
+        .black-filtering::before
+            opacity:        1
+    .btn
+        transition:         all 0.32s ease-in
+        opacity:            0
+    &:hover
+        .btn
+            opacity:        1
+
+.stacked-tile
+    position:               relative
+    display:                flex
+    flex-direction:         column
+    z-index:                0
+    @media #{$mediumup}
+        padding:            0 $space
+    img
+        max-width:          92%
+        height:             336px
+        z-index:            1
+        @media #{$smallup}
+            height:         392px
+        @media #{$mediumup}
+            width:          50%
+    .stacked-tile-body
+        z-index:            0
+        margin-top:         -4rem
+        padding-top:        6rem!important
+        @media #{$mediumup}
+            margin-top:     4rem
+            padding-top:    0
+            
+    @media #{$mediumup}
+        flex-direction:     row
+        &:first-of-type
+            .stacked-tile-body
+                margin-left:    -4rem
+                padding-left:   6rem!important
+        &:nth-of-type(2)
+            img
+                order:          2
+            .stacked-tile-body
+                margin-right:   -4rem
+                padding-right:  6rem!important

@@ -1,0 +1,51 @@
+// 
+    // Single Pages (Posts & Pages)
+
+    // @package sfc
+    // @author  Kabolobari Benakole <kb@softcom.ng>
+
+.is-success-stories-single, .is-leadership-single, .is-careers-single
+    .main-header-content
+        text-align:             left
+        left:                   50%
+        transform:              translate(-50%, -50%)
+        .headline
+            font-size:          1.64rem
+            @media #{ $smallup }
+                font-size:      2.16rem
+            @media #{ $mediumup }
+                font-size:      2.16rem
+        .copy
+            font-size:          1.2rem
+    .background-is-filtered
+        &.black-filtering::before
+            background-color:   rgba( 0, 0, 0, 0.7 )
+
+.border-top
+    border-top:                 $borderline
+
+.content-area
+    h2, h3
+        &:first-of-type
+            margin-top:         0
+    figure
+        margin:                 0
+        margin-top:             $space-md
+        margin-bottom:          $space-md
+        &:not(.video-wrapper)
+            margin:             $space-md calc(50% - 50vw)
+            @media #{ $mediumup }
+                margin:         $space-md calc(50% - 45vw)
+            @media #{ $largeup }
+                margin:         $space-md calc(50% - 40vw)
+            @media #{ $slaptop }
+                margin:         $space-md calc(50% - 37vw)
+        img
+            min-height:         356px
+            object-fit:         cover
+        figcaption
+            background-color:   #ffffff
+            padding:            $space
+            border-bottom:      1px dashed #ddd
+            font-size:          $microfont
+            font-style:         italic

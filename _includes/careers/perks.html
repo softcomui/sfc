@@ -1,0 +1,19 @@
+<section class="perks-and-benefits bg-platinum">
+    <div class="maxwidth-xl mx-auto wrapper will-grow negate-top-slaptopup">
+        <h2 class="section-title">
+            Perks &amp; Benefits
+        </h2> 
+        <ul class="none pt-1 grid is-multi-col mostly-3">
+            {% for item in page.perks_and_benefits %}
+                <li>
+                    <h3 class="mt-0">
+                        {{ item.perk }}
+                    </h3>
+                    <p>
+                        {{ item.benefit }}
+                    </p>
+                </li>
+            {% endfor %}
+        </ul>  
+    </div>
+</section>

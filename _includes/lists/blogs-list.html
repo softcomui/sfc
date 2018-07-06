@@ -1,0 +1,25 @@
+<li class="carousel-cell">
+    <a href="{{ blog.url }}" class="carousel-unit" target="_blank">
+        <div class="background-is-filtered top-and-bottom">
+            <img src="{{ blog.featured_image }}" alt="{{ blog.name }}" class="image">
+            <img src="{{ blog.logo_image }} " alt="{{ blog.name }}'s logo" class="logo">
+        </div>
+        <div class="text-area">
+            <h3 class="name micro-caps co-faint-gray">
+                {{ blog.name }}
+            </h3>
+            <span class="tagline d-blk co-rich-black">
+                {{ blog.tagline }}
+            </span>
+            <p class="desc co-readable-gray">
+                {{ blog.description }}
+            </p>
+            <span class="btn btn-dark btn-standard mt-1h">
+                <span>
+                    Visit blog
+                </span>
+                {% include icons.html icon="chevron-right" %}
+            </span>
+        </div>
+    </a>
+</li>

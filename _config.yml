@@ -1,0 +1,100 @@
+# Site settings
+title:        Softcom Ltd
+shortname:    softcom
+description:  >-
+  Softcom builds software, products, and programs that connect people and businesses.
+url:          'https://kb.life/sfc'
+charset:      'UTF-8'
+timezone:     Africa/Lagos
+
+
+# Build settings
+markdown: kramdown
+
+
+# Collections
+collections:
+  uploads:
+    title:  Uploads (Media & Files)
+    output: true
+  success_stories:
+    title:  Our Impact (Softcom Success Stories)
+    output: true
+  leadership:
+    title:  Softcom Leadership
+    output: true
+  press_coverage:
+    title:  Press Coverage
+  recognitions:
+    title:  Recognitions
+  selfies:
+    title:  Softcom Selfies
+  workshots:
+    title:  Softcom Workshots
+  peoplequotes:
+    title:  Softcom People Quotes
+  careers:
+    title:  Careers at Softcom
+    output: true
+  offices:
+    title:  Our Offices
+  product_logos:
+    title:  Product & Project Logos
+  labs:
+    title:  Labs
+    output: true
+  contact_persons:
+    title:  Softcom Contact Persons
+
+    
+# Defaults
+defaults:
+  - scope:
+      type: success_stories
+    values:
+      layout: success-stories-single
+      permalink: /success-stories/:name
+  - scope:
+      type: leadership
+    values:
+      layout: leadership-single
+      permalink: /about/leadership/:name
+  - scope:
+      type: press_coverage
+    values:
+      layout: press
+  - scope:
+      type: careers
+    values:
+      layout: careers-single
+      permalink: /careers/openings/:name
+  - scope:
+      type: labs
+    values:
+      layout: labs-single
+      permalink: /labs/:name
+
+    
+# Include folders
+include:
+  - _pages
+
+
+# Handling Sass
+sass:
+  sass_dir: _sass
+  style: compressed
+
+
+# Exclude from processing.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - package.json
+  - dev
+  - .gitignore

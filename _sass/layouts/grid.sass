@@ -1,0 +1,92 @@
+// 
+    // Directory for the Grid
+
+    // @package sfc
+    // @author  Kabolobari Benakole <i@kb.life>
+
+// Widths
+.width-100-pc
+    width:              100%
+.maxwidth-xl
+    max-width:          $maxwidth-xl
+.maxwidth-lt
+    max-width:          $maxwidth-lt
+.maxwidth-tb
+    max-width:          $maxwidth-tb
+.maxwidth-sm
+    max-width:          $maxwidth-sm
+.maxwidth-xs
+    max-width:          $maxwidth-xs
+
+
+// Heights
+.height-272
+    height:             272px
+
+
+// The Grid
+.grid
+    display:                     grid
+    grid-template-columns:       repeat(12, 1fr)
+    grid-gap:                    $space-sm
+    &.is-multi-col.mostly-2
+        grid-template-columns:   repeat(auto-fit, minmax(314.3px, 1fr))
+        @media #{ $largeup }
+            grid-template-columns:   repeat(auto-fit, minmax(380px, 1fr))
+    &.is-multi-col.mostly-3
+        grid-template-columns:   repeat(auto-fit, minmax(315.8px, 1fr))
+    &.is-multi-col.mostly-4
+        grid-template-columns:   repeat(auto-fit, minmax(244px, 1fr))
+
+    .col:not(:last-of-type)
+        margin-bottom:           $space-sm
+    .col-12
+        grid-column:             1 / 13
+
+    @media #{ $smallup }
+        .col-4-sm
+            grid-column:        1 / 5
+            &.offset-4-cols-from-left
+                grid-column:    5 / 13
+        .col-6-sm
+            grid-column:        1 / 7
+            &.offset-6-cols-from-left
+                grid-column:    7 / 13
+        .col-8-sm
+            &.offset-4-cols-from-left
+                grid-column:    5 / 13
+        .col-9-sm
+            grid-column:        1 / 10
+
+    @media #{ $mediumup }
+        .col-5-md
+            grid-column:        1 / 6
+            &.offset-5-cols-from-left
+                grid-column:    6 / 13
+        .col-6-md
+            grid-column:        1 / 7
+            &.offset-6-cols-from-left
+                grid-column:    7 / 13
+        .col-7-md
+            &.offset-5-cols-from-left
+                grid-column:    6 / 13
+
+.striped-grid
+    @extend .grid
+    grid-gap:                   $space-xs
+    > *
+        grid-column:            1/13
+        img
+            height:             160px
+            object-fit:         cover
+            @media #{$smallup}
+                height:         344px
+        @media #{$smallup}
+            &:nth-child(4n + 1)
+                grid-column:    1 / 9
+            &:nth-child(4n + 2)
+                grid-column:    9 / 13
+            &:nth-child(4n + 3)
+                grid-column:    1 / 5
+            &:nth-child(4n + 4)
+                grid-column:    5 / 13

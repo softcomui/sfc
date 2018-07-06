@@ -1,0 +1,58 @@
+# Headquarters
+headquarters:
+  title:    'Headquarters'
+  address:  15 Oduduwa Crescent, Ikeja GRA, <br /> Ikeja, Lagos, Nigeria.
+  phone:    '+234 807 763 8266'
+  email:    'hello@softcom.ng'
+
+# Social Media Handles
+social_media:
+  - title:  Connect with us
+    subpages:
+      - name: Facebook 
+        link: softcomng
+      - name: Twitter
+        link: softcomng
+      - name: Instagram
+        link: softcomng
+      - name: Linkedin
+        link: softcomng
+
+# Footer Settings
+footer:
+  image:  /uploads/footer.jpg
+  image_description: Softcom team
+  sitemap:
+    - title: Softcom
+      subpages:
+        - page: About us
+          link: /about/
+        - page: Success Stories
+          link: /success-stories/
+        - page: Leadership
+          link: /about/leadership/
+        - page: Press
+          link: /press/
+        - page: Contact us
+          link: /contact/
+        - page: Offices
+          link: /about/offices/
+        - page: Join us
+          link: /careers/
+    - title:  More...
+      subpages:
+        - page: Policies
+          link: /policies/
+        - page: Blog
+          link: /blog/
+        - page: DevX Blog
+          link: '//devx.blog'
+          new_window: true
+        - page: Medium
+          link: '//medium.com/@SoftcomNG'
+          new_window: true
+  join_us:
+      title:  Join our teams
+      description: |-
+        We're always looking for curious thinking minds to join our teams. Come work where the gritty thrive.
+      button_text:  See openings

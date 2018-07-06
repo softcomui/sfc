@@ -1,0 +1,53 @@
+---
+layout: default
+---
+<section class="product-logos bg-white">
+    <div class="maxwidth-xl mx-auto wrapper will-grow">
+        <ul class="none logo-grid">
+            {% assign logos = site.product_logos | sort: 'position' %}
+            {% for item in logos limit: 2 %}
+                <li class="grid-item">
+                    <img src="{{ item.image | prepend: site.url }}" alt="{{ item.image_description }}">
+                </li>
+            {% endfor %}
+            <li class="grid-item card card-wrapper will-grow no-interaction">
+                <h2 class="mt-0 card-title">
+                    {{ page.title_of_logos }}
+                </h2>
+                <p class="card-body">
+                    {{ page.summary_of_logos }}
+                </p>
+            </li>
+            {% for item in logos offset: 2 limit: 8 %}
+                <li class="grid-item">
+                    <img src="{{ item.image | prepend: site.url }}" alt="{{ item.image_description }}">
+                </li>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+<section class="all-labs bg-white">
+    <div class="maxwidth-xl mx-auto">
+        <ul class="none">
+            {% for item in site.labs %}
+                <li class="stacked-tile wrapper-y will-grow">
+                    <img src="{{ item.featured_image | prepend: site.url }}" alt="{{ item.title }}" class="stacked-tile-image obj-fit-cover is-raised">
+                    <div class="stacked-tile-body card is-raised card-wrapper will-grow bg-platinum">
+                        <h3 class="mt-0">
+                            {{ item.title }}
+                        </h3>
+                        <p class="microtext">
+                            {{ item.description }}
+                        </p>
+                        <a href="{{ item.url | prepend: site.url }}" class="btn btn-standard btn-dark mt-1h">
+                            <span>
+                                Enter lab
+                            </span>
+                            {% include icons.html icon="chevron-right" %}
+                        </a>
+                    </div>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+</section>

@@ -1,0 +1,78 @@
+// 
+    // Home Page
+
+    // @package sfc
+    // @author  Kabolobari Benakole <kb@softcom.ng>
+    // @version 1.0.0
+
+.is-home
+    .blogs-reel
+        background:             #fff url( '/uploads/pages/radial-pattern.png' ) center top no-repeat
+        position:               relative
+        z-index:                1
+        &::after
+            content:            ''
+            @extend .absolute-zero
+            background-image:   linear-gradient( 180deg, rgba( 249, 249, 249, 0.9 ) 0, transparent 85%,rgba( 249, 249, 249, 0.9 ) )
+            z-index:            -1
+        .blogs-reel-carousel
+            .image
+                width:          100%
+                height:         464px
+                object-fit:     cover
+                border-radius:  $preferredradius
+                @media #{ $mediumup }
+                    width:      520px
+                @media #{ $largeup }
+                    width:      640px
+            .logo
+                width:          96px
+                z-index:        2
+                position:       absolute
+                right:          $space
+                bottom:         $space
+        .carousel-cell
+            margin-right:       $space-md
+            width:              100%
+            height:             696px
+            @media #{ $mediumup }
+                height:         464px
+        .carousel-unit
+            position:           relative
+            display:            flex
+            flex-direction:     column
+            @media #{ $mediumup }
+                flex-direction: row
+                align-items:    flex-end
+            .text-area
+                @media #{ $mediumup }
+                    padding:    $space-md
+            .name
+                margin:         $space-sm 0 $space-xs
+            .tagline
+                font-size:      1.32rem
+                line-height:    $headinglh
+                margin-bottom:  1rem
+                @media #{ $smallup }
+                    font-size:  1.56rem
+            .desc
+                font-size:      0.975rem
+                @media #{ $smallup }
+                    font-size:  $microfont
+        .flickity-page-dots
+            top:                $space-sm
+            bottom:             unset
+            left:               $space
+            text-align:         left
+            @media #{ $mediumup }
+            .dot
+                background:     #fff
+
+    .grid
+        &.is-multi-col.mostly-3
+            grid-template-columns:   repeat( auto-fill, minmax( 314.3px, 1fr ) )
+            > *:nth-child(3)
+                display:             none
+                @media #{ $slaptop }
+                    display:         block!important
+            

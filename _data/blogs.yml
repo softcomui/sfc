@@ -1,0 +1,18 @@
+-
+  name:           DevX Blog
+  tagline:        'Confidence in engineering'
+  description:    |-
+    Sharing "deep-dive" addresses by Softcom Engineering specialists on topics of their respective specialties at DevX.Blog.
+  shortname:      devxblog
+  url:            'https://devx.blog'
+  logo_image:     '/uploads/pages/devx-logo.svg'
+  featured_image: '/uploads/pages/br1.jpg'
+-
+  name:           Softcom Supplely
+  tagline:        'Passion for people'
+  description:    |-
+    Committed to the passions of its people, engendering more passion in what matters to us.
+  shortname:      supplely
+  url:            'https://medium.com/@SoftcomNG'
+  logo_image:     '/uploads/pages/softcom-logo-white.svg'
+  featured_image: '/uploads/pages/br2.jpg'
