@@ -2,7 +2,7 @@
 title: Ideally 55 characters or 10 words whichever comes first
 featured_image: /uploads/stories/impact-01.jpg
 image_description:
-client: Consumer Protection Council
+client: CPC
 color: '#006535'
 release_date: 2018-03-15
 

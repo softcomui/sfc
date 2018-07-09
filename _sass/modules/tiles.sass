@@ -10,19 +10,25 @@
 .landscape-tile
     display:                        block
     img
-        height:                     312px
+        height:                     216px
         object-fit:                 cover
         border-top-right-radius:    $preferredradius
         border-top-left-radius:     $preferredradius
         @media #{ $smallup }
-            height:                 296px
-    .landscape-tile-body
+            height:                 200px
+    .landscape-tile-content
         min-height:                 160px
+        max-width:                  87%
         border-top:                 0
         border-top-right-radius:    0
         border-top-left-radius:     0
-        border-bottom-right-radius: $preferredradius
-        border-bottom-left-radius:  $preferredradius
+        border-bottom-right-radius: 0
+        border-bottom-left-radius:  0
+        background:                 $platinum
+        top:                        -45px
+        .client
+            display:                flex
+            align-items:            center
 
     .black-filtering::before
         transition:         all 0.32s ease

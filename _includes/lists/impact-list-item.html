@@ -7,13 +7,15 @@
                 {% include icons.html icon="chevron-right" %}
             </span>
         </div>
-        <div class="landscape-tile-body dashed-border p-1">
-            <span class="nano-caps ff-sans-serif fw-bold" {% if item.color %}style="color: {{ item.color }}"{% endif %}>
-                {{ item.client }}
-            </span>
-            <h3 class="mb-0 fw-normal">
-                {{ item.title | truncatewords: 10, '...' }}
-            </h3>
+        <div class="landscape-tile-content z-depth-1 pos-rel">
+            <div class="nano-caps ff-sans-serif fw-bold client p-1" {% if item.color %}style="color: {{ item.color }}"{% endif %}>
+                    {{item.client}}
+            </div>
+            <div class="p-1s">
+                <h3 class="mb-0 mt-0 mediumtext fw-normal">
+                    {{ item.title | truncatewords: 10, '...' }}
+                </h3>
+            </div>
         </div>
     </a>
 </li>
