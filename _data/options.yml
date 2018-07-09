@@ -41,8 +41,8 @@ footer:
           link: /careers/
     - title:  More...
       subpages:
-        - page: Policies
-          link: /policies/
+        - page: Privacy Policy
+          link: /privacy-policy/
         - page: Blog
           link: /blog/
         - page: DevX Blog
