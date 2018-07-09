@@ -1,3 +1,5 @@
+{% for blog in site.data.blogs %}
+{% assign class = nil %}
 <li class="carousel-cell">
     <a href="{{ blog.url }}" class="carousel-unit" target="_blank">
         <div class="background-is-filtered top-and-bottom">
@@ -23,3 +25,4 @@
         </div>
     </a>
 </li>
+{% endfor %}
