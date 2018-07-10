@@ -16,20 +16,10 @@
         border-top-left-radius:     $preferredradius
         @media #{ $smallup }
             height:                 200px
-    .landscape-tile-content
-        min-height:                 160px
+    .landscape-tile-body
+        min-height:                 120px
         max-width:                  87%
-        border-top:                 0
-        border-top-right-radius:    0
-        border-top-left-radius:     0
-        border-bottom-right-radius: 0
-        border-bottom-left-radius:  0
-        background:                 $platinum
         top:                        -45px
-        .client
-            display:                flex
-            align-items:            center
-
     .black-filtering::before
         transition:         all 0.32s ease
         opacity:            0
@@ -78,3 +68,9 @@
             .stacked-tile-body
                 margin-right:   -4rem
                 padding-right:  6rem!important
+
+.is-profile
+    img
+        height:                         312px
+        @media #{ $smallup }
+            height:                     296px

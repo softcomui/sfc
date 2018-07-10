@@ -1,14 +1,13 @@
 ---
 layout: policies
 permalink: /privacy-policy/
-title: Softcom Policies
-headline: Softcom Policies
+title: Privacy Policy
+headline: Privacy Policy
 copy: |-
     Our digital products terms, privacy, acceptable use, and cookie policies, copyrights. 
 featured_image: /uploads/pages/policies.jpg
 image_description: Softcom impacts
 body: |-
-    ### SOFTCOM PRIVACY POLICY  
     Softcom takes the privacy of its users as top responsibility and will in no circumstance abuse this trust by disclosing, exporting or managing our user’s personal information in a manner that is contrary to this Privacy Policy. Our Privacy policy is designed to help our user’s understand the way and manner in which we use and manage their personal information and also assist them in understanding how to manage, update and delete their information.  
 
     Softcom is a technology company on a mission to connect people and businesses with meaningful innovations. We design, develop and deploy a wide range of services that helps people and businesses solve, interact and explore new opportunities.
@@ -36,4 +35,13 @@ body: |-
 
     #### Cookies
     Cookies are small text files placed on devices to store data which can then be recalled by a web server by the domain which placed the cookies. Softcom uses cookies and similar technologies for tracking your preferences and settings; enabling and providing you with interest based advertising and analyzing our products and services.
+
+    #### Contact Us:   
+    8, Oduduwa Crescent,   
+    Ikeja GRA,   
+    Lagos State   
+    Mobile………..   
+    Email…………   
+
+
 ---

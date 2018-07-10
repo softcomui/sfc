@@ -3,10 +3,10 @@ layout: default
 ---
 <section class="success-stories bg-platinum">
     <div class="maxwidth-xl mx-auto wrapper will-grow">
-        <ul class="none grid is-multi-col mostly-3 mt-1 mb-0">
+        <ul class="none grid is-multi-col mostly-4 mt-1 mb-0">
             {% assign sorted = site.success_stories | sort: 'release_date' | reverse %}
             {% if page.url == '/success-stories/' %}
-                {% for item in sorted limit: 6 %}
+                {% for item in sorted limit: 8 %}
                     {% include lists/impact-list-item.html %}
                 {% endfor %}
             {% else %}
