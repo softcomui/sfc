@@ -1,6 +1,5 @@
 ---
 title: Eyowo
-link_title: Eyowo
 image: /uploads/products/mtu.png
 image_description: Eyowo Logo
 body: |-
