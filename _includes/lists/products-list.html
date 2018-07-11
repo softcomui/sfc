@@ -1,0 +1,13 @@
+<li class="carousel-cell p-1">
+    <a href="{{entry.url | prepend: site.url}}" class="co-readable-gray">
+        <img src="{{ entry.image }}" alt="{{ entry.image_description }}" class="image">
+        <h3 class="lh-1-1h"> {{ entry.title}} </h3>
+        <p> {{ entry.body}} </p>
+        <div class="link">
+            <span class="microtext pl-1">
+                View product
+            </span>
+            {% include icons.html icon="chevron-right" %}
+        </div>
+    </a>
+</li>

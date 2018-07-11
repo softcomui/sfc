@@ -3,7 +3,6 @@
 
     // @package sfc
     // @author  Kabolobari Benakole <kb@softcom.ng>
-
 .selfies-carousel
     .carousel-cell
         margin-right:       $space-sm
@@ -29,3 +28,55 @@
     .flickity-page-dots
         text-align:         right
         bottom:             40px
+
+.products-carousel
+    .carousel-cell
+        margin-right:       $space
+        width:              100%
+        opacity:            0.5
+        border-radius:      $preferredradius
+        @media #{ $xsmallup }
+            width:          70%
+        @media #{ $mediumup }
+            width:          50%
+        @media #{ $slaptop }
+            width:          33.33%
+        .image
+            width:          50px
+            height:         50px
+            object-fit:     contain
+        .link
+            display:        flex
+            flex-wrap:      nowrap
+            align-items:    center
+            justify-content: flex-end
+            font-family:     $headingfont
+            svg
+                transition:         transform $desiredduration ease-in
+                transform:          translateX(-5px)
+            &:active, &focus, &:hover
+                svg
+                    transform:      translateX(0)
+    .carousel-cell.is-selected
+        background:         $primarycolor
+        opacity:            1
+        a
+            color:          #fff
+    .flickity-button
+        background:         rgba(255,255,255,0.5)
+        color:              $primarycolor
+        @media #{ $mediumup }
+            background:     $primarycolor
+            color:          #fff
+        svg
+            fill:           $primarycolor
+            @media #{ $mediumup }
+                fill:          #fff
+        
+    .flickity-prev-next-button
+        width:              30px
+        height:             30px
+        &.previous
+            left:           5px
+            @media #{ $xlargeup }
+                left:           -20px

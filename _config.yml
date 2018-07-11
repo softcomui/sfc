@@ -29,6 +29,8 @@ collections:
     title:  Recognitions
   selfies:
     title:  Softcom Selfies
+  products:
+    title:  Softcom Products
   workshots:
     title:  Softcom Workshots
   peoplequotes:

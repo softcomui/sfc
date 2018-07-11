@@ -1,0 +1,30 @@
+<section class="bg-platinum">
+    <div class="maxwidth-xl mx-auto wrapper will-grow">
+        <div class="section-header co-readable-gray mq-mt-1">
+            <h2 class="section-title">
+                Our products
+            </h2>
+        </div>
+        <div class="grid">
+            <div class="text-area col-12 col-4-md flex-column-align">
+                <h3 class="largetext co-readable-gray will-grow mt-0">
+                    Pushing technology to its limits
+                </h3>
+                <p class="desc co-readable-gray">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+            </div>
+            <div class="col-12 col-4-md offset-4-cols-from-left mq-mb-1">
+                <ul class="products-carousel none" data-flickity='{ 
+                    "wrapAround":       true, 
+                    "autoPlay":         4000,
+                    "percentPosition":  false
+                }'>
+                {% for entry in site.products %}
+                    {% include lists/products-list.html %}
+                {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
