@@ -1,75 +1,48 @@
 // 
     // Base
 
-    // @package sfc
+    // @package 22
     // @author  Kabolobari Benakole <i@kb.life>
 
-@font-face
-  font-family: 'serif'
-  src: url( '/uploads/fonts/body.ttf' )
-@font-face
-  font-family: 'sans-serif'
-  src: url( '/uploads/fonts/heading.otf' )
-
-// Resets
 html
-    font-size:          $basefont
-    overflow-x:         hidden // fix unintended left scroll
-    // https://stackoverflow.com/questions/8635799/overflow-xhidden-still-can-scroll
+    font-size:              $basefont
 
-*,
-*::before,
-*::after
-    box-sizing:         border-box
+*, *::before, *::after
+    box-sizing:             border-box
 
 body
-    margin:             0
-    font-family:        $bodyfont
-    line-height:        $defaultlh
-    background-color:   $primarycolor
-    color:              $readablegray
-    overflow-x:         hidden
+    margin:                 0
+    font-family:            $fontstack
+    font-weight:            $normal
+    line-height:            $defaultlh
+    display:                flex
+    flex-direction:         column
+    height:                 100vh
+    main
+        flex:               1
 
 p
-    margin:             0
-    margin-bottom:      $basefont
-    &:last-child
-        margin-bottom:  0
+    margin:                 0
+    margin-bottom:          $basefont
+    &:last-of-type:not(:only-of-type)
+        margin-bottom:      0
 
-a
+a, .as-link
     text-decoration:        none
     color:                  $primarycolor
-    transition:             all 0.32s ease
-    &:active, &:focus, &:hover
+    transition:             color 0.32s ease-out
+    &:focus, &:hover
         text-decoration:    none
+        color:              $sweetgray
 
 audio, canvas, img, video
-    display:            block
-    max-width:          unset
+    display:                block
+    vertical-align:         middle
 
 img
-    width:              100%
-    height:             auto
+    width:                  100%
+    height:                 auto
 
-svg
-    pointer-events:     none
-    vertical-align:     middle
-    fill:               inherit
-
-ul
-    &.none
-        padding-left:   0
-        list-style:     none
-        margin:         0
-    &.is-held-within
-        margin-top:     $space-sm
-        margin-bottom:  $space-sm
-
-
-
-// Buttons, Inputs, 
-button
-    border:             none
-    background:         none
-    padding:            0
-    cursor:             pointer
+ul.none
+    padding-left:           0
+    list-style:             none

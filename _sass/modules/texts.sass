@@ -57,28 +57,28 @@
 
 
 // Headings
-h1, h2, h3, h4
-    font-family:        $headingfont
+h1, h2, h3, h4, .h1, .h2, .h3, .h4
     margin-top:         $space-sm
-    margin-bottom:      $space
-    line-height:        $headinglh  
+    margin-bottom:      $space-xs
+    font-weight:        $semi
+    line-height:        $headinglh
 h1, .h1
-    font-size:          1.72rem
+    font-size:          1.75rem
     @media #{ $smallup }
-        font-size:      1.88rem
+        font-size:      1.95rem
 h2, .h2
-    font-size:          1.56rem
+    font-size:          1.65rem
     @media #{ $smallup }
-        font-size:      1.64rem
+        font-size:      1.85rem
 h3, .h3
-    font-size:          1.32rem
+    font-size:          1.48rem
 h4, .h4
-    font-size:          1.24rem
+    font-size:          0.96rem
+    text-transform:     uppercase
+    letter-spacing:     $headingls
 
 // Fonts
 .fw-bold
-    font-weight:        bold
+    font-weight:        $bold
 .fw-normal
-    font-weight:        normal
-.ff-sans-serif
-    font-family:        $headingfont
+    font-weight:        $normal
