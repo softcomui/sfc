@@ -1,0 +1,43 @@
+// 
+    // Blog page
+
+    // @package sfc
+    // @author  Kabolobari Benakole <kb@softcom.ng>
+
+
+.post-wrapper
+    display:                           grid
+    grid-template-columns:             repeat(auto-fit, minmax(314.3px, 1fr))
+    grid-gap:                          $space-sm
+    .post
+        position:                      relative
+        min-height:                    600px
+        .post-content
+            padding:                   $space-sm
+            position:                  relative
+            .dot-separator
+                transform:             translateY(250%)
+    
+
+// .featured
+//     height:                        auto
+//     min-height:                    auto
+//     margin-bottom:                 $space-sm
+//     @media #{ $smallup}
+//         min-height:                350px
+//     img
+//         height:                    auto
+//         @media #{ $mediumup}
+//             height:                100%
+//     .featured-category
+//         position:                  absolute
+//         right:                     0
+//         background:                $primarycolor
+//         padding:                   0.3rem 1rem
+//         font-size:                 0.605rem
+//         border-top-left-radius:    50px
+//         border-bottom-left-radius: 50px
+//     .mq-pl-0
+//         @media #{ $mediumup }
+//             padding-left:          0
+    

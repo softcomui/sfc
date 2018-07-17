@@ -1,26 +1,53 @@
-<section {% if page.layout == 'success-stories-single' %}class="background-is-filtered black-filtering"{% else %}class="background-is-filtered black-filtering top-and-bottom"{% endif %}>
+<section 
+    {% if page.layout == 'success-stories-single' or 'blog-single' %}
+        class="background-is-filtered black-filtering" 
+    {% else %} 
+        class="background-is-filtered black-filtering top-and-bottom"
+    {% endif %}>
     <h2 class="sr">
         Page Header &amp; Details
     </h2>
     {% if page.layout == 'success-stories-single' %}
-        <img src="{{ page.featured_image }}" alt="{{ page.image_description }}" class="main-header-background">
-        <div class="main-header-content wrapper width-100-pc maxwidth-xl mx-auto">
-            <a href="{{ site.url }}/success-stories" class="badge mb-1 nano-caps fw-bold co-white">
-                {% include icons.html icon="chevron-left" %}
-                <span class="suffix">
-                    Success Stories
-                </span>
-            </a>
-            <h2 class="mt-0 headline fw-normal maxwidth-tb">
-                {{ page.title }}
-            </h2>
-            <p class="m-0 nano-caps fw-bold opacity-7">
-                Client:
-                <span>
-                    {{ page.client }}
-                </span>
-            </p>
+    <img src="{{ page.featured_image }}" alt="{{ page.image_description }}" class="main-header-background">
+    <div class="main-header-content wrapper width-100-pc maxwidth-xl mx-auto">
+        <a href="{{ site.url }}/success-stories" class="badge mb-1 nano-caps fw-bold co-white">
+            {% include icons.html icon="chevron-left" %}
+            <span class="suffix">
+                Success Stories
+            </span>
+        </a>
+        <h2 class="mt-0 headline fw-normal maxwidth-sm">
+            {{ page.title }}
+        </h2>
+        <p class="m-0 nano-caps fw-bold opacity-7">
+            Client:
+            <span>
+                {{ page.client }}
+            </span>
+        </p>
+    </div>
+    {% elsif page.layout == 'blog-single' %}
+    <img src="{{ page.featured_image }}" alt="{{ page.image_description }}" class="main-header-background">
+    <div class="main-header-content wrapper width-100-pc maxwidth-xl mx-auto">
+        <a href="{{ page.url | }}" class="badge nano-caps co-white">
+            {% include icons.html icon="chevron-left" %}
+            <span class="suffix">
+                Back to Blog
+            </span>
+        </a>
+        <div class="mt-2 d-flx al-i-c">
+            <p class="nano-caps m-0 fw-bold opacity-7 co-primary mr-1h">{{ page.tag | first }}</p>
+            <p class="dot-separator header-dot"></p>
+            <p class="nanotext ml-1h">{{ page.read_time }}</p>
         </div>
+        <h2 class="mt-h headline fw-normal maxwidth-sm">
+            {{ page.title }}
+        </h2>
+        <div class="mt-h d-flx al-i-c">
+            <img src="{{ page.author_image }}" class="mr-1h avatar is-nano" alt="{{ page.author_name }}">
+            <p class="nanotext m-0"> By {{ page.author_name }} on {{ page.date | date: ' %b %d, %Y'}}</p>
+        </div>
+    </div>
     {% elsif page.layout == 'leadership-single' %}
     <img src="{{ page.featured_image }}" alt="{{ page.image_description }}" class="main-header-background">
     <div class="main-header-content wrapper width-100-pc maxwidth-xl mx-auto">

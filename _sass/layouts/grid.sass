@@ -48,10 +48,18 @@
             grid-column:        1 / 5
             &.offset-4-cols-from-left
                 grid-column:    5 / 13
+        .col-5-sm
+            grid-column:        1 / 6
+            &.offset-5-cols-from-left
+                grid-column:    6 / 13
         .col-6-sm
             grid-column:        1 / 7
             &.offset-6-cols-from-left
                 grid-column:    7 / 13
+        .col-7-sm
+            grid-column:        1 / 8
+            &.offset-7-cols-from-left
+                grid-column:    8 / 13
         .col-8-sm
             &.offset-8-cols-from-left
                 grid-column:    9 / 13
@@ -72,8 +80,9 @@
             &.offset-6-cols-from-left
                 grid-column:    7 / 13
         .col-7-md
-            &.offset-5-cols-from-left
-                grid-column:    6 / 13
+            grid-column:        1 / 8
+            &.offset-7-cols-from-left
+                grid-column:    8 / 13
 
 .striped-grid
     @extend .grid

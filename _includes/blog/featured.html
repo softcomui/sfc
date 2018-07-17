@@ -1,0 +1,27 @@
+<ul class="none mt">
+    {% for item in featured_post %}
+        <li class= "blog-post">
+            <a href="{{ item.url | prepend: site.url }}" target="_blank">
+                <div class="grid featured is-raised co-readable-gray">
+                    <img src="{{ item.featured_image }}" class="col-12 col-7-md" alt="{{ item.image_description }}">
+                    <div class="col-12 col-7-md offset-7-cols-from-left mq-pl-0 post-content">
+                        <p class="featured-category co-white nano-caps">{{ item.category }}</p>
+                        <div class="mt-1 mb-1 d-flx al-i-c">
+                            <p class="nano-caps m-0 co-primary mr-1h">{{ item.tag | first }}</p>
+                            <p class="dot-separator"></p>
+                            <p class="nanotext ml-1h">{{ item.read_time }}</p>
+                        </div>
+                        <h3 class="section-title lh-1-2h mb-2">
+                            {{ item.title }}
+                        </h3>
+                        <p>{{ item.excerpt | | truncatewords: 40, '...' }}</p>
+                        <div class="mt-1h d-flx al-i-c">
+                            <img src="{{ item.author_image }}" class="mr-1h avatar is-nano" alt="{{ item.author_name }}">
+                            <p class="nanotext m-0"> By {{ item.author_name }} on {{ item.date | date: ' %b %d, %Y'}}</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </li>
+    {% endfor %}
+</ul>

@@ -1,0 +1,26 @@
+<ul class="none post-wrapper grid is-multi-col mostly-2">
+    {% for item in site.posts %}
+        <li class="post">
+            <a href="{{ item.url | prepend: site.url }}" target="_blank">
+                <div class="is-raised co-readable-gray">
+                    <img src="{{ item.featured_image }}" alt="{{ item.image_description }}">
+                    <div class="post-content">
+                        <div class="mb-1 d-flx al-i-c">
+                            <p class="nano-caps m-0 co-primary mr-1h">{{ item.tag | first }}</p>
+                            <p class="dot-separator"></p>
+                            <p class="nanotext ml-1h">{{ item.read_time }}</p>
+                        </div>
+                        <h3 class="section-title">
+                            {{ item.title }}
+                        </h3>
+                        <p>{{ item.excerpt | | truncatewords: 35, '...' }}</p>
+                        <div class="mt-1h d-flx al-i-c">
+                            <img src="{{ item.author_image }}" class="mr-1h avatar is-nano" alt="{{ item.author_name }}">
+                            <p class="nanotext m-0"> By {{ item.author_name }} on {{ item.date | date: ' %b %d, %Y'}}</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </li>
+    {% endfor %}
+</ul>
