@@ -2,22 +2,37 @@
     // Blog page
 
     // @package sfc
-    // @author  Kabolobari Benakole <kb@softcom.ng>
+    // @author  Kabolobari Benakole <kb@softcom.ng>      
+
+.dot-separator
+    transform:                     translateY(250%)
 
 
-.post-wrapper
-    display:                           grid
-    grid-template-columns:             repeat(auto-fit, minmax(314.3px, 1fr))
-    grid-gap:                          $space-sm
-    .post
-        position:                      relative
-        min-height:                    600px
-        .post-content
-            padding:                   $space-sm
-            position:                  relative
-            .dot-separator
-                transform:             translateY(250%)
-    
+.post-grid
+    max-width:                             550px
+    margin:                                0 auto
+    @media #{$mediumup}
+        max-width:                         none
+    @extend .grid
+
+.post-item
+    grid-column:                       1 / 13
+    max-height:                        600px
+    @media #{$mediumup}
+        &:nth-child(even)
+            grid-column:               1 / 7
+        &:nth-child(odd)
+            grid-column:               7 / 13
+        &:first-of-type
+            grid-column:               1 / 13
+            .post-content
+                display:               grid
+                img
+                    grid-column:       1 / 8
+                    height:            100%
+                > div
+                    grid-column:       1 / 9
+                    grid-column:       9 / 13
 
 // .featured
 //     height:                        auto

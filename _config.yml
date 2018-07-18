@@ -72,7 +72,7 @@ defaults:
       type: posts
     values:
       layout: blog-single
-      permalink: /blog/:name/
+      permalink: /blog/:title/
   - scope:
       type: press_coverage
     values:

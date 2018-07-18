@@ -120,6 +120,9 @@
     margin-bottom:      3rem
 
 // Paddings
+
+.p-sm
+    padding:            $space-sm
 .p-1
     padding:            1rem
 .p-1h
@@ -151,7 +154,7 @@
 .p-1s
     padding:            0 1rem
 .pl-1
-    padding-right:       0.5rem
+    padding-right:      0.5rem
 
 
 // Media Query Utilities
@@ -164,6 +167,15 @@
     display:            none
     @media #{ $mediumup }
         display:        block
+
+.show-nav
+    display:            none
+    @media #{ $slargeup }
+        display:        block
+.hide-nav
+    display:            block
+    @media #{ $slargeup }
+        display:        none
 
 .hide-smallup
     display:            block
