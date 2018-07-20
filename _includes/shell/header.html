@@ -29,16 +29,15 @@
     {% elsif page.layout == 'blog-single' %}
     <img src="{{ page.featured_image }}" alt="{{ page.image_description }}" class="main-header-background">
     <div class="main-header-content wrapper width-100-pc maxwidth-xl mx-auto">
-        <a href="{{ page.url | }}" class="badge nano-caps co-white">
+        <a href="{{ site.url }}/blog" class="badge mt-1 nano-caps co-white">
             {% include icons.html icon="chevron-left" %}
             <span class="suffix">
                 Back to Blog
             </span>
         </a>
-        <div class="mt-2 d-flx al-i-c">
-            <p class="nano-caps m-0 fw-bold opacity-7 co-primary mr-1h">{{ page.tag | first }}</p>
-            <p class="dot-separator header-dot"></p>
-            <p class="nanotext ml-1h">{{ page.read_time }}</p>
+        <div class="mt-1h d-flx al-i-c">
+            <p class="nano-caps m-0 fw-bold opacity-7 co-primary mr-h header-tag">{{ page.tag | first }}</p>
+            <p class="nanotext">{{ page.read_time }}</p>
         </div>
         <h2 class="mt-h headline fw-normal maxwidth-sm">
             {{ page.title }}

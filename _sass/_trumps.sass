@@ -26,7 +26,6 @@
     &.t-0
         top:            0
 
-
 // Display
 .d-blk
     display:            block
@@ -36,6 +35,8 @@
     display:            flex
 .flx-wrap
     flex-wrap:          wrap
+.flx-dir-c
+    flex-direction:     column
 .al-i-fs
     align-items:        flex-start
 .al-i-c
@@ -46,8 +47,6 @@
 .j-c-fe
     justify-content:    flex-end
 
-.flx-dir-c
-    flex-direction:     column
 
 
 .space-between-groups
@@ -62,6 +61,10 @@
     display:            flex
     justify-content:    center
     flex-direction:     column
+.flex-align-height
+    display:            flex
+    flex-direction:     column
+    height:             100%
 .grid-center-center
     display:            grid
     align-items:        center
@@ -78,6 +81,8 @@
 
 .mt-0
     margin-top:         0
+.mt-h
+    margin-top:         0.5rem
 .mt-1
     margin-top:         1rem
 .mt-1h
@@ -93,15 +98,13 @@
     margin-right:       auto
     margin-left:        auto
 .mr-h
-    margin-top:         0.5rem
-.mt-h
-    margin-top:         0.5rem
-.mr-1h
     margin-right:       0.5rem
 .mr-1
     margin-right:       1rem
+.mr-1h
+    margin-right:       1.5rem
 
-.ml-1h
+.ml-h
     margin-left:       0.5rem
 .ml-1
     margin-left:       1rem
@@ -121,20 +124,20 @@
 
 // Paddings
 
-.p-sm
-    padding:            $space-sm
 .p-1
     padding:            1rem
 .p-1h
     padding:            1.5rem
 .p-2
     padding:            2rem
+
 .py-h
     padding-top:        0.5rem
     padding-bottom:     0.5rem
 .py-1
     padding-top:        1rem
     padding-bottom:     1rem
+
 .pt-h
     padding-top:        0.5rem
 .pt-1
@@ -168,11 +171,11 @@
     @media #{ $mediumup }
         display:        block
 
-.show-nav
+.show-slargeup
     display:            none
     @media #{ $slargeup }
         display:        block
-.hide-nav
+.hide-slargeup
     display:            block
     @media #{ $slargeup }
         display:        none

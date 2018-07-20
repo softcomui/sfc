@@ -21,26 +21,26 @@
         position:           absolute
         top:                0
         width:              100%
-        @media #{ $mediumup }
+        @media #{ $slargeup }
             display:        block
-        @media #{ $mediumdown }
+        @media #{ $slargedown }
             position:       fixed
             z-index:        3
             background-color:   rgba( 0, 0, 0, 0.64 )
         .logo-holder
             display:        block
             width:          108px
-            @media #{ $mediumup }
+            @media #{ $slargeup }
                 width:      136px
                 margin:     auto
                 transform:  none
                 margin-top: $space
         .site-tools
-            @media #{ $mediumup }
+            @media #{ $slargeup }
                 display:    none
             .the-tools
                 padding:    0 $space
-                @media #{ $mediumup }
+                @media #{ $slargeup }
                     padding: 0
         .wrapper
             padding:        0.8rem $space
@@ -76,3 +76,15 @@
 .fullheight-header, .fullheight-header .main-header-background
     @media #{ $smallup }
         height:                 100vh
+
+.header-tag
+    display:                           flex
+    align-items:                       center
+    &:after
+        content:                       ""
+        display:                       block
+        width:                         3px
+        height:                        3px
+        margin-left:                   0.5rem
+        border-radius:                 50%
+        background:                    #fff
