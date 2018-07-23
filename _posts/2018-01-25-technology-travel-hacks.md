@@ -1,6 +1,6 @@
 ---
 layout: blog-single
-title: Lorem ipsum is placeholder text
+title: 4 Technology Travel Hacks For Reliving Memories
 featured_image: /uploads/blog/about.jpg
 image_description: Placeholder text
 author_image: /uploads/authors/seinde.jpg

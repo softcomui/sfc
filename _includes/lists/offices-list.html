@@ -3,10 +3,10 @@
         <h3 class="mt-0 micro-caps fw-bold co-rich-black">
             {{ item.city }}, {{ item.country }}
         </h3>
-        {{ item.brief_description | markdownify }}
+        <!-- {{ item.brief_description | markdownify }} -->
         {{ item.full_address | markdownify }}
     </div>
-    <div class="col-12 col-7-md offset-5-cols-from-left">
+    <div class="col-12 col-5-md offset-5-cols-from-left">
         <img src="{{ site.url }}{{ item.image }}" alt="{{ item.title }}">
     </div>
 </li>

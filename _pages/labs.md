@@ -4,7 +4,7 @@ permalink: /labs/
 title: Labs
 headline: Labs
 copy: |-
-    Tools for the creative community
+    Engineering to improve the way we live, learn, and work in Africa.
 featured_image: /uploads/pages/labs.jpg
 image_description: Softcom Labs
 title_of_logos: Tools for the creative community

@@ -1,9 +1,9 @@
 ---
 layout: home
 title: Home
-headline: People. Programs. Software.
+headline: People. Products. Software.
 copy: |-
-    Softcom builds software, products, and programs that connect people and businesses.
+    A thinking company on a mission to connect people and businesses with meaningful innovation.
 featured_image: /uploads/pages/home.jpg
 image_description: Lagos cityscape
 ---

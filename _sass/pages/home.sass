@@ -76,3 +76,29 @@
                 @media #{ $slaptop }
                     display:         block!important
             
+    
+    .banner
+        .section-headline
+            position:           relative
+            display:            inline-block
+            margin-top:         0
+            color:              $richblack
+        .call-to-action
+            margin-bottom:          2rem         
+            @media #{ $mediumup}
+                left:               280px
+                position:           absolute
+                top:                45%
+                width:              450px
+                transform:          translate( -50%, -50% )
+                margin-bottom:      0
+                
+.cta-img
+    height: 250px
+    object-fit: cover
+    object-position: 100% 0
+    @media #{ $smallup}
+        height: 500px
+        @media #{ $largeup}
+            height: 450px
+            object-fit: none
