@@ -45,15 +45,8 @@
         Site Branding &amp; Navigation Tools
     </h2>
     <div class="wrapper d-flx al-i-c">
-        <button class="hide-slargeup prefix is-even-wider" togglenav>
-            
-        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon">
-            <line x1="3" y1="12" x2="21" y2="12"></line>
-            <line x1="3" y1="6" x2="21" y2="6"></line>
-            <line x1="3" y1="18" x2="21" y2="18"></line>
-        </svg>
-	
-
+        <button class="hide-slargeup prefix is-even-wider nav-toggle pos-rel" togglenav>
+            <span class="slats"></span>
         </button>
         <a class="logo-holder" href="http://localhost:4000">
             
@@ -107,6 +100,27 @@
     </div>
 </section>
 </section>
+
+
+<!-- ._15tg3:before {
+    right: 100%;
+    bottom: 100%;
+    margin-right: -20px;
+    border-top-width: 0;
+    border-bottom-color: #000;
+}
+._282bs:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 5px solid transparent;
+}
+
+._15tg3 {
+    -webkit-transform: scale(.8) translate(-10%,-10%);
+    transform: scale(.8) translate(-10%,-10%);
+} -->
                 <section 
     
         class="background-is-filtered black-filtering" 
@@ -268,9 +282,9 @@
     </div>
 </section>
             </header>
-            <main class="main" id="mainContent">
+            <main class="main bg-platinum" id="mainContent">
                 <section class="success-stories bg-platinum">
-    <div class="maxwidth-xl mx-auto wrapper will-grow">
+    <div class="maxwidth-xl mx-auto wrapper will-grow negate-bottom">
         <div class="section-header co-readable-gray">
             <div class="d-flx j-c-sb">
                 <h2 class="section-title">
@@ -290,7 +304,7 @@
                 See how Softcom is delivering positive impact to clients and communities in Africa through the use of technology.
             </p>
         </div>
-        <ul class="none pt-1 grid is-multi-col mostly-4">
+        <ul class="none grid pt-1 is-multi-col mostly-4">
             
             
                 <li>
@@ -405,7 +419,7 @@
     </div>
 </section>
 <section class="blogs-reel">
-    <div class="maxwidth-xl mx-auto wrapper will-grow negate-top">
+    <div class="maxwidth-xl mx-auto wrapper">
         <div class="section-header co-readable-gray">
             <h2 class="section-title">
                 Our thinking
@@ -414,7 +428,7 @@
                 We are committed to consistently offering transformational values to organizations. 
             </p>
         </div>
-        <ul class="blogs-reel-carousel none pt-1">
+        <ul class="blogs-reel-carousel pt-1 none">
             
 
 <li class="carousel-cell">
@@ -452,7 +466,7 @@
     </div>
 </section>
 <section class="banner bg-platinum">
-    <div class="maxwidth-xl mx-auto wrapper will-grow negate-top pos-rel">
+    <div class="maxwidth-xl mx-auto wrapper will-grow">
         <div class="co-readable-gray z-depth-1 call-to-action">
             <h2 class="section-headline fw-bold">
                 Make Payments.
@@ -534,13 +548,6 @@
                             <li>
                                 <a href="http://localhost:4000/contact/" class="opacity-7-link co-rich-black" >
                                     Contact us
-                                    
-                                </a>
-                            </li>
-                        
-                            <li>
-                                <a href="http://localhost:4000/about/offices/" class="opacity-7-link co-rich-black" >
-                                    Offices
                                     
                                 </a>
                             </li>
@@ -696,62 +703,62 @@
     </div>
 </footer>
         </div>
-        <!-- <nav class="mobilenav">
+        <nav class="mobilenav">
     <h2 class="sr">Mobile Navigation Drawer &amp; Links</h2>
-    <section class="wrapper">
+    <section>
         <h2 class="sr">List of Pages on Softcom Ltd</h2>
-        <ul class="nav none m-0">
+        <ul class="nav none m-0 py-1">
             
             
             
-                <li>
-                    <a href="http://localhost:4000/" class=" is-active">
+                <li class="navlinks pt-h">
+                    <a href="http://localhost:4000/" class=" is-active co-readable-gray">
                         Home
                     </a>
                 </li>
             
             
             
-                <li>
-                    <a href="http://localhost:4000/about/" class="">
+                <li class="navlinks pt-h">
+                    <a href="http://localhost:4000/about/" class=" co-readable-gray">
                         About
                     </a>
                 </li>
             
             
             
-                <li>
-                    <a href="http://localhost:4000/success-stories/" class="">
+                <li class="navlinks pt-h">
+                    <a href="http://localhost:4000/success-stories/" class=" co-readable-gray">
                         Success Stories
                     </a>
                 </li>
             
             
             
-                <li>
-                    <a href="http://localhost:4000/labs/" class="">
+                <li class="navlinks pt-h">
+                    <a href="http://localhost:4000/labs/" class=" co-readable-gray">
                         Labs
                     </a>
                 </li>
             
             
             
-                <li>
-                    <a href="http://localhost:4000/blog/" class="">
+                <li class="navlinks pt-h">
+                    <a href="http://localhost:4000/blog/" class=" co-readable-gray">
                         Blog
                     </a>
                 </li>
             
             
             
-                <li>
-                    <a href="http://localhost:4000/careers/" class="">
+                <li class="navlinks pt-h">
+                    <a href="http://localhost:4000/careers/" class=" co-readable-gray">
                         Join us
                     </a>
                 </li>
             
         </ul>
-        <div>
+        <!-- <div>
             
     <h3 class="sr">Connect with us</h3>
     <ul class="none m-0 social-media-links">
@@ -825,9 +832,9 @@
         
     </ul>
 
-        </div>
+        </div> -->
     </section>
-</nav> -->
+</nav>
         <script src="http://localhost:4000/js/flickity.min.js"></script>
 <script src="http://localhost:4000/js/main.js"></script>
     </body>

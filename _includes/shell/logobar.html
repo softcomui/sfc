@@ -3,8 +3,8 @@
         Site Branding &amp; Navigation Tools
     </h2>
     <div class="wrapper d-flx al-i-c">
-        <button class="hide-slargeup prefix is-even-wider" togglenav>
-            {% include icons.html icon="menu" %}
+        <button class="hide-slargeup prefix is-even-wider nav-toggle pos-rel" togglenav>
+            <span class="slats"></span>
         </button>
         <a class="logo-holder" href="{{ site.url }}">
             {% include icons.html icon="logo" %}
@@ -12,3 +12,24 @@
     </div>
     {% include site-tools.html %}
 </section>
+
+
+<!-- ._15tg3:before {
+    right: 100%;
+    bottom: 100%;
+    margin-right: -20px;
+    border-top-width: 0;
+    border-bottom-color: #000;
+}
+._282bs:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 5px solid transparent;
+}
+
+._15tg3 {
+    -webkit-transform: scale(.8) translate(-10%,-10%);
+    transform: scale(.8) translate(-10%,-10%);
+} -->

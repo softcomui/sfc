@@ -1,22 +1,22 @@
 <nav class="mobilenav">
     <h2 class="sr">Mobile Navigation Drawer &amp; Links</h2>
-    <section class="wrapper">
+    <section>
         <h2 class="sr">List of Pages on {{ site.title }}</h2>
-        <ul class="nav none m-0">
+        <ul class="nav none m-0 py-1">
             {% for entry in site.data.mainnav %}
             {% assign class = nil %}
             {% if entry.slug == page.url %}
                 {% assign class = class | append: ' is-active' %}
             {% endif %}
-                <li>
-                    <a href="{{ site.url }}{{ entry.slug }}" class="{{ class }}">
+                <li class="navlinks pt-h">
+                    <a href="{{ site.url }}{{ entry.slug }}" class="{{ class }} co-readable-gray">
                         {{ entry.name }}
                     </a>
                 </li>
             {% endfor %}
         </ul>
-        <div>
+        <!-- <div>
             {% include lists/connect-list.html %}
-        </div>
+        </div> -->
     </section>
 </nav>

@@ -1,0 +1,14 @@
+<div class="section-header co-readable-gray">
+    <h2 class="section-title">
+        Our Offices
+    </h2>
+    <p class="section-summary">
+        What's media inquiries contact people do and what's it mean to contact them?
+    </p>
+</div>
+<ul class="none is-held-within grid is-multi-col mostly-2">
+    {% assign sorted = site.offices | sort: 'position' %}
+    {% for item in sorted %}
+        {% include lists/offices-list.html %}
+    {% endfor %}
+</ul>

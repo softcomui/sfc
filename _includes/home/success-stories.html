@@ -1,5 +1,5 @@
 <section class="success-stories bg-platinum">
-    <div class="maxwidth-xl mx-auto wrapper will-grow">
+    <div class="maxwidth-xl mx-auto wrapper will-grow negate-bottom">
         <div class="section-header co-readable-gray">
             <div class="d-flx j-c-sb">
                 <h2 class="section-title">
@@ -14,7 +14,7 @@
                 See how Softcom is delivering positive impact to clients and communities in Africa through the use of technology.
             </p>
         </div>
-        <ul class="none pt-1 grid is-multi-col mostly-4">
+        <ul class="none grid pt-1 is-multi-col mostly-4">
             {% assign sorted = site.success_stories | sort: 'release_date' | reverse %}
             {% for item in sorted limit: 4 %}
                 {% include lists/impact-list-item.html %}

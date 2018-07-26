@@ -1,12 +1,17 @@
-<li class="grid">
-    <div class="col-12 col-5-md">
-        <h3 class="mt-0 micro-caps fw-bold co-rich-black">
-            {{ item.city }}, {{ item.country }}
-        </h3>
-        <!-- {{ item.brief_description | markdownify }} -->
-        {{ item.full_address | markdownify }}
-    </div>
-    <div class="col-12 col-5-md offset-5-cols-from-left">
+<li class="offices background-is-filtered black-filtering alt-bottom-only">
+    <a href="{{ site.url }}/success-stories">
         <img src="{{ site.url }}{{ item.image }}" alt="{{ item.title }}">
-    </div>
+        <div class="office-address">
+            <h3 class="mt-0 mb-0 nano-caps fw-bold co-white">
+                {{ item.city }}, {{ item.country }}
+            </h3>
+
+            <div class="co-white mb-h">{{ item.full_address | markdownify }}</div>
+
+            <a href="{{ site.url }}/success-stories" class="co-primary d-flx al-i-c">
+                <span>Get directions</span>
+                {% include icons.html icon="chevron-right" %}
+            </a>
+        </div>
+    </a>
 </li>

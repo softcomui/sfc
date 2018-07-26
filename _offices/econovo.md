@@ -3,6 +3,7 @@ title: Eco Novo
 country: Nigeria
 city: Lagos
 full_address: |-
+    Econovo, <br />
     15 Oduduwa Crescent, <br />
     G.R.A, Ikeja, Lagos.
 

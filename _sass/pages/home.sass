@@ -43,9 +43,12 @@
             flex-direction:     column
             @media #{ $mediumup }
                 flex-direction: row
+            @media #{ $largeup }
                 align-items:    flex-end
             .text-area
                 @media #{ $mediumup }
+                    padding:    $space-xs $space-md
+                @media #{ $largeup }
                     padding:    $space-md
             .name
                 margin:         $space-sm 0 $space-xs
@@ -78,13 +81,14 @@
             
     
     .banner
+        position:               relative
         .section-headline
             position:           relative
             display:            inline-block
             margin-top:         0
             color:              $richblack
-        .call-to-action
-            margin-bottom:          2rem         
+        .call-to-action  
+            margin-bottom:          2rem   
             @media #{ $mediumup}
                 left:               280px
                 position:           absolute
@@ -92,13 +96,17 @@
                 width:              450px
                 transform:          translate( -50%, -50% )
                 margin-bottom:      0
+            @media #{ $largeup}
+                left:               300px
+            @media #{ $xlargeup}
+                left:               330px
                 
 .cta-img
     height: 250px
     object-fit: cover
     object-position: 100% 0
     @media #{ $smallup}
-        height: 500px
-        @media #{ $largeup}
-            height: 450px
-            object-fit: none
+        height: 500px 
+    @media #{ $largeup}
+        height: 450px
+        object-fit: none

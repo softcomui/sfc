@@ -35,8 +35,6 @@ footer:
           link: /press/
         - page: Contact us
           link: /contact/
-        - page: Offices
-          link: /about/offices/
         - page: Join us
           link: /careers/
     - title:  More...
