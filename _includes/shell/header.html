@@ -1,12 +1,5 @@
-<section 
-    {% if page.layout == 'success-stories-single' or 'blog-single' %}
-        class="background-is-filtered black-filtering" 
-    {% else %} 
-        class="background-is-filtered black-filtering top-and-bottom"
-    {% endif %}>
-    <h2 class="sr">
-        Page Header &amp; Details
-    </h2>
+<section {% if page.layout == 'success-stories-single' or 'blog-single' %}class="background-is-filtered black-filtering"{% else %}class="background-is-filtered black-filtering top-and-bottom"{% endif %}>
+    <h2 class="sr">Page Header &amp; Details</h2>
     {% if page.layout == 'success-stories-single' %}
     <img src="{{ page.featured_image }}" alt="{{ page.image_description }}" class="main-header-background">
     <div class="main-header-content wrapper width-100-pc maxwidth-xl mx-auto">

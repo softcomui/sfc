@@ -1,9 +1,9 @@
-<section class="site-branding d-flx al-i-c j-c-sb">
+<section class="site-branding d-flx al-i-c j-c-sb pos-r">
     <h2 class="sr">
         Site Branding &amp; Navigation Tools
     </h2>
-    <div class="wrapper d-flx al-i-c">
-        <button class="hide-slargeup prefix is-even-wider nav-toggle pos-rel" togglenav>
+    <div class="d-flx al-i-c">
+        <button class="hide-slargeup pos-rel toggle-mobile-nav" aria-label="Toggle Navigation" nav-toggler>
             <span class="slats"></span>
         </button>
         <a class="logo-holder" href="{{ site.url }}">
@@ -12,3 +12,4 @@
     </div>
     {% include site-tools.html %}
 </section>
+{% include shell/mobilenav.html %}

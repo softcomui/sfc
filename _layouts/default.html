@@ -8,18 +8,15 @@
         <h1 class="sr">
             {{ site.title }}
         </h1>
-        <div class="to-release-mobilenav">
-            <header class="main-header text-shadow-light {% if page.layout == 'home' %}fullheight-header{% endif %}">
-                {% include shell/logobar.html %}
-                {% include shell/header.html %}
-                {% include shell/mainnav.html %}
-            </header>
-            <main class="main bg-platinum" id="mainContent">
-                {{ content }}
-            </main>
-            {% include shell/footer.html %}
-        </div>
-        {% include shell/mobilenav.html %}
+        <header class="main-header {% if page.layout == 'home' %}fullheight-header{% endif %}">
+            {% include shell/logobar.html %}
+            {% include shell/header.html %}
+            {% include shell/mainnav.html %}
+        </header>
+        <main class="main {% if page.layout == 'home' %}bg-platinum{% endif %}" id="mainContent">
+            {{ content }}
+        </main>
+        {% include shell/footer.html %}
         {% include shell/foot.html %}
     </body>
 </html>

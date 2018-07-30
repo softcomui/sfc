@@ -4,56 +4,18 @@
     // @package sfc
     // @author  Kabolobari Benakole <i@kb.life>
 
-.to-release-mobilenav
-    position:               relative
-    transition:             all 0.32s ease-in-out
-    opacity:                1
-.nav-is-visible
-    @media #{ $slargedown}
-        z-index:                2
-        background:             #000
-        .to-release-mobilenav
-            height:             100vh
-            overflow:           hidden
-            opacity:            0.2
+.toggle-mobile-nav
+    background:             transparent // Because button element
 
-.mobilenav
-    +absZero( fixed, 0, 0, unset, 0 )
-    top:                    65px
-    left:                   0.8rem
-    background-color:       #ffffff
-    border-radius:          $preferredradius
-    z-index:                3
-    opacity:                0
-    overflow:               auto
-    visibility:             hidden
-    transition:             all 0.48s ease
-    transform-origin:       top left
-    &::before
-        content:            ""
-        position:           absolute
-        width:              0
-        height:             0
-        border:             5px solid transparent
-    .icon.xclose
-        width:              26px
-        height:             26px
-.nav-is-visible
-    @media #{ $slargedown}
-        .mobilenav
-            transform:          scale(.8)
-            opacity:            1
-            visibility:         visible
-.nav-is-visible
-    @media #{ $slargedown}
-        .navbutton
-            z-index:            2
 .desktopnav
     position:               absolute
     bottom:                 0
     transition:             all 0.32s ease-in
     .logo-holder
         width:              96px
+        padding:            0.9rem $space
+        box-sizing:         content-box
+        line-height:        1.2
     &.is-fixed
         position:           fixed
         top:                0
@@ -74,16 +36,18 @@
             visibility:     visible
         .nav, .the-tools
             a
-                text-shadow:    none
                 @extend .richblack-link
                 @extend .opacity-7-link
+    .the-tools a
+        padding:                0.9rem $space
+        line-height:            1.2
 
 .nav
     a
         display:                block
-        padding:                0.805rem $space
+        padding:                0.9rem $space
         font-size:              $microfont
-        letter-spacing:         0.3px
+        line-height:            1.2
 
 .navlinks 
     &:after
@@ -95,31 +59,42 @@
         &:after
             border-bottom: 0
     a
-            padding: .805rem $space-sm
+            padding:        0.9rem $space-sm
 
-.slats
-    top:                    50%
-    left:                   50%
-    transform:              translate(-50%,-50%)
-    &::before, &::after
-        content:            ''
-        top:                0
-        left:               0
-    &::before
-        transform:          translateY(-6px)
-    &::after
-        transform:          translateY(6px)
-.slats, .slats::before, .slats::after
+.mobilenav
     position:               absolute
-    width:                  24px
-    height:                 2px
-    background-color:       $sweetgray
-    transition:             background 1s ease, transform 1s ease-in
-.is-clicked
-    .slats
-        background-color:   transparent
-        &::before
-            transform:      rotate(45deg)
-        &::after
-            transform:      rotate(-45deg)
-
+    top:                    64px
+    left:                   $space-xs
+    right:                  $space-xs
+    max-width:              344px
+    background-color:       #0097cd
+    z-index:                2
+    box-shadow:             $subtleboxshadow
+    border-radius:          $preferredradius
+    transform:              scale(.8) translateY(-10%)
+    transform-origin:       top left
+    transition:             all 320ms cubic-bezier(.24,.22,.015,1.56), opacity .1s ease-in-out
+    opacity:                0
+    pointer-events:         none
+    z-index:                10
+    &.is-active
+        opacity:            1
+        pointer-events:     auto
+        transform:          scale(1) translate(0)
+    &::before
+        content:            ''
+        position:           absolute
+        top:                -0.55rem
+        left:               0.75rem
+        width:              0
+        height:             0
+        border-style:       solid
+        border-width:       0 10px 10px 10px
+        border-color:       transparent transparent #0097cd transparent
+    .nav
+        li
+            a
+                padding:            $space
+                border-bottom:      1px solid rgba(255,255,255,0.3)
+            &:last-of-type a
+                border-bottom:      0

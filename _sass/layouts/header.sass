@@ -6,9 +6,7 @@
 
 .main-header, .main-header-background
     position:               relative
-    height:                 372px
-    @media #{$smallup}
-        height:             392px
+    height:                 392px
     @media #{$mediumup}
         height:             496px
     @media #{$largeup}
@@ -23,25 +21,27 @@
         width:              100%
         @media #{ $slargeup }
             display:        block
-        @media #{ $slargedown }
-            position:       fixed
-            z-index:        3
-            background-color:   rgba( 0, 0, 0, 0.64 )
+
+        button, a
+            padding:        0.96rem
+            box-sizing:     content-box
+            &.toggle-mobile-nav
+                padding:    1.72rem 2.78rem 1.72rem 1.08rem
+
         .logo-holder
-            display:        block
+            padding-left:   0
             width:          108px
+            transform:      translateY(3px)
             @media #{ $slargeup }
                 width:      136px
                 margin:     auto
                 transform:  none
                 margin-top: $space
+
         .site-tools
-            @media #{ $slargeup }
+            @media #{$slargeup}
                 display:    none
-            .the-tools
-                padding:    0 $space
-                @media #{ $slargeup }
-                    padding: 0
+
         .wrapper
             padding:        0.8rem $space
 
@@ -52,6 +52,7 @@
         color:                  #fff
         opacity:                0.9
         transition:             all 0.32s ease
+        line-height:            1
         &.is-active, &:active, &:focus, &:hover
             opacity:            1
             color:              $alternatecolor
@@ -69,9 +70,6 @@
                 font-size:      3.32rem
         @media #{ $mediumup }
             z-index:            1
-
-.logo-holder
-    transform:                  translateY(1px)
 
 .fullheight-header, .fullheight-header .main-header-background
     @media #{ $smallup }

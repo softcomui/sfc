@@ -1,9 +1,9 @@
 <section class="show-slargeup desktopnav width-100-pc" id="mainbar">
     <h2 class="sr">Desktop Navigation</h2>
-    <div class="wrapper-x maxwidth-xl mx-auto d-flx al-i-c j-c-sb thin-border-top border-is-light">
+    <div class="maxwidth-xl mx-auto d-flx al-i-c j-c-sb thin-border-top border-is-light">
         <nav class="d-flx al-i-c">
             <h3 class="sr">Site Navigation</h3>
-            <a class="logo-holder prefix is-even-wider" href="{{ site.url }}">
+            <a class="logo-holder" href="{{ site.url }}">
                 {% include icons.html icon="logo" %}
             </a>
             <ul class="nav none m-0 d-flx al-i-c">
@@ -20,7 +20,6 @@
                             {% if entry.name == 'Home' %}
                                 {% include icons.html icon="home" %}
                             {% endif %}
-                            <!-- {{ entry.name }} -->
                         </a>
                     </li>
                 {% endfor %}

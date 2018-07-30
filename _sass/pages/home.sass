@@ -3,7 +3,6 @@
 
     // @package sfc
     // @author  Kabolobari Benakole <kb@softcom.ng>
-    // @version 1.0.0
 
 .is-home
     .blogs-reel
@@ -47,7 +46,7 @@
                 align-items:    flex-end
             .text-area
                 @media #{ $mediumup }
-                    padding:    2.48rem $space-md
+                    padding:    $space-xs $space-md
                 @media #{ $largeup }
                     padding:    $space-md
             .name
@@ -87,12 +86,19 @@
             display:            inline-block
             margin-top:         0
             color:              $richblack
-        .call-to-action
-            margin-bottom:      2rem
-            @media #{ $mediumup} 
-                position:       absolute
-                top:            200px
-                left:           70px
+        .call-to-action  
+            margin-bottom:          2rem   
+            @media #{ $mediumup}
+                left:               280px
+                position:           absolute
+                top:                45%
+                width:              450px
+                transform:          translate( -50%, -50% )
+                margin-bottom:      0
+            @media #{ $largeup}
+                left:               300px
+            @media #{ $xlargeup}
+                left:               330px
                 
 .cta-img
     height: 250px

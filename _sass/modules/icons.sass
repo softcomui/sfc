@@ -3,7 +3,6 @@
 
     // @package sfc
     // @author  Kabolobari Benakole <i@kb.life>
-    // @version 1.0.0
 
 .prefix
     margin-right:           6px
@@ -21,10 +20,29 @@
 
 .vertical-divider
     display:                block
-    margin:                 0 $space
     height:                 $space-sm
     border-right:           1.5px solid rgba( 255, 255, 255, 0.4 )
 
-.icon.xlink
-    width:                  12.5px
-    height:                 12.5px
+.slats
+    pointer-events:         none
+    &::before, &::after
+        content:            ''
+        top:                0
+        left:               0
+    &::before
+        transform:          translateY(-6px)
+    &::after
+        transform:          translateY(6px)
+.slats, .slats::before, .slats::after
+    position:               absolute
+    width:                  22px
+    height:                 2px
+    background-color:       #fff
+    transition:             background 250ms ease, transform 250ms ease-in
+.is-clicked
+    .slats
+        background-color:   transparent
+        &::before
+            transform:      rotate(-45deg)
+        &::after
+            transform:      rotate(45deg)
