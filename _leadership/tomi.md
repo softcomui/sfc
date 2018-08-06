@@ -7,11 +7,7 @@ profile: executive
 position: 3
 image: /uploads/people/tomi.jpg
 summary: |-
-    Jonathan Ive is Apple’s Chief Design Officer, reporting to CEO Tim Cook.
+    CHIEF INNOVATION OFFICER
 detail: |-
-    Jony is responsible for all design at Apple, including the look and feel of Apple hardware, user interface, packaging, major architectural projects such as Apple Park and Apple’s retail stores, as well as new ideas and future initiatives.
-
-    He holds over 5,000 patents and has been recognized with numerous design awards, including the Design Museum London’s first Designer of the Year in 2003, the Design and Art Direction (D&AD) President’s Award in 2005 and the Cooper-Hewitt National Design Museum’s Product Design Award in 2007.
-
-    Jony earned a Bachelor of Arts degree at Newcastle Polytechnic. As an undergraduate, he twice won the Royal Society of Arts’ prestigious Student Design Award, and years later the RSA awarded him the title of Royal Designer for Industry. He also holds honorary doctorates from the Royal College of Art, the Rhode Island School of Design and Northumbria University.
+    Tomi Amao joined Sofcom from computer networking company Cisco Systems, where he worked as a Senior Cybersecurity Systems Engineer. Prior to that, he worked in the same role at Fortinet, a pure play cybersecurity company, responsible for the technical success of its West African business. As CIO at Softcom, he is in charge of managing the innovation process within the organization, identifying business opportunities and supporting best practices. Tomi holds a B.Eng. in Electrical and Electronics Engineering, and is currently studying Computer Science at Stanford University. He holds many industry certifications, including being a Cisco Certified Internetwork Expert for over the past ten years.
 ---

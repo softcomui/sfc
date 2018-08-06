@@ -1,6 +1,5 @@
 {% assign careers_meta = site.pages | where: 'permalink', '/careers/' %}
 {% assign contact_meta = site.pages | where: 'permalink', '/contact/' %}
-{% assign offices_meta = site.pages | where: 'permalink', '/about/offices/' %}
 <section class="join-contact bg-platinum">
     <h2 class="sr">Careers, Contact, Offices</h2>
     <div class="maxwidth-xl mx-auto wrapper will-grow negate-top-largeup grid">
@@ -9,7 +8,7 @@
                 {{ careers_meta[0].title }}
             </h3>
             <p>
-                {{ careers_meta[0].copy }}
+                {{ careers_meta[0].cta_copy }}
             </p>
             <a href="{{ careers_meta[0].url | prepend: site.url }}" class="btn btn-standard btn-dark mt-1h">
                 <span>

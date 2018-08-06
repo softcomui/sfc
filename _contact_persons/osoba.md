@@ -1,9 +1,9 @@
 ---
-contact_name: David Tomilayo
+contact_name: Osoba Olayiwola
 department: Accounts Managers
-email: davue@softcom.ng
-phone: '+234 (803) 888-8888'
+email: olayiwola@softcom.ng
+phone: '+234 (708) 402-9192'
 avatar_image: /uploads/people/contact-person-02.jpg
-city: Abuja
+city: Lagos
 country: Nigeria
 ---

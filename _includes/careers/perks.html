@@ -1,16 +1,16 @@
 <section class="perks-and-benefits bg-platinum">
     <div class="maxwidth-xl mx-auto wrapper will-grow negate-top-slaptopup">
         <h2 class="section-title">
-            Perks &amp; Benefits
+            Why Join Us?
         </h2> 
         <ul class="none pt-1 grid is-multi-col mostly-3">
-            {% for item in page.perks_and_benefits %}
+            {% for item in page.why_join_us %}
                 <li>
                     <h3 class="mt-0">
-                        {{ item.perk }}
+                        {{ item.join_us_reason }}
                     </h3>
                     <p>
-                        {{ item.benefit }}
+                        {{ item.join_us_summary }}
                     </p>
                 </li>
             {% endfor %}

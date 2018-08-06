@@ -1,8 +1,8 @@
 ---
-contact_name: Turanyo Moto
-department: Operations
-email: tuna@softcom.ng
-phone: '+234 (803) 888-9999'
+contact_name: Oyewale Bolanta
+department: Account Managers
+email: oyewale@softcom.ng
+phone: '+234 (818) 000-8077'
 avatar_image: /uploads/people/contact-person-01.jpg
 city: Abuja
 country: Nigeria

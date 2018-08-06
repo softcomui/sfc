@@ -7,11 +7,8 @@ layout: default
     {% assign operations = contacts | where: "department", "Operations" %}
     {% assign media      = contacts | where: "department", "Media Inquiries" %}
     <div class="maxwidth-xl mx-auto wrapper will-grow">
-        <!-- <div class="wrapper-y">
-            {% include contacts/operations.html %}
-        </div> -->
         <div class="wrapper-y negate-top">
-            {% include contacts/media.html %}
+            {% include contacts/accounts.html %}
         </div>
         <div class="wrapper-y">
             {% include contacts/offices.html %}

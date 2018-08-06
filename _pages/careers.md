@@ -3,33 +3,28 @@ layout: careers-all
 permalink: /careers/
 title: Careers at Softcom
 headline: Join us
-copy: Tackle the most challenging problems facing organizations and communities. At Softcom, you will build solutions that make an impact.
+copy: Tackle the most challenging problems facing organizations and communities in Africa.
 cta_link_text: See openings
+cta_copy: Are you interested in tackling some of the most challenging problems facing organisations and communities in Africa?
 featured_image: /uploads/careers/careers.jpg
 image_description: Softcom impacts
 whats-it-like: |-
-    Nibh sit amet commodo nulla facilisi. Ornare suspendisse sed nisi lacus sed viverra tellus in. Blandit massa enim nec dui. Donec adipiscing tristique risus nec feugiat in fermentum. Integer eget aliquet nibh praesent tristique magna. Massa eget egestas purus viverra accumsan in nisl nisi scelerisque.
+    Softcom is a place of purpose, value, creativity and inspiration and the people here are the special ingredients to the magic we create. The essence of this organization is best expressed in our mission.
 
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    “To connect people and businesses with meaningful innovation” as technology represents truly one of the ways to bridge the wide gap in development in all areas of our lives. 
 
-    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-perks_and_benefits:
+    At Softcom, you get to work and interact with a team of highly skilled and professional project managers, business analysts, designers, developers and engineers, just like you. 
+
+    At Softcom, we’re not offering you a “job.” Yes, we’re welcoming you into a family with a crucial mind-set; to create value that can enable people to become better with technology.
+
+why_join_us:
     - 
-        perk:    Work-life balance
-        benefit: One benefit of having amazing coworkers is enjoying each other’s company, and we make up some good excuses to have fun together..
+        join_us_reason: Products with meaning
+        join_us_summary: We are building a company that leads the innovation process in solving problems for people and communities in our society, through technology. 
     -
-        perk:    Relax, We've got you covered
-        benefit: We take care of our employees in more ways than one. Our competitive benefits package includes premium medical, dental, and vision coverage. We also offer paid parental leave.
+        join_us_reason: People with meaning
+        join_us_summary: We value our people as the greatest assets, so we give attention to their welfare, training and development. With the right health-care plan and balanced office meal, you stay fit for the job as we provide you access to the best of learning platforms globally. 
     -
-        perk:    Stay informed
-        benefit: We’re dedicated to ensuring all employees have the information they need to do their jobs well. Our monthly All Hands meetings, email newsletters, and CEO Office Hours are just.
-    -
-        perk:    We value our people
-        benefit: We’re serious about sharing in Squarespace’s successes. All employees receive an equity package in the company as part of their total.
-    -
-        perk:    We give back
-        benefit: We anonymously match any donation our employees make so they can support the organizations they care about most—times two. We also arrange programming for team members to volunteer.
-    -
-        perk:    Live it up
-        benefit: One benefit of having amazing coworkers is enjoying each other’s company, and we make up some good excuses to have fun together. Squarespace’s weekly. 
+        join_us_reason: Place with meaning
+        join_us_summary: Softcom is very particular about why, where, when and how you work. We have prepared one of the best working environment for you and we call it Ekonovo; an office place that is serene and conducive for creativity. 
 ---

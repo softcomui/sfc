@@ -1,8 +1,8 @@
 ---
-title: Yes 55 chars or fewer or 10 words whichever comes first
+title: Knowing your place in the market - Trade Visibility
 featured_image: /uploads/stories/impact-03.jpg
 image_description:
-client: MTN Foundation
+client: MTN Nigeria
 color: '#ffbe00'
 release_date: 2017-05-07
 

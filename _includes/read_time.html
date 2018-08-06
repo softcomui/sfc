@@ -1,0 +1,7 @@
+{% assign read_time = words | divided_by:180.0 | round %}
+
+{% if read_time <= 1 %}
+    {{ read_time | append: ' min' }}
+{% else %}
+    {{ read_time | append: ' mins' }}
+{% endif %}

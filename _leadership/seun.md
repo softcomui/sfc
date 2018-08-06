@@ -4,12 +4,10 @@ featured_image: /uploads/people/team.jpg
 name: Seun Adegbe
 designation: Chief Marketing Officer
 profile: executive
-position: 3
+position: 4
 image: /uploads/people/seun.jpg
 summary: |-
-    Philip Schiller is Apple’s Chief Marketing Officer reporting to Chief Executive Officer Tim Cook.
+    CHIEF MARKETING OFFICER
 detail: |-
-    Since rejoining Apple in April 1997 Schiller has helped the company create the best computers in the world with the Mac, lead the digital music revolution with iPod and iTunes, reinvent mobile phones with iPhone and the App Store, and define the future of mobile computing with iPad.
-
-    Schiller has over twenty five years of marketing and management experience, including twenty years at Apple in various marketing management positions; as the VP of Product Marketing at Macromedia, Inc. of San Francisco, CA; as the Director of Product Marketing at FirePower Systems, Inc. of Menlo Park, CA; as an IT Manager at Nolan, Norton & Company of Lexington, MA; and as a Programmer and Systems Analyst at Massachusetts General Hospital in Boston, MA. Schiller graduated with a B.S. degree in Biology from Boston College in 1982.
+    Seun Williams became Softcom Chief Marketing Officer in 2018 after 4 years at BRANDWORX serving as Senior Brands and Projects Lead (Nigeria) and Country Marketing Manager. Before that Seun ran digital strategy for South African advertising agency Base2 Agency, and worked as Brand Manager, e-Business at Zenith Bank Plc. Seun partners with CEOs, founders and executives in managing brands and marketing strategies. The Lagos-born Seun is also a graduate of the Solvay Brussels School.
 ---

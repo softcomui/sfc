@@ -3,7 +3,7 @@ layout: blog
 permalink: /blog/
 title: Our Blog
 headline: Our Blog
-copy: A selection of success stories of Softcom's impact on people
+copy: Shared thoughts on design, tech, and business of Softcom.
 featured_image: /uploads/pages/labs.jpg
 image_description: Softcom Blog
 ---

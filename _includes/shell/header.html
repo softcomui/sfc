@@ -3,7 +3,7 @@
     {% if page.layout == 'success-stories-single' %}
     <img src="{{ page.featured_image }}" alt="{{ page.image_description }}" class="main-header-background">
     <div class="main-header-content wrapper width-100-pc maxwidth-xl mx-auto">
-        <a href="{{ site.url }}/success-stories" class="badge mb-1 nano-caps fw-bold co-white">
+        <a href="{{ site.url }}/success-stories" class="badge mb-1 nano-caps co-white">
             {% include icons.html icon="chevron-left" %}
             <span class="suffix">
                 Success Stories
@@ -22,7 +22,7 @@
     {% elsif page.layout == 'blog-single' %}
     <img src="{{ page.featured_image }}" alt="{{ page.image_description }}" class="main-header-background">
     <div class="main-header-content wrapper width-100-pc maxwidth-xl mx-auto">
-        <a href="{{ site.url }}/success-stories" class="badge nano-caps fw-bold co-white">
+        <a href="{{ site.url }}/blog" class="badge nano-caps co-white">
             {% include icons.html icon="chevron-left" %}
             <span class="suffix">
                 Back to Blog
@@ -30,7 +30,10 @@
         </a>
         <div class="mt-1h d-flx al-i-c">
             <p class="nano-caps m-0 fw-bold opacity-7 co-primary mr-h header-tag">{{ page.tag | first }}</p>
-            <p class="nanotext">{{ page.read_time }}</p>
+            <p class="nanotext">
+                {% assign words = page.content | strip_html | number_of_words %}
+                {% include read_time.html %}
+            </p>
         </div>
         <h2 class="mt-h headline fw-normal maxwidth-sm">
             {{ page.title }}
@@ -43,7 +46,7 @@
     {% elsif page.layout == 'leadership-single' %}
     <img src="{{ page.featured_image }}" alt="{{ page.image_description }}" class="main-header-background">
     <div class="main-header-content wrapper width-100-pc maxwidth-xl mx-auto">
-        <a href="{{ site.url }}/about/leadership" class="badge mb-1 nano-caps fw-bold co-white">
+        <a href="{{ site.url }}/about/leadership" class="badge mb-1 nano-caps co-white">
             {% include icons.html icon="chevron-left" %}
             <span class="suffix">
                 Leadership
@@ -59,7 +62,7 @@
     {% elsif page.layout == 'careers-single' %}
     <img src="{{ page.featured_image }}" alt="{{ page.image_description }}" class="main-header-background">
     <div class="main-header-content wrapper width-100-pc maxwidth-xl mx-auto">
-        <a href="{{ site.url }}/careers/openings/" class="badge mb-1 nano-caps fw-bold co-white">
+        <a href="{{ site.url }}/careers/openings/" class="badge mb-1 nano-caps co-white">
             {% include icons.html icon="chevron-left" %}
             <span class="suffix">
                 All openings
@@ -79,7 +82,7 @@
             <h2 class="m-0 headline">
                 {{ page.headline }}
             </h2>
-            {% if page.copy %}
+            {% if page.copy %} 
                 <p class="m-0 smalltext maxwidth-sm mx-auto pt-1">
                     {{ page.copy }}
                 </p>

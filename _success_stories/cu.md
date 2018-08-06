@@ -1,9 +1,9 @@
 ---
-title: This will be truncated at 10 words because someone broke the law
+title: Beyond the classroom - Edusocial
 featured_image: /uploads/stories/impact-04.jpg
 image_description:
-client: FGN (NPVN Initiative)
-color: '#00a740'
+client: Covenant University
+color: '#8b4f8b'
 release_date: 2016-12-01
 
 testimonial_text: |-

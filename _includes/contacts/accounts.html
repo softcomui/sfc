@@ -1,13 +1,14 @@
 <div class="section-header co-readable-gray">
     <h2 class="section-title">
-        Operations
+        Account Managers
     </h2>
     <p class="section-summary">
-        What's operations contact people do and what's it mean to contact them?
+        Our account managers proudly serve as your primary business contacts. Every enquiry matters to us.
     </p>
 </div>
 <ul class="none is-held-within grid is-multi-col mostly-3">
-    {% for item in operations %}
+    {% assign sorted = site.contact_persons | sort: 'position' %}
+    {% for item in sorted %}
         {% include lists/contact-person-list-item.html %}
     {% endfor %}
 </ul>

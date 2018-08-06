@@ -1,9 +1,9 @@
 ---
 title: Contact us
 headline: Contact us
-copy: We work with people, yes, everyone...share your ideas with us.
+copy: We strive to provide the best service possible with every contact. Get in touch with our team of customer support.
 cta_link_text: Contact us
-cta_copy: Are you looking to tackle some of the biggest challenges facing business and society? Join our team of designers, developers, and storytellers.
+cta_copy: We strive to provide the best service possible with every contact. Get in touch with our team of customer support.
 layout: contact
 permalink: /contact/
 featured_image: /uploads/pages/contact.jpg

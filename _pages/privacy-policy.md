@@ -35,13 +35,4 @@ body: |-
 
     #### Cookies
     Cookies are small text files placed on devices to store data which can then be recalled by a web server by the domain which placed the cookies. Softcom uses cookies and similar technologies for tracking your preferences and settings; enabling and providing you with interest based advertising and analyzing our products and services.
-
-    #### Contact Us:   
-    8, Oduduwa Crescent,   
-    Ikeja GRA,   
-    Lagos State   
-    Mobile………..   
-    Email…………   
-
-
 ---

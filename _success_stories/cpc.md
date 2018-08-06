@@ -1,8 +1,8 @@
 ---
-title: Ideally 55 characters or 10 words whichever comes first
+title: Redefining complaints management by automating processes - Complaints Management Platform
 featured_image: /uploads/stories/impact-01.jpg
 image_description:
-client: CPC
+client: Consumer Protection Council
 color: '#006535'
 release_date: 2018-03-15
 

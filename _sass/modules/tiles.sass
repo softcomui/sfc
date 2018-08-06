@@ -8,30 +8,23 @@
     box-shadow:                     $subtleboxshadow
 
 .landscape-tile
-    display:                        block
     img
-        height:                     216px
+        height:                     auto
         object-fit:                 cover
-        border-top-right-radius:    $preferredradius
-        border-top-left-radius:     $preferredradius
-        @media #{ $smallup }
-            height:                 200px
-    .landscape-tile-body
-        min-height:                 120px
-        max-width:                  87%
-        top:                        -45px
+        // @media #{ $smallup }
+        //     height:                 200px
     .black-filtering::before
-        transition:         all 0.32s ease
-        opacity:            0
+        transition:                 all 0.32s ease
+        opacity:                    0
     &:hover
         .black-filtering::before
-            opacity:        1
+            opacity:                1
     .btn
-        transition:         all 0.32s ease-in
-        opacity:            0
+        transition:                 all 0.32s ease-in
+        opacity:                    0
     &:hover
         .btn
-            opacity:        1
+            opacity:                1
 
 .stacked-tile
     position:               relative

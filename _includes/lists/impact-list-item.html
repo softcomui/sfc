@@ -1,21 +1,21 @@
 <li>
-    <a href="{{ item.url | absolute_url }}" class="landscape-tile co-rich-black">
-        <div class="show-cta background-is-filtered black-filtering has-border-top-radius">
-            <img src="{{ item.featured_image }}" alt="" />
+    <a href="{{ item.url | absolute_url }}" class="landscape-tile flex-align-height j-c-sb co-rich-black bg-white">
+        <div class="p-1h">
+            <div class="d-flx al-i-c nanotext pb-1 fw-bold" {% if item.color %}style="color: {{ item.color }}"{% endif %}>
+                    {{item.client}}
+            </div>
+            <div class="pb-1">
+                <h3 class="m-0">
+                    {{ item.title | truncate: 55, '...' }}
+                </h3>
+            </div>
+        </div>
+        <div class="show-cta background-is-filtered black-filtering">
+            <img src="{{ item.featured_image }}" alt="" class=""/>
             <span class="btn btn-white btn-standard absolute-middle z-depth-1">
                 <span>View story</span>
                 {% include icons.html icon="chevron-right" %}
             </span>
-        </div>
-        <div class="landscape-tile-body z-depth-1 pos-rel bg-platinum">
-            <div class="nano-caps ff-sans-serif fw-bold d-flx al-i-c p-1" {% if item.color %}style="color: {{ item.color }}"{% endif %}>
-                    {{item.client}}
-            </div>
-            <div class="p-1s">
-                <h3 class="mb-0 mt-0 mediumtext fw-normal">
-                    {{ item.title | truncatewords: 10, '...' }}
-                </h3>
-            </div>
         </div>
     </a>
 </li>
