@@ -6,6 +6,6 @@ cta_link_text: Contact us
 cta_copy: We strive to provide the best service possible with every contact. Get in touch with our team of customer support.
 layout: contact
 permalink: /contact/
-featured_image: /uploads/pages/contact.jpg
+featured_image: /uploads/pages/contact-us.jpg
 image_description: Softcom impacts
 ---

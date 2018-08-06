@@ -1,5 +1,5 @@
 ---
-title: Selfie 03
-image: /uploads/selfies/nigerian-app-developer.jpg
-image_description: Nigerian App Developer Smiling
+title: Selfie 01
+image: /uploads/selfies/selfie-01.jpg
+image_description: Nigerian App developer Smiling
 ---

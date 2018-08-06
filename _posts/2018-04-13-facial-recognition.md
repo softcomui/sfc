@@ -3,7 +3,7 @@ layout: blog-single
 title: "Facial Recognition: What It Is and How Organisations Can Benefit"
 featured_image: /uploads/blog/about.jpg
 image_description: Placeholder text
-author_image: /uploads/authors/caleb.jpg
+author_image: /uploads/people/authors/caleb.jpg
 author_name: Caleb
 tag:
 - Technology & Facial Recognition

@@ -1,5 +1,5 @@
 ---
-title: Selfie 05
-image: /uploads/selfies/softcom-software-developer-lagos.jpg
+title: Selfie 03
+image: /uploads/selfies/selfie-03.jpg
 image_description: African woman in technology
 ---

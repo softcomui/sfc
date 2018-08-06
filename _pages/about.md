@@ -9,7 +9,7 @@ image_description: Collage of Softcom staff Lagos
 lead_text: Our ultimate vision is to build an engineering company that will improve the way we live, learn and work in Africa.
 lead_credit: Yomi Adedeji
 credit_title: CEO
-credit_image: /uploads/people/yomi.jpg
+credit_image: /uploads/people/yomi.png
 ---
 Softcom was established in 2007 with a resolve to support organizations in the quest for impact and growth using technology. We are a group of professionals whose overarching goal is to add value to our businesses and communities in Africa.
 

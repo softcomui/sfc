@@ -3,7 +3,7 @@ layout: blog-single
 title: "Choosing Home: Young Nigerians Retracing Their Steps One Pace At a Time"
 featured_image: https://cdn-images-1.medium.com/max/2000/1*N_tIAeLcQh2FWIxHUDEKvQ.png
 image_description: Meet Opeyemi Adeyemi, the Solutions Architect who shares the story of his return from the diaspora with us
-author_image: /uploads/authors/sanmi.jpg
+author_image: /uploads/people/authors/sanmi.jpg
 author_name: Sanmi
 tag:
 - African Diaspora

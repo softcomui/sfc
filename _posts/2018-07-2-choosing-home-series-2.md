@@ -3,7 +3,7 @@ layout: blog-single
 title: "Choosing Home Series 2: Toluyemi talks about being a Woman in Tech"
 featured_image: https://cdn-images-1.medium.com/max/1600/1*ZQUS3nK_sX-v4KReKGsdSg.jpeg
 image_description: Toluyemi Nathaniel
-author_image: /uploads/authors/sanmi.jpg
+author_image: /uploads/people/authors/sanmi.jpg
 author_name: Sanmi
 tag:
 - Diaspora
