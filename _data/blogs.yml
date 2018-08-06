@@ -6,5 +6,6 @@
   shortname:      devxblog
   url:            'https://devx.blog'
   logo_image:     '/uploads/pages/devx-logo.svg'
-  featured_image: '/uploads/pages/br1.jpg'
-
+  image_description: HR manager brainstorming
+  featured_image: '/uploads/pages/home/technology-quote-business-npower.jpg'
+  

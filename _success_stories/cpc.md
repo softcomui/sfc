@@ -1,5 +1,5 @@
 ---
-title: Redefining complaints management by automating processes - Complaints Management Platform
+title: Redefining complaints management
 featured_image: /uploads/stories/impact-01.jpg
 image_description:
 client: Consumer Protection Council

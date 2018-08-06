@@ -46,9 +46,6 @@ footer:
         - page: DevX Blog
           link: '//devx.blog'
           new_window: true
-        - page: Medium
-          link: '//medium.com/@SoftcomNG'
-          new_window: true
   join_us:
       title:  Join our teams
       description: |-

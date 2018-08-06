@@ -1,5 +1,5 @@
 ---
-title: Selfie 05
-image: /uploads/selfies/selfie-05.jpg
-image_description: Selfie 05
+title: Selfie 07
+image: /uploads/selfies/technology-npower-software-company.jpg
+image_description: Beautiful Female web designer smiling
 ---

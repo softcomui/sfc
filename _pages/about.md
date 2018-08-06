@@ -4,8 +4,8 @@ permalink: /about/
 title: About Softcom
 headline: About us
 copy: We are a diverse collection of thinkers with an unwavering commitment to solving some of Africa’s biggest problems.
-featured_image: /uploads/selfies/about.jpg
-image_description: Softcom impacts
+featured_image: /uploads/pages/about.jpg
+image_description: Collage of Softcom staff Lagos
 lead_text: Our ultimate vision is to build an engineering company that will improve the way we live, learn and work in Africa.
 lead_credit: Yomi Adedeji
 credit_title: CEO

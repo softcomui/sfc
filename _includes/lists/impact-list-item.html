@@ -1,11 +1,11 @@
 <li>
     <a href="{{ item.url | absolute_url }}" class="landscape-tile flex-align-height j-c-sb co-rich-black bg-white">
         <div class="p-1h">
-            <div class="d-flx al-i-c nanotext pb-1 fw-bold" {% if item.color %}style="color: {{ item.color }}"{% endif %}>
+            <div class="d-flx al-i-c nanotext name pb-h" {% if item.color %}style="color: {{ item.color }}"{% endif %}>
                     {{item.client}}
             </div>
-            <div class="pb-1">
-                <h3 class="m-0">
+            <div class="">
+                <h3 class="m-0 tagline">
                     {{ item.title | truncate: 55, '...' }}
                 </h3>
             </div>
