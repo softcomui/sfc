@@ -1,17 +1,17 @@
 <li class="d-flx">
     <img src="{{ site.url }}{{ item.avatar_image }}" alt="{{ item.contact_person }}" class="avatar is-medium prefix is-even-wider">
     <div>
-        <span class="nano-caps fw-bold co-faint-gray">
+        <span class="nanotext co-faint-gray">
             {{ item.city }}, {{ item.country }}
         </span>
-        <h3 class="mt-0 mb-hh h4">
+        <h3 class="m-0">
             {{ item.contact_name }}
         </h3>
-        <p>
+        <p class="m-0">
             <a href="mailto:{{ item.email }}">
                 {{ item.email }}
             </a>
-            <span class="d-blk microtext">
+            <span class="d-blk">
                 {{ item.phone }}
             </span>
         </p>
