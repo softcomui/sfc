@@ -2,33 +2,6 @@
 layout: default
 ---
 <section class="from-the-client bg-platinum">
-    <h2 class="sr">Client's testimonial on {{ page.title }}</h2>
-    <div class="maxwidth-xl mx-auto wrapper will-grow grid al-i-fs">
-        <div class="col-12 col-6-md">
-            <p class="lead lh-1-3h">
-                {{ page.testimonial_text }}
-            </p>
-            <div class="lead-credit d-flx al-i-c">
-                <img src="{{ site.url }}{{ page.testimonial_author_image }}" alt="{{ page.testimonial_author }}">
-                <span class="credit d-blk smalltext">
-                    {{ page.testimonial_author }}, {{ page.testimonial_author_designation }}
-                </span>
-            </div>
-        </div>
-        <div class="col-12 col-6-md offset-6-cols-from-left">
-            <h3 class="micro-caps mt-0 mb-hh">Success Summary</h3>
-            {{ page.success_summary | markdownify }}
-        </div>
-        <div class="col-12 col-6-md">
-            <h3 class="micro-caps mt-0 mb-hh">The Challenge</h3>
-            {{ page.the_challenge | markdownify }}
-        </div>
-        <div class="col-12 col-6-md offset-6-cols-from-left">
-            <h3 class="micro-caps mt-0 mb-hh">Our Approach</h3>
-            {{ page.our_approach | markdownify }}
-        </div>
-    </div>
-    <img src="{{ site.url }}{{ page.success_lead_image }}" alt="{{ page.success_lead_image_description }}">
     <article class="maxwidth-tb mx-auto wrapper will-grow content-area">
         {{ content }}
     </article>

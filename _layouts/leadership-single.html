@@ -7,12 +7,8 @@ layout: default
         <div class="col-12 col-4-sm">
             <img src="{{ page.image }}" alt="{{ page.title }}" class="border-radius-preferred">
         </div>
-        <div class="col-12 col-8-sm offset-4-cols-from-left">
-            <p class="lead lh-1-3h">
-                {{ page.summary }}
-            </p>
-            <hr class="dashed">
-            {{ page.detail | markdownify }}
+        <div class="col-12 col-4-sm offset-4-cols-from-left lead-summary">
+                {{ page.detail | markdownify }}
         </div>
     </div>
 </section>

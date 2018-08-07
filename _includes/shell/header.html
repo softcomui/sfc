@@ -10,7 +10,7 @@
             </span>
         </a>
         <h2 class="mt-0 headline fw-normal maxwidth-sm">
-            {{ page.title }}
+            {{ page.name }}
         </h2>
         <p class="m-0 pico-caps fw-bold opacity-7">
             Client:
@@ -18,6 +18,12 @@
                 {{ page.client }}
             </span>
         </p>
+        <a href="{{ site.url }}{{page.case_study_link}}" class="download-links mt-1" download>
+            {% include icons.html icon="download" %}
+            <span class="suffix">
+                Download Case Study
+            </span>
+        </a>
     </div>
     {% elsif page.layout == 'blog-single' %}
     <img src="{{ page.featured_image }}" alt="{{ page.image_description }}" class="main-header-background">
@@ -83,7 +89,7 @@
                 {{ page.headline }}
             </h2>
             {% if page.copy %} 
-                <p class="m-0 smalltext maxwidth-sm mx-auto co-white-smoke pt-1">
+                <p class="m-0 copy maxwidth-sm mx-auto co-white-smoke pt-1">
                     {{ page.copy }}
                 </p>
             {% endif %}

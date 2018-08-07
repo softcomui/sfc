@@ -44,10 +44,6 @@
 
         .wrapper
             padding:        0.8rem $space
-
-    .main-header-background
-        object-fit:         cover
-        object-position:    0  30%
     
     a:not(.logo-holder), button
         color:                  #fff
@@ -69,6 +65,11 @@
                 font-size:      2.64rem
             @media #{ $mediumup }
                 font-size:      3.32rem
+        .copy
+            @media #{ $smallup }
+                font-size:      $microfont
+            @media #{ $mediumup }
+                font-size:      $smallfont
         @media #{ $mediumup }
             z-index:            1
 

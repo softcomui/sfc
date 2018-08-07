@@ -1,48 +1,33 @@
 ---
-title: Beyond the classroom - Edusocial
-featured_image: /uploads/stories/impact-04.jpg
-image_description:
+title: Beyond the classroom
+name: Beyond the classroom - Edusocial
+featured_image: /uploads/stories/edu-social.png
+image_description: 
+case_study_link: 
 client: Covenant University
 color: '#8b4f8b'
-release_date: 2016-12-01
-
-testimonial_text: |-
-    La Victoria Lab reshapes the value proposition of Intercorp’s businesses and, more important, shakes up our leadership’s mindset.
-testimonial_author: Ladoke Akintola
-testimonial_author_designation: DG, CPC
-testimonial_author_image: /uploads/people/yomi.jpg
-
-success_summary: |-
-    La Victoria Lab, a design and innovation studio staffed by an interdisciplinary Intercorp and IDEO team, tasked with tackling business problems across the conglomerate’s portfolio of 33 companies.
-the_challenge: |-
-    Build a human-centered design capability within Intercorp.
-our_approach: |-
-    The technology exists to make better pricing decisions. What is often lacking, however, is a complete program that integrates the technology with the people on the front lines who will be using it and a system to sustain pricing excellence over time.
-success_lead_image: /uploads/selfies/selfie-04.jpg
-success_lead_image_description: What's in here?
 ---
-La Victoria Lab is comprised of a group of designers, anthropologists, architects, and entrepreneurs working on improving the lives of the Peruvian middle class. Founded in 2014, it’s part of Intercorp, an economic group of more than 30 companies spanning banks, malls, cinemas, schools, and more. 
 
-It’s owned by one of Peru’s most successful entrepreneurs, Carlos Rodríguez-Pastor, and in total these companies employ 56,000 people and account for a staggering 2.5% percent of the gross domestic product.
+Covenant university is ranked the number one private university in Nigeria and is located in the western part of Nigeria, Ota Ogun state. The school runs with a mission to To create knowledge and restore the dignity of the black man via a Human Development and Total Man Concept driven curriculum employing innovative, leading edge, teaching and learning methods, research and professional services that promote integrated, life-applicable, life-transforming education relevant to the context of Science, Technology and Human Capacity Building and with over 7000 students and counting they decided to approach Softcom to help develop a strategy that will improve the overall learning experience in the school.
 
-Rodríguez-Pastor and Intercorp’s destinies are intertwined with those of Peruvians. 
+Covenant University sought to foster collaboration between lecturers and students and provide every student with access to learning resources and a host of academic and    non-academic life essential content anytime and anywhere in the world.
 
-Peru is one of South America’s fastest growing economies, with a healthy 6 percent year-on-year growth from 2002 to 2013, on average. That rising economic tide, along with government policy, has created extraordinary social mobility: Between 2005 and 2013, poverty was halved. In 2013 alone, nearly half a million rose out of poverty, of a population of 30.8 million.
+#### APPROACH
+Working closely with the academic planning unit, Softcom spent 4 weeks understanding the faculty structure of the institution, and evaluating the existing academic facilities and resources. We had several interviews with the key stakeholders of the institution to understand the academic objectives and align on the requirements for a successful programme. This enabled us develop a Mobile learning solution which was inclusive of a Learning management system called “Edusocial”. The entire mobile learning solution comprises of the following:
 
-![Julisa and Jairo Pineda, a young entrepreneur couple, helped researchers understand Peruvian needs.]({{ site.url }}/uploads/selfies/selfie-07.jpg)
+**Mobile Device:** Each student received a Mobile device (Samsung Galaxy tab) that aggregated all the contents and applications of this solution.
 
-### Just another nice heading
-As Peruvians’ lives have improved, so the new middle class's needs and aspirations have changed: They’re entrepreneurial, expect great services, and want the best for their children. That challenge and opportunity led Rodríguez-Pastor to enlist IDEO to bring our empathic approach to the construction of a new school system, Innova, from the ground up, and to redesign their retail banking at Interbank.
+**Mobile Device Manager (MDM):** as part of the solution, Samsung Knox was added as an enterprise Mobile Device Manager which helps to enforce Covenant University’s unique policies and locate the devices if missing or stolen.
 
-Success there bred an ambition. Intercorp, Rodríguez-Pastor realized, needed to build two capabilities: a deep, bedrock understanding of the new middle class, and an innovation capability with which his companies could create new products, services, and experiences. “I want a little IDEO,” Rodriguez-Pastor said, and the germ of La Victoria Lab took root.
+**Learning Management System (LMS):** In order to facilitate access to learning resources and a host of academic and non-academic life essential content anytime and anywhere in the world, we developed Edusocial. The application powers the university’s objectives and expectations with the Mobile Learning Project as EduSocial aggregates all the learning resources ranging from class notes to the databases the university subscribes to. 
 
-![In doing research to understand emerging Peruvian families, we interviewed Bertha Cassinelli.]({{ site.url }}/uploads/selfies/selfie-09.jpg)
+**Support:** The Support Centre is the engine that is responsible for managing the entire 7000 devices from an issue resolution point of view.
 
-### Solutions and Skills
-Powered by those insights, La Victoria Lab has brought human-centered problem-solving to a variety of Intercorp’s companies, including new retail ventures, and improving the cinema-going and banking experience.
+#### MEASURABLE AND CONCRETE RESULTS
+This solution created a robust platform through which information could be managed and disseminated effectively to students individually, in groups or all at the same time. The solution was used to drive collaboration within the student community by enabling work group communication and individual messaging. Other results include:
+- Over 7,000 students and 1,000 lecturers connected.
+- Improvement in learning experience and outcomes, 60% increase in overall academic performance.
+- Improvement in personal study among the student community—86% of the students confirm improvement.
 
-In 2015, the Lab began scaling its efforts to build innovation capabilities across all of the portfolio companies by using IDEO’s innovation readiness assessment, Creative Difference. Each company received a report of their strengths and improvement areas, and as a result, the Lab facilitated workshops and community groups focused on building essential capabilities.
-
-<iframe src="https://player.vimeo.com/video/261823353" frameborder="0" allowfullscreen></iframe>
-
-"Creative Difference is the first tool that has allowed my team and the organization to have a precise picture of where we are in the spectrum of doing truly innovative work. Now, we can identify our strengths and areas of improvement, we can develop work plans and actions based on data,  and can start to really dig deep into innovation,” says Aurelia Alvarado, director of innovation, Innova Schools.
+Redeemer’s university and Mountain Top university are one of the top private universities in Nigeria and they have also implemented the mobile learning solution in their schools. Both schools decided to add an extra component to the solution, which is “Mobile Data”. This was added to improve the over all effectiveness of the Edusocial experience. Softcom worked with MTN as the service provider.
+ 
