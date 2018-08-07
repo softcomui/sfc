@@ -1,7 +1,7 @@
 ---
 title: Improving patient adherence using technology
 name: '"Improving patient adherence using technology" - Patient Adherence System'
-featured_image: /uploads/stories/gsk.jpeg
+featured_image: https://res.cloudinary.com/softcomux/image/upload/v1533654810/sfc/stories/gsk.jpg
 image_description:
 case_study_link: 
 client: Glaxosmithkline 

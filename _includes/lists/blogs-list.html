@@ -1,7 +1,7 @@
 {% for blog in site.data.blogs %}
 {% assign class = nil %}
 <li class="carousel-cell">
-    <a href="{{ blog.url | prepend: site.url }}" class="carousel-unit" target="_blank">
+    <a href="{{ blog.url }}" class="carousel-unit" target="_blank">
         <div class="background-is-filtered top-and-bottom">
             <img src="{{ blog.featured_image }}" alt="{{ blog.image_description }}" class="image">
             <img src="{{ blog.logo_image }} " alt="{{ blog.name }}'s logo" class="logo">

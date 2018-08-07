@@ -1,7 +1,7 @@
 ---
 title: Enhancing Retail
 name: '"Enhancing Retail" - Retailer Engagement, Trade and Communication (RETCO)'
-featured_image: /uploads/stories/mtn-retco.jpeg
+featured_image: https://res.cloudinary.com/softcomux/image/upload/v1533654811/sfc/stories/mtn-retco.jpg
 image_description: 
 case_study_link: 
 client: MTN

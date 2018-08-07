@@ -1,12 +1,12 @@
 ---
 title: Tomi Amao
-featured_image: /uploads/pages/leadership.jpg
+featured_image: https://res.cloudinary.com/softcomux/image/upload/v1533651805/sfc/headers/leadership-header.jpg
 image_description: Black and white collage of business executives
 name: Tomi Amao
 designation: Chief Innovation Officer
 profile: executive
 position: 3
-image: /uploads/people/leadership/tomi.png
+image: https://res.cloudinary.com/softcomux/image/upload/v1533656622/sfc/leadership/tomi.png
 summary: |-
     Lorem ipsum is placeholder text commonly used in the graphic,  print, and publishing industries for previewing layouts and visual mockups
 detail: |-

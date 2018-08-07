@@ -1,6 +1,6 @@
 <li>
-    <a href="{{ item.url }}" class="landscape-tile is-profile background-is-filtered black-filtering">
-        <img src="{{ site.url }}{{ item.image }}" alt="{{ item.name }}"/>
+    <a href="{{ item.url | | prepend: site.url }}" class="landscape-tile is-profile background-is-filtered black-filtering">
+        <img src="{{ item.image }}" alt="{{ item.name }}"/>
         <div class="dashed-border no-border-top p-1">
             <h3 class="fw-bold m-0 mediumtext name">
                 {{ item.name }}
