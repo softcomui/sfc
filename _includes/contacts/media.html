@@ -6,7 +6,7 @@
         Our media personnels proudly serve as your primary business contacts. Every enquiry matters to us.
     </p>
 </div>
-<ul class="none is-held-within grid is-multi-col mostly-3">
+<ul class="none is-held-within grid is-multi-col mostly-3 pt-1">
     {% assign sorted = site.contact_persons | sort: 'position' %}
     {% for item in sorted %}
         {% include lists/contact-person-list-item.html %}

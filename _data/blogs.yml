@@ -5,7 +5,7 @@
     Combining business insights, sophisticated technology and multi-industry inexperience, we plan and support the growth for businesses.
   shortname:      devxblog
   url:            'https://devx.blog'
-  logo_image:     '/uploads/pages/devx-logo.svg'
+  logo_image:     https://res.cloudinary.com/softcomux/image/upload/v1533670911/sfc/home/devx-logo.svg
   image_description: HR manager brainstorming
   featured_image: https://res.cloudinary.com/softcomux/image/upload/v1533655796/sfc/home/devx-blog.jpg
   

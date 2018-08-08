@@ -1,5 +1,5 @@
 ---
-layout: success-stories-all
+layout: success-stories-archive
 permalink: /success-stories/archive/
 title: Softcom Success Stories Archive
 headline: Meaningful Innovation.

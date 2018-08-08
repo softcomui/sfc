@@ -1,9 +1,9 @@
 ---
 layout: blog-single
 title: "Choosing Home: Young Nigerians Retracing Their Steps One Pace At a Time"
-featured_image: https://cdn-images-1.medium.com/max/2000/1*N_tIAeLcQh2FWIxHUDEKvQ.png
+featured_image: https://res.cloudinary.com/softcomux/image/upload/v1533668976/sfc/blog%20posts/choosing-home/choosing-home-header.png
 image_description: Meet Opeyemi Adeyemi, the Solutions Architect who shares the story of his return from the diaspora with us
-author_image: /uploads/people/authors/sanmi.jpg
+author_image: https://res.cloudinary.com/softcomux/image/upload/v1533667829/sfc/sanmi.jpg
 author_name: Sanmi
 tag:
 - African Diaspora
@@ -30,7 +30,7 @@ Naturally, this increases pressure on the city’s job sector and accounts for t
 
 In 2016, Nigeria recorded an all-time high contribution of 12.6% by ICT to its Gross Domestic Product and just last year, the Nigerian Communications Commission (NCC) announced that the quarterly contribution of ICT to the GDP has increased to ₦1.6trn from ₦1.4trn. This recent rise in the importance of ICT as a major contributor to the success of Nigeria’s economic diversification plan has birthed companies like Softcom.
 
-![Opeyemi Adeyemi sharing his job description at Softcom Limited.](https://cdn-images-1.medium.com/max/1600/1*t-zSAbqb1Ncg39JlZ2rW-A.png "Opeyemi Adeyemi sharing his job description at Softcom Limited.")
+![Opeyemi Adeyemi sharing his job description at Softcom Limited.](https://res.cloudinary.com/softcomux/image/upload/v1533668943/sfc/blog%20posts/choosing-home/choosing-home-01.png "Opeyemi Adeyemi sharing his job description at Softcom Limited.")
 
 Softcom tags themselves as “a thinking company” and their solutions portfolio includes specialization in “creating and directing the implementation of strategic road maps that place organizations at the cusp of technology”. Ope agrees that Nigeria’s Information and Communication Technology industry can be a major factor in finally transitioning Nigeria’s economy from being less reliant on oil, but understanding exactly how might still be vague to a lot. I ask him about how his work at Softcom is helping to improve ICT’s position as a major tool for socio-economic development.
 
@@ -46,6 +46,6 @@ In Nigeria, this sense of a technology revolution and the progressive pace at wh
 
 “The concept of Business Development has always interested me so this is my way of exploring the processes behind developing and implementing growth opportunities within and between organizations.”
 
-![Opeyemi Adeyemi discussing why he came back to Nigeria.](https://cdn-images-1.medium.com/max/1600/1*6XhMc4Gddv8TAJcokiq5Gg.png "Opeyemi Adeyemi discussing why he came back to Nigeria.")
+![Opeyemi Adeyemi discussing why he came back to Nigeria.](https://res.cloudinary.com/softcomux/image/upload/v1533668954/sfc/blog%20posts/choosing-home/choosing-home-02.png "Opeyemi Adeyemi discussing why he came back to Nigeria.")
 
 The idea behind Nigerians in the Diaspora, now established as a euphemism for Nigerians living outside the country, particularly in Europe and America, is fascinating. Nevertheless, lanes should be opened for youths skilled or educated in the West to return and contribute towards the process of achieving real growth in the country. The drive and resourcefulness of people like Ope in different sectors of the country is important as Nigeria moves towards becoming a globally competitive nation. Questions surrounding how experience gained by these Nigerians can be harnessed for the direct benefit of the country needs to be asked, alongside awareness campaigns spreading word of the opportunities that are beginning to spring up in the country.

@@ -18,7 +18,7 @@
                 {{ page.client }}
             </span>
         </p>
-        <a href="{{ site.url }}{{page.case_study_link}}" class="download-links mt-1" download>
+        <a href="{{page.case_study_link}}" class="download-links mt-1" download>
             {% include icons.html icon="download" %}
             <span class="suffix">
                 Download Case Study
@@ -35,7 +35,7 @@
             </span>
         </a>
         <div class="mt-1h d-flx al-i-c">
-            <p class="nano-caps m-0 fw-bold opacity-7 co-primary mr-h header-tag">{{ page.tag | first }}</p>
+            <p class="pico-caps m-0 fw-bold opacity-7 co-primary mr-h header-tag">{{ page.tag | first }}</p>
             <p class="nanotext">
                 {% assign words = page.content | strip_html | number_of_words %}
                 {% include read_time.html %}
@@ -44,8 +44,8 @@
         <h2 class="mt-h headline fw-normal maxwidth-sm">
             {{ page.title }}
         </h2>
-        <div class="mt-h d-flx al-i-c">
-            <img src="{{ page.author_image }}" class="mr-1h avatar is-nano" alt="{{ page.author_name }}">
+        <div class="mt-1 d-flx al-i-c">
+            <img src="{{ page.author_image }}" class="mr-h avatar is-nano" alt="{{ page.author_name }}">
             <p class="nanotext m-0"> By {{ page.author_name }} on {{ page.date | date: ' %b %d, %Y'}}</p>
         </div>
     </div>
@@ -77,9 +77,9 @@
         <h2 class="mt-0 headline fw-normal maxwidth-tb">
             {{ page.title }}
         </h2>
-        <p class="m-0 micro-caps fw-bold opacity-7">
+        <p class="m-0 nano-caps fw-bold opacity-7">
             {{ page.department }},
-            <span class="nano-caps"> {{ page.subunit }}</span>
+            <span class="pico-caps"> {{ page.subunit }}</span>
         </p>
     </div>
     {% else %}

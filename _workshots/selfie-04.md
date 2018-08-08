@@ -1,5 +1,5 @@
 ---
 title: Selfie 04
-image: /uploads/selfies/selfie-04.jpg
+image: https://res.cloudinary.com/softcomux/image/upload/v1533666993/sfc/careers%20-%20workshots/selfie-04.jpg
 image_description: Beautiful female engineers taking selfie
 ---

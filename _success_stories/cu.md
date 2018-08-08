@@ -8,6 +8,7 @@ client: Covenant University
 color: '#8b4f8b'
 ---
 
+#### INTRODUCTION
 Covenant university is ranked the number one private university in Nigeria and is located in the western part of Nigeria, Ota Ogun state. The school runs with a mission to To create knowledge and restore the dignity of the black man via a Human Development and Total Man Concept driven curriculum employing innovative, leading edge, teaching and learning methods, research and professional services that promote integrated, life-applicable, life-transforming education relevant to the context of Science, Technology and Human Capacity Building and with over 7000 students and counting they decided to approach Softcom to help develop a strategy that will improve the overall learning experience in the school.
 
 Covenant University sought to foster collaboration between lecturers and students and provide every student with access to learning resources and a host of academic and    non-academic life essential content anytime and anywhere in the world.

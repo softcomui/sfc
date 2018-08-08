@@ -8,6 +8,7 @@ client: MTN
 color: '#ffbe00'
 ---
 
+#### INTRODUCTION
 MTN is the largest telecommunication company in Nigeria with over 57 million subscribers. Established in 1994, MTN operates in over 22 countries across the Middle East and Africa. MTN Nigeria’s growth rate was on the rise and they needed to measure the reach of its branded merchandise against its competitors’ across the Federation. The telecommunications giants also wanted to efficiently determine the extent of subsequent visibility investments.
 
 #### APPROACH

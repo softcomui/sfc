@@ -1,6 +1,6 @@
 <li class="offices background-is-filtered black-filtering alt-bottom-only">
-    <a href="{{ site.url }}/success-stories">
-        <img src="{{ site.url }}{{ item.image }}" alt="{{ item.title }}" class="height-100-pc">
+    <a href="{{ item.address_link }}" target="_blank">
+        <img src="{{ item.image }}" alt="{{ item.title }}" class="height-100-pc">
         <div class="office-address">
             <h3 class="mt-0 mb-0 nano-caps fw-bold co-white">
                 {{ item.city }}, {{ item.country }}
@@ -8,7 +8,7 @@
 
             <div class="co-white-smoke mb-h">{{ item.full_address | markdownify }}</div>
 
-            <a href="{{ site.url }}/success-stories" class="co-primary d-flx al-i-c">
+            <a href="{{ item.address_link }}" class="co-primary d-flx al-i-c" target="_blank">
                 <span>Get directions</span>
                 {% include icons.html icon="chevron-right" %}
             </a>

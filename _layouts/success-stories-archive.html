@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<section class="bg-platinum">
+    <div class="maxwidth-xl mx-auto wrapper will-grow">
+        <ul class="none grid is-multi-col mostly-3">
+            {% assign sorted = site.success_stories | sort: 'release_date' | reverse %}
+            {% for item in sorted %}
+            <li class="dashed-border m-0">
+                <a href="{{ item.url | prepend: site.url }}" class="d-flx al-i-c j-c-sb richblack-link p-1">
+                    <h4 class="m-0 fw-normal">
+                        {{ item.title }}
+                    </h4>
+                    {% include icons.html icon="chevron-right" %}
+                </a>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</section>

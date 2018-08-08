@@ -9,9 +9,10 @@
             <ul class="nav none m-0 d-flx al-i-c fw-normal">
                 {% for entry in site.data.mainnav %}
                 {% assign class = nil %}
-                {% if entry.slug == page.url %}
+                {% assign slug = entry.slug %}
+                {% if page.url contains slug %}
                     {% assign class = class | append: ' is-active' %}
-                {% endif %}
+                {% endif %}             
                     <li>
                         <a href="{{ site.url }}{{ entry.slug }}" class="{{ class }}">
                             {% unless entry.name == 'Home' %}

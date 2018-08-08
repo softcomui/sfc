@@ -12,7 +12,6 @@ color: '#ffbe00'
 MTN is the largest telecommunication company in Nigeria with over 57 million subscribers. Established in 1994, MTN operates in over 22 countries across the Middle East and Africa. MTN Nigeria sought to establish focal engagement with its retailers and also  provide access to a myriad of products. This was all in a bid to increase revenue and improve customer satisfaction.
 
 ##### APPROACH
-
 Softcom, In partnership with Foxconn and Intel delivered the MTN Retailer Engagement, Trade and Communication (RETCO) platform which comprises of:
 
 The Device: This is a bespoke all-in-one device with an embedded thermal printer, NFC reader and EMV card reader. This device has a multi-point touch screen and runs a full instance of the Android OS (version 5.1). A standard 2 year warranty was also provisioned for the device alongside nationwide technical support program for devices.

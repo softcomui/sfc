@@ -1,9 +1,9 @@
 ---
 layout: blog-single
 title: "Choosing Home Series 2: Toluyemi talks about being a Woman in Tech"
-featured_image: https://cdn-images-1.medium.com/max/1600/1*ZQUS3nK_sX-v4KReKGsdSg.jpeg
+featured_image: https://res.cloudinary.com/softcomux/image/upload/v1533669628/sfc/blog%20posts/choosing-home-series-2/choosing-home-series-header.jpg
 image_description: Toluyemi Nathaniel
-author_image: /uploads/people/authors/sanmi.jpg
+author_image: https://res.cloudinary.com/softcomux/image/upload/v1533667829/sfc/sanmi.jpg
 author_name: Sanmi
 tag:
 - Diaspora
@@ -13,7 +13,7 @@ excerpt: "The case for diaspora returnees and their contribution towards develop
 
 As the perception continues to change on Africa’s one-dimensional portrayal as a struggling continent, the tide of brain drain from developing to developed nations is reducing as a growing number of highly skilled and educated Nigerians, Ghanaians, Somalians etc. flock back to their countries of birth after some time away. They left, either as children with their immigrant parents or for study and early career opportunities. They return, in search of an identity, of bigger opportunities, to seek their roots, and determined to make a change. The countries they come back to are certainly the winners in this affair, as these are typically the very best and brightest.
 
-![A couple of people](https://cdn-images-1.medium.com/max/1600/1*ksb2oumS0eRPVxPQ5rITTg.png "Love in the Air")
+![A couple of people](https://res.cloudinary.com/softcomux/image/upload/v1533669660/sfc/blog%20posts/choosing-home-series-2/choosing-home-series-01.png "Love in the Air")
 
 Toluyemi Nathaniel remembers when she had the awakening moment of making the decision to return home to Nigeria. It was close to the end of her 2-year stay in China studying for a Master’s Degree in International Economics and Business.
 
@@ -27,7 +27,7 @@ In substantiating her refreshing sense of duty towards her country, Tolu reveals
 
 **Tolu:** Yes, deciding to go there was 100% my choice. It was actually my first time out of the country, but I didn’t want something familiar, which is what the UK or America would’ve been for me. In fact, immediately after I got there, there was this episode at the airport where there was a mix up with me reclaiming my luggage. Officials gathered trying to solve the problem, but they were all speaking Chinese, which I didn’t understand at the time. This didn’t frighten me, but instead did the opposite; I was, in fact, more interested to understand the language. In its own way for me, it was about fulfilling a sense of adventure I’d long craved. I’m a thrill seeker at heart, so China was a place I really looked forward to living in.
 
-![A couple of people](https://cdn-images-1.medium.com/max/1600/1*i9ltx_kFEf9d32efS6BK5g.png "Love in the Air")
+![A couple of people](https://res.cloudinary.com/softcomux/image/upload/v1533669953/sfc/blog%20posts/choosing-home-series-2/choosing-home-series-03.png "Love in the Air")
 
 Her take on a seeming over-familiarization of foreigners with Western culture is valid in the growing sense that with its global connection, European culture has grown with an all-inclusive urge to adopt, adapt, and ultimately influence other cultural trends around the world. In comparison to a country with a rich cultural history and background still waiting to be explored by most, it’s understandable why the Asian country will be a better pick to experience an original cultural adventure. It’s all well and good, however, the intricacies of living as a minority in the most populated nation on earth remains a reality that can’t be written off. Last year, Quartz published a comprehensive report on a growing fear in some parts of China of a “black invasion bringing drugs and crime” due to the increasing number of African migrants. I talked to Tolu about what it’s like living as a black person in a foreign country, aware of recent victories for nationalist sentiments.
 
@@ -67,6 +67,6 @@ Returning to the country with a strategic approach should also be encouraged amo
 
 Above all, there should be a general understanding that there’s never been a better time than now for the application of great and progressive ideas in the country. In an emerging economy with strong numbers, opportunities abound that can shift the course of the nation onto a progressive path. Tolu recognizes the importance of opportunities when she talked about lessons she’s learnt over the past 5 years.
 
-![Toluyemi Nathaniel](https://cdn-images-1.medium.com/max/1600/1*i9ltx_kFEf9d32efS6BK5g.png "Love in the Air")
+![Toluyemi Nathaniel](https://res.cloudinary.com/softcomux/image/upload/v1533669953/sfc/blog%20posts/choosing-home-series-2/choosing-home-series-03.png "Love in the Air")
 
 “If I was to write a letter to my younger self, it will be to take opportunities as they come. A Colombian friend in China used to tell me that “If you don’t taste the food, how do you know if you’ll like it?” A life lesson for me has really been that taking advantage of opportunities can unexpectedly change a lot in a short space of time.”

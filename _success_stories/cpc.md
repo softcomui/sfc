@@ -8,6 +8,7 @@ client: Consumer Protection Council
 color: '#006535'
 ---
 
+#### INTRODUCTION
 The Consumer Protection Council is an MDA under the Federal Ministry of Trade and Investment in Nigeria. CPC runs with an aim to eliminate hazardous products from the market, provide speedy redress to consumers complaints, undertake campaigns as will lead to increased consumer awareness, ensure that consumers interest receive due consideration at the appropriate forum, and encourage trade, industry and professional associations to develop and enforce in their various fields quality standards designed to safeguard the interest of consumers via legitimate methods. 
 
 Consumer satisfaction has become highly flawed and unreliable and 90% of Nigerian’s have had to deal with bad products or services at one point or the other while the remaining 10% are at risk.  

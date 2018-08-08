@@ -8,6 +8,7 @@ client: Glaxosmithkline
 color: '#f36633'
 ---
 
+#### INTRODUCTION
 Glaxosmithkline is a leading global healthcare organization championing innovation in three primary areas of pharmaceuticals, vaccines and consumer healthcare. They have  presence in 150 countries; a network of 89 manufacturing sites and large R&D centres in the UK, USA, Belgium and China. GSK is committed to helping people “do more, feel better and live longer”.
 
 As a market leader in Nigeria, GSK sought to create shared value that will enable the entire ecosystem of healthcare providers and patients alike benefit from opportunities created by the company through an initiative called the Patient Adherence Program.   
