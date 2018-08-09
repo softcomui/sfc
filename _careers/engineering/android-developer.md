@@ -3,7 +3,7 @@ title:              Android developer
 location:           Lagos, Nigeria
 department:         Engineering
 subunit:            Mobile
-featured_image:     https://res.cloudinary.com/softcomux/image/upload/v1533655714/sfc/headers/openings-header.jpg
+featured_image:     https://res.cloudinary.com/softcomux/image/upload/v1533751166/sfc/headers/openings-header.jpg
 image_description:
 body: |-
     #### ROLE FUNCTION BRIEF
