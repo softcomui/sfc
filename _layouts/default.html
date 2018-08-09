@@ -13,7 +13,7 @@
             {% include shell/header.html %}
             {% include shell/mainnav.html %}
         </header>
-        <main class="main {% if page.layout == 'home' %}bg-platinum{% endif %}" id="mainContent">
+        <main class="main {% if page.layout == 'home' or 'blog' %}bg-platinum{% endif %}" id="mainContent">
             {{ content }}
         </main>
         {% include shell/footer.html %}

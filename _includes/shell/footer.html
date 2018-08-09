@@ -25,7 +25,7 @@
                     </h3>
                     <ul class="none m-0">
                         {% for entry in item.subpages %}
-                            <li>
+                            <li class="nanotext">
                                 <a href="{% if entry.new_window %}{{ entry.link }}{% else %}{{ site.url }}{{ entry.link }}{% endif %}" class="opacity-7 link co-rich-black" {% if entry.new_window %}target="_blank"{% endif %}>
                                     {{ entry.page }}
                                     {% if entry.new_window %}

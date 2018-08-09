@@ -1,6 +1,6 @@
 <ul class="none post-grid">
     {% for item in site.posts %}
-        <li class="post-item">
+        <li class="post-item bg-white">
             <a href="{{ item.url | prepend: site.url }}" class="d-blk is-raised co-readable-gray">
                 <img src="{{ item.featured_image }}" alt="{{ item.image_description }}" class="post-img">
                 <div class="p-1h d-flx flx-dir-c j-c-sb post-item-body">
@@ -16,10 +16,10 @@
                             <h3 class="section-title">
                                 {{ item.title }}
                             </h3>
-                            <p>{{ item.excerpt | truncatewords: 15, '...' }}</p>
+                            <p>{{ item.excerpt | truncatewords: 25, '...' }}</p>
                         </div>
                     </div>
-                    <div class="mt-1h space-between-groups">
+                    <div class="mt-1h d-flx j-c-sb al-i-c">
                         <div class="d-flx al-i-c">
                             <img src="{{ item.author_image }}" class="mr-h avatar is-nano" alt="{{ item.author_name }}">
                             <p class="nanotext m-0">{{ item.author_name}}</p>
