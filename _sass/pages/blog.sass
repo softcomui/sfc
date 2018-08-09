@@ -5,41 +5,44 @@
     // @author  Kabolobari Benakole <kb@softcom.ng>      
 
 .post-grid
-    max-width:                             550px
-    margin:                                0 auto
+    max-width:                          550px
+    margin:                             0 auto
     @media #{$mediumup}
-        max-width:                         none
+        max-width:                      none
     @extend .grid
 
-.post
-    grid-column:                           1 / 13
+.post-item
+    grid-column:                        1 / 13
+    p
+        margin-bottom:                  0
+    .post-item-body
+        min-height:                     344px
     @media #{$mediumup}
         &:nth-child(even)
-            grid-column:                   1 / 7
+            grid-column:                1 / 7
         &:nth-child(odd)
-            grid-column:               7 / 13
+            grid-column:                7 / 13
         &:first-of-type
-            grid-column:                 1 / 13
-            .post-item
-                display:               grid
+            grid-column:                1 / 13
+            > *
+                display:                flex
                 .post-img
-                    grid-column:       1 / 8
-                    height:            100%
-                > div
-                    grid-column:       1 / 9
-                    grid-column:       9 / 13
+                    max-width:          480px
+                    height:             100%
+
+
     .post-img
-        height:                            340px
+        height:                         340px
     .post-tag
-        display:                           flex
-        align-items:                       center
-        letter-spacing:                    .5px
+        display:                        flex
+        align-items:                    center
+        letter-spacing:                 .5px
         &:after
-            content:                       ""
-            display:                       block
-            width:                         3px
-            height:                        3px
-            margin-left:                   0.5rem
-            border-radius:                 50%
-            background:                    $readablegray
+            content:                    ""
+            display:                    block
+            width:                      3px
+            height:                     3px
+            margin-left:                0.5rem
+            border-radius:              50%
+            background:                 $readablegray
 
