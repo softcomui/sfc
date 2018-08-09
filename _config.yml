@@ -7,6 +7,7 @@ url:          'https://kb.life/sfc'
 charset:      'UTF-8'
 timezone:     Africa/Lagos
 typekit_id:   hew8hqf
+google_analytics_id: UA-122859875-1
 
 #tag settings
 tag_page_layout: tags-single
@@ -101,7 +102,6 @@ plugins:
 sass:
   sass_dir: _sass
   style: compressed
-
 
 # Exclude from processing.
 exclude:
