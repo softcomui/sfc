@@ -6,7 +6,7 @@ image_description: A young girl holding a tablet
 author_image: https://res.cloudinary.com/softcomux/image/upload/v1533827364/sfc/people/sanmi.jpg
 author_name: Sanmi
 tag:
-- Tech & Social Impact
+- Social Impact
 excerpt: "Affordable education and easy access to information technology tools, represents a means to foster economic development, as well as improve levels of education, especially in African countries."
 ---
 

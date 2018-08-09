@@ -3,7 +3,7 @@ title:              Android developer
 location:           Lagos, Nigeria
 department:         Engineering
 subunit:            Mobile
-featured_image:     https://res.cloudinary.com/softcomux/image/upload/v1533751166/sfc/headers/openings-header.jpg
+featured_image:     https://res.cloudinary.com/softcomux/image/upload/v1533824272/sfc/headers/openings-header.jpg
 image_description:
 body: |-
     #### ROLE FUNCTION BRIEF
@@ -20,6 +20,6 @@ body: |-
     8. Recommend improvements to existing software programs as necessary
     9. Performing all other functions as may be required of you to enable Softcom achieve its strategic objectives.
 
-    ##### How to apply
+    #### How to apply
     To apply, send a cover letter as email with your CV and other details enclosed to [people@softcom.ng](//mailto:people@softcom.ng)
 ---

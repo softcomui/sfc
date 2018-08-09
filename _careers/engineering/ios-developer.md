@@ -3,7 +3,7 @@ title:              Interface designer
 location:           Lagos
 department:         Engineering
 subunit:            Mobile
-featured_image:     https://res.cloudinary.com/softcomux/image/upload/v1533751166/sfc/headers/openings-header.jpg
+featured_image:     https://res.cloudinary.com/softcomux/image/upload/v1533824272/sfc/headers/openings-header.jpg
 image_description:
 body: |-
     #### ROLE FUNCTION BRIEF
@@ -16,6 +16,6 @@ body: |-
     4. Identify and correct bottlenecks and fix bugs
     5. Help maintain code quality, organization, and automatization
 
-    ##### How to apply
+    #### How to apply
     To apply, send a cover letter as email with your CV and other details enclosed to [people@softcom.ng](//mailto:people@softcom.ng)
 ---

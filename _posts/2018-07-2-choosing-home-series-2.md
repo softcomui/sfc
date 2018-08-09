@@ -6,7 +6,7 @@ image_description: Toluyemi Nathaniel
 author_image: https://res.cloudinary.com/softcomux/image/upload/v1533827364/sfc/people/sanmi.jpg
 author_name: Sanmi
 tag:
-- Diaspora
+- African Diaspora
 - Women In Tech
 excerpt: "The case for diaspora returnees and their contribution towards development is compelling. In the 2nd part of our Choosing Home series, Tolu Nathaniel talks about her experience in China and how she contributes to making an impact via Softcom."
 ---

@@ -6,7 +6,7 @@ image_description: Placeholder text
 author_image: https://res.cloudinary.com/softcomux/image/upload/v1533827393/sfc/people/caleb.jpg
 author_name: Caleb
 tag:
-- Technology & Facial Recognition
+- AI
 excerpt: "With facial recognition being one of the blow-the-trumpet features to come to smart devices, FR technology is definitely here to positively disrupt the process of achieving identity management and even payment in the Nigerian Fin-Tech space."
 ---
 

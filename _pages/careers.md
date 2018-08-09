@@ -15,7 +15,8 @@ whats-it-like: |-
 
     At Softcom, you get to work and interact with a team of highly skilled and professional project managers, business analysts, designers, developers and engineers, just like you. 
 
-    At Softcom, we’re not offering you a “job.” Yes, we’re welcoming you into a family with a crucial mind-set; to create value that can enable people to become better with technology.
+    We don’t just offer jobs. We are welcoming you into a company with a crucial mind-set; solving some of Africa’s biggest challenges through technology.
+
 
 why_join_us:
     - 
