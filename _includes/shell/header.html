@@ -18,12 +18,12 @@
                 {{ page.client }}
             </span>
         </p>
-        <a href="{{page.case_study_link}}" class="download-links mt-1" download>
+        <!-- <a href="{{page.case_study_link}}" class="download-links mt-1" download>
             {% include icons.html icon="download" %}
             <span class="suffix">
                 Download Case Study
             </span>
-        </a>
+        </a> -->
     </div>
     {% elsif page.layout == 'blog-single' %}
     <img src="{{ page.featured_image }}" alt="{{ page.image_description }}" class="main-header-background">
@@ -36,7 +36,7 @@
         </a>
         <div class="mt-1h d-flx al-i-c">
             <p class="pico-caps m-0 fw-bold opacity-7 co-primary mr-h header-tag">{{ page.tag | first }}</p>
-            <p class="nanotext">
+            <p class="picotext m-0">
                 {% assign words = page.content | strip_html | number_of_words %}
                 {% include read_time.html %}
             </p>

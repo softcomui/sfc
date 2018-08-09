@@ -1,12 +1,12 @@
 ---
 title: Omoseindemi Olobayo
-featured_image: https://res.cloudinary.com/softcomux/image/upload/v1533710396/sfc/headers/leadership-header-adj.png
+featured_image: https://res.cloudinary.com/softcomux/image/upload/v1533824297/sfc/headers/leadership-header-adj.png
 image_description: Black and white collage of business executives
 name: Omoseindemi Olobayo
 designation: Chief Solutions Officer
 profile: executive
 position: 2
-image: https://res.cloudinary.com/softcomux/image/upload/v1533656698/sfc/leadership/seinde.png
+image: https://res.cloudinary.com/softcomux/image/upload/v1533825879/sfc/leadership/seinde.png
 summary: |-
     Lorem ipsum is placeholder text commonly used in the graphic,  print, and publishing industries for previewing layouts and visual mockups
 detail: |-

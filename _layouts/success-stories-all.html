@@ -9,9 +9,12 @@ layout: default
                 {% include lists/impact-list-item.html %}
             {% endfor %}
         </ul>
+        {% assign hard_limit = value %}
+        {% if sorted.size > 9 %}
         <a href="{{ site.url }}/success-stories/archive/" class="btn btn-standard btn-dark mt-2h mx-auto">
             <span>All stories</span>
             {% include icons.html icon="chevron-right" %}
         </a>
+        {% endif %}
     </div>
 </section>

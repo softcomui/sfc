@@ -1,7 +1,7 @@
 ---
 title: Redefining complaints management
 name: '"Redefining Complaints Management" - Complaints Management Platform'
-featured_image: https://res.cloudinary.com/softcomux/image/upload/v1533654865/sfc/stories/cpc.jpg
+featured_image: https://res.cloudinary.com/softcomux/image/upload/v1533826958/sfc/stories/cpc.jpg
 image_description:
 case_study_link: 
 client: Consumer Protection Council 
@@ -19,7 +19,4 @@ CPC, considering the fact that only a handful of Nigerians are aware of the serv
 Softcom saw this opportunity form CPC as a way to redefine complaints management by taking it from the norm to refining it with effective and efficient technology. We conducted several process audits at CPC to fully understand the dynamics of manual/ traditional complaints management. After extensive weeks of co-creation with CPC, softcom came up with a system to address the challenge. It comprises of a web platform and mobile application through which complainants can tender and track the stage of their complaints, a complaints management system for CPC where complaints can be received and assigned to the appropriate case officer and a robust admin backend to ensure complaints are adequately resolved. 
 
 The entire system does not just receive complaints but also allows CPC address the complainants in the most humane way possible by ensuring that every single  complainant is carried along every step of the process till their case is resolved.
-
-#### MEASURABLE AND CONCRETE RESULTS
-Customer Testimonial
 

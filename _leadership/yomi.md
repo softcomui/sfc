@@ -1,12 +1,12 @@
 ---
 title: Yomi Adedeji
-featured_image: https://res.cloudinary.com/softcomux/image/upload/v1533710396/sfc/headers/leadership-header-adj.png
+featured_image: https://res.cloudinary.com/softcomux/image/upload/v1533824297/sfc/headers/leadership-header-adj.png
 image_description: Black and white collage of business executives
 name: Yomi Adedeji
 designation: Chief Executive Officer
 profile: executive
 position: 1
-image: https://res.cloudinary.com/softcomux/image/upload/v1533656687/sfc/leadership/yomi.png
+image: https://res.cloudinary.com/softcomux/image/upload/v1533825969/sfc/leadership/yomi.png
 summary: |-
     Lorem ipsum is placeholder text commonly used in the graphic,  print, and publishing industries for previewing layouts and visual mockups
 detail: |-

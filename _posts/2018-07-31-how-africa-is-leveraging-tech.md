@@ -3,7 +3,7 @@ layout: blog-single
 title: How Africa Is Leveraging Tech To Drive Social Impact Programmes
 featured_image: https://res.cloudinary.com/softcomux/image/upload/v1533670122/sfc/blog%20posts/africa-leveraging-tech/africa-leveraging-tech-header.png
 image_description: A young girl holding a tablet
-author_image: https://res.cloudinary.com/softcomux/image/upload/v1533667829/sfc/sanmi.jpg
+author_image: https://res.cloudinary.com/softcomux/image/upload/v1533827364/sfc/people/sanmi.jpg
 author_name: Sanmi
 tag:
 - Tech & Social Impact
