@@ -5,7 +5,7 @@ title: Privacy Policy
 headline: Privacy Policy
 copy: |-
     Our digital products terms, privacy, acceptable use, and cookie policies, copyrights. 
-featured_image: https://res.cloudinary.com/softcomux/image/upload/v1533824292/sfc/headers/policies-header.jpg
+featured_image: https://res.cloudinary.com/softcomux/image/upload/f_auto,q_auto/v1533824292/sfc/headers/policies-header.jpg
 image_description: Softcom impacts
 body: |-
     Softcom takes the privacy of its users as top responsibility and will in no circumstance abuse this trust by disclosing, exporting or managing our user’s personal information in a manner that is contrary to this Privacy Policy. Our Privacy policy is designed to help our user’s understand the way and manner in which we use and manage their personal information and also assist them in understanding how to manage, update and delete their information.  

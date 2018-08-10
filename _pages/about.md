@@ -4,12 +4,12 @@ permalink: /about/
 title: About Softcom
 headline: About us
 copy: We are a diverse collection of thinkers with an unwavering commitment to solving some of Africa’s biggest problems.
-featured_image: https://res.cloudinary.com/softcomux/image/upload/v1533824273/sfc/headers/about-us-header.jpg
+featured_image: https://res.cloudinary.com/softcomux/image/upload/f_auto,q_auto/v1533824273/sfc/headers/about-us-header.jpg
 image_description: Collage of Softcom staff Lagos
 lead_text: Our ultimate vision is to build an engineering company that will improve the way we live, learn and work in Africa.
 lead_credit: Yomi Adedeji
 credit_title: CEO
-credit_image: https://res.cloudinary.com/softcomux/image/upload/v1533656687/sfc/leadership/yomi.png
+credit_image: https://res.cloudinary.com/softcomux/image/upload/f_auto,q_auto/v1533656687/sfc/leadership/yomi.png
 ---
 Softcom was established in 2007 with a resolve to support organizations in the quest for impact and growth using technology. We are a group of professionals whose overarching goal is to add value to our businesses and communities in Africa.
 

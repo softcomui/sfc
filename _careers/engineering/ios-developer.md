@@ -3,7 +3,7 @@ title:              Interface designer
 location:           Lagos
 department:         Engineering
 subunit:            Mobile
-featured_image:     https://res.cloudinary.com/softcomux/image/upload/v1533824272/sfc/headers/openings-header.jpg
+featured_image:     https://res.cloudinary.com/softcomux/image/upload/f_auto,q_auto/v1533824272/sfc/headers/openings-header.jpg
 image_description:
 body: |-
     #### ROLE FUNCTION BRIEF

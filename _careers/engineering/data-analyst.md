@@ -2,7 +2,7 @@
 title:              Data Analyst
 location:           Lagos
 department:         Engineering
-featured_image:     https://res.cloudinary.com/softcomux/image/upload/v1533824272/sfc/headers/openings-header.jpg
+featured_image:     https://res.cloudinary.com/softcomux/image/upload/f_auto,q_auto/v1533824272/sfc/headers/openings-header.jpg
 image_description:
 body: |-
     A date analyst is a crucial role to the technology we provide. Our software process data; and the outcome delivers information to our customer (the end user).
