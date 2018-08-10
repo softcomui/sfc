@@ -1,12 +1,12 @@
 ---
 title: Seun Williams
-featured_image: https://res.cloudinary.com/softcomux/image/upload/v1533824297/sfc/headers/leadership-header-adj.png
+featured_image: https://res.cloudinary.com/softcomux/image/upload/f_auto,q_auto/v1533824297/sfc/headers/leadership-header-adj.png
 image_description: Black and white collage of business executives
 name: Seun Williams
 designation: Chief Marketing Officer
 profile: executive
 position: 4
-image: https://res.cloudinary.com/softcomux/image/upload/v1533825970/sfc/leadership/seun.png
+image: https://res.cloudinary.com/softcomux/image/upload/f_auto,q_auto/v1533825970/sfc/leadership/seun.png
 summary: |-
     Lorem ipsum is placeholder text commonly used in the graphic,  print, and publishing industries for previewing layouts and visual mockups
 detail: |-
