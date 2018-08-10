@@ -1,9 +1,9 @@
 ---
 layout: blog-single
 title: "Choosing Home Series 2: Toluyemi talks about being a Woman in Tech"
-featured_image: https://res.cloudinary.com/softcomux/image/upload/v1533829431/sfc/blog%20posts/choosing-home-series-2/choosing-home-series-header.jpg
+featured_image: https://res.cloudinary.com/softcomux/image/upload/f_auto,q_auto/v1533829431/sfc/blog%20posts/choosing-home-series-2/choosing-home-series-header.jpg
 image_description: Toluyemi Nathaniel
-author_image: https://res.cloudinary.com/softcomux/image/upload/v1533827364/sfc/people/sanmi.jpg
+author_image: https://res.cloudinary.com/softcomux/image/upload/f_auto,q_auto/v1533827364/sfc/people/sanmi.jpg
 author_name: Sanmi
 tag:
 - African Diaspora

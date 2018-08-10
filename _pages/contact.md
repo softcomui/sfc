@@ -6,6 +6,6 @@ cta_link_text: Contact us
 cta_copy: We strive to provide the best service possible with every contact. Get in touch with our team of customer support.
 layout: contact
 permalink: /contact/
-featured_image: https://res.cloudinary.com/softcomux/image/upload/f_auto,q_auto/v1533824266/sfc/headers/contact-us-header.jpg
+featured_image: https://res.cloudinary.com/softcomux/image/upload/f_auto,q_auto/v1533916769/sfc/headers/contact-header.jpg
 image_description: Table top displaying macbook
 ---
