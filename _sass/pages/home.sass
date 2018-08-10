@@ -51,7 +51,7 @@
             .name
                 margin:         $space-sm 0 $space-xs
             .tagline
-                font-size:      1.32rem
+                font-size:      1.45rem
                 line-height:    $headinglh
                 @media #{ $smallup }
                     font-size:  1.62rem     
@@ -61,18 +61,14 @@
             left:               $space
             text-align:         left
             @media #{ $mediumup }
-            .dot
-                background:     #fff
-
+            .dot  
     .grid
         &.is-multi-col.mostly-3
             grid-template-columns:   repeat( auto-fill, minmax( 314.3px, 1fr ) )
             > *:nth-child(3)
                 display:             none
                 @media #{ $slaptop }
-                    display:         block!important
-            
-    
+                    display:         block!important  
     .banner
         position:               relative
         .section-headline
@@ -92,8 +88,7 @@
                 top:                50%
                 width:              450px
                 transform:          translate( -50%, -50% )
-                margin-bottom:      0
-                
+                margin-bottom:      0             
 .cta-img
     height: 250px
     object-fit: cover
