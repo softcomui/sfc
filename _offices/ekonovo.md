@@ -10,5 +10,5 @@ image: https://res.cloudinary.com/softcomux/image/upload/f_auto,q_auto/v15338262
 address_link: https://goo.gl/maps/roe2zEP85rz
 brief_description: |-
     Squarespace’s 98,000-square-foot headquarters are located in Manhattan’s West Village at 8 Clarkson Street. The office fills three floors, in addition to a dedicated lobby and roof deck, within the historic Maltz Building.
-position: 4
+position: 1
 ---
