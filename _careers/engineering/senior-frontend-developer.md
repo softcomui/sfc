@@ -3,7 +3,7 @@ title:              Senior Frontend Developer
 location:           Lagos
 department:         Engineering
 subunit:            Frontend
-featured_image:     https://res.cloudinary.com/softcomux/image/upload/f_auto,q_auto/v1533824272/sfc/headers/openings-header.jpg
+featured_image:     https://res.cloudinary.com/softcomux/image/upload/f_auto,q_auto/v1533917920/sfc/headers/opening-header.jpg
 image_description:
 body: |-
     #### ROLE FUNCTION BRIEF
