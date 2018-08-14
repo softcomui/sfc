@@ -1,5 +1,5 @@
 ---
-title:              Interface Designer
+title:              IOS Developer
 location:           Lagos
 department:         Engineering
 subunit:            Mobile
@@ -7,7 +7,7 @@ featured_image:     https://res.cloudinary.com/softcomux/image/upload/f_auto,q_a
 image_description:
 body: |-
     #### ROLE FUNCTION BRIEF
-    As a creative and passionate Interface Designer with Softcom, you will be responsible for the design, development and enhancement of innovative and robust iOS applications with the rest of our amazing team of developers who are working on different layers of the infrastructure. Therefore,a commitment to collaborative problem solving, sophisticated design, and the creation of quality products is essential.
+    As a creative and passionate IOS Developer with Softcom, you will be responsible for the design, development and enhancement of innovative and robust iOS applications with the rest of our amazing team of developers who are working on different layers of the infrastructure. Therefore,a commitment to collaborative problem solving, sophisticated design, and the creation of quality products is essential.
 
     #### Essential duties and responsibilities
     1. Design and build applications for the iOS platform
