@@ -6,11 +6,11 @@ subunit:            Frontend
 featured_image:     https://res.cloudinary.com/softcomux/image/upload/f_auto,q_auto/v1533917920/sfc/headers/opening-header.jpg
 image_description:
 body: |-
-    #### ROLE FUNCTION BRIEF
+    ### ROLE FUNCTION BRIEF
 
     As a Product Analyst with Softcom, you’ll be responsible for researching client behaviour, crafting product positioning, and effectively articulating the value of Softcom’s products to new and existing customers. In doing so, you’ll be working within a growing team of product managers, while collaborating with our engineering team, helping steer Softcom’s product roadmap and improving the client to customer journey.
 
-    Essential duties and responsibilities
+    ### Essential duties and responsibilities
     - Clearly and regularly communicate with management and engineering colleagues
     - Develop and regularly refine message flows for user product adoption
     - Research and develop messaging and positioning to increase product relevance in the eyes of our customers
@@ -24,6 +24,6 @@ body: |-
     - Effectively use data and analytics to evolve and inform the direction of product development.
     - Provide thought leadership, strategic insight, and clear communication (written and verbal) to the team on strategy.
 
-    #### How to apply
-    To apply, send a cover letter as email with your CV and other details enclosed to [people@softcom.ng](//mailto:people@softcom.ng)
+    ### How to apply
+    To apply, send a cover letter as email with your CV and other details enclosed to [remi@softcom.ng](//mailto:remi@softcom.ng)
 ---

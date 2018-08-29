@@ -47,9 +47,6 @@ collections:
     title:  Our Offices
   product_logos:
     title:  Product & Project Logos
-  labs:
-    title:  Labs
-    output: true
   blog:
     title:  Blog
     output: true
