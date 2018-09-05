@@ -7,7 +7,7 @@ featured_image:     https://res.cloudinary.com/softcomux/image/upload/f_auto,q_a
 image_description:
 body: |-
     ### Role Function Brief
-    As a Product Analyst with Softcom, you’ll be responsible for researching client behaviour, crafting product positioning, and effectively articulating the value of Softcom’s products to new and existing customers. In doing so, you’ll be working within a growing team of product managers, while collaborating with our engineering team, helping steer Softcom’s product roadmap and improving the client to customer journey.
+    As a Junior Frontend Developer with Softcom, you’ll be responsible for researching client behaviour, crafting product positioning, and effectively articulating the value of Softcom’s products to new and existing customers. In doing so, you’ll be working within a growing team of product managers, while collaborating with our engineering team, helping steer Softcom’s product roadmap and improving the client to customer journey.
 
     ### You'll need to have
     - Innate passion to solve problems
@@ -38,4 +38,4 @@ body: |-
 
     ### How to apply
     To apply, send a cover letter as email with your CV and other details enclosed to [remi@softcom.ng](//mailto:remi@softcom.ng)
----
+--
