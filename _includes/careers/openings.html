@@ -21,16 +21,16 @@
                 </ul>
             </section>
         {% endif %}
-        {% if marketing %}
+        {% if client_services %}
             <section>
-                <!-- <div class="section-header co-readable-gray">
+                <div class="section-header co-readable-gray">
                     <h3 class="section-title">
-                        Marketing
+                        Client Services
                         <sup class="fw-normal co-faint-gray">({{ marketing | size }})</sup>
                     </h3>
-                </div> -->
+                </div>
                 <ul class="none">
-                    {% for item in marketing %}
+                    {% for item in client_services %}
                         {% include lists/careers-list-item.html %}
                     {% endfor %}
                 </ul>
