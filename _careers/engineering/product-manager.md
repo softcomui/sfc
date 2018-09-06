@@ -25,5 +25,5 @@ body: |-
     - Provide thought leadership, strategic insight, and clear communication (written and verbal) to the team on strategy.
 
     ### How to apply
-    To apply, send a cover letter as email with your CV and other details enclosed to [remi@softcom.ng](//mailto:remi@softcom.ng)
+    To apply, send a cover letter as email with your CV and other details enclosed to [people@softcom.ng](//mailto:people@softcom.ng)
 ---

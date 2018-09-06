@@ -41,5 +41,5 @@ body: |-
     - Providing highly effective code reviews and peer support
 
     ### How to apply
-    To apply, send a cover letter as email with your CV and other details enclosed to [remi@softcom.ng](//mailto:remi@softcom.ng)
+    To apply, send a cover letter as email with your CV and other details enclosed to [people@softcom.ng](//mailto:people@softcom.ng)
 ---

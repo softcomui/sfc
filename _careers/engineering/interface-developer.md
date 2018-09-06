@@ -29,5 +29,5 @@ body: |-
     - Participate with team in usability interviews, tests and studies in order to deepen knowledge of nifty ways to increase a product's usability, desirability, and value.
 
     ### How to apply
-    To apply, send a cover letter as email with your CV and other details enclosed to [remi@softcom.ng](//mailto:remi@softcom.ng)
+    To apply, send a cover letter as email with your CV and other details enclosed to [people@softcom.ng](//mailto:people@softcom.ng)
 ---
