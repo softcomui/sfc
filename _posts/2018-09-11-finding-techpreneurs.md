@@ -3,7 +3,7 @@ layout: blog-single
 title: Finding techpreneurs in unlikely places
 featured_image: https://media.licdn.com/media/gcrc/dms/image/C4E12AQFD1WcwRPJ5vQ/article-cover_image-shrink_720_1280/0?e=1542240000&v=beta&t=N0D1eUMCWQZXw7jz8ToXwrJbbiF6WTF8cnMpPhYmww8
 image_description: A young girl holding a tablet
-author_image: https://res.cloudinary.com/softcomux/image/upload/f_auto,q_auto/v1533827364/sfc/people/sanmi.jpg
+author_image: https://res.cloudinary.com/softcomux/image/upload/f_auto,q_auto/v1533825970/sfc/leadership/seun.png
 author_name: Seun
 tag:
 - Social Impact
