@@ -3,8 +3,10 @@
 <li class="carousel-cell">
     <a href="{{ blog.url }}" class="carousel-unit" target="_blank">
         <div class="background-is-filtered top-and-bottom">
-            <img src="{{ blog.featured_image }}" alt="{{ blog.image_description }}" class="image">
-            <img src="{{ blog.logo_image }} " alt="{{ blog.name }}'s logo" class="logo">
+
+            <img src="{{ site.url }}{{ blog.featured_image }}" srcset="{{ site.url }}{{ blog.featured_image_576px }} 576w, {{ site.url }}{{ blog.featured_image_768px }} 768w, {{ site.url }}{{ blog.featured_image_960px }} 960w, {{ site.url }}{{ blog.featured_image }} 1440w" alt="{{ blog.image_description }}" class="image">
+
+            <img src="{{ blog.logo_image}}" alt="{{ blog.name }}'s logo" class="logo">
         </div>
         <div class="text-area">
             <p class="m-0 mt-1h micro-caps co-faint-gray">
@@ -13,7 +15,7 @@
             <h3 class="tagline m-0 co-rich-black">
                 {{ blog.tagline }}
             </h3>
-            <p class="smalltext mt-h ff-body co-readable-gray">
+            <p class="mt-h ff-body co-readable-gray">
                 {{ blog.description }}
             </p>
             <span class="btn btn-dark btn-standard mt-1h">

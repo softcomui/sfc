@@ -82,13 +82,13 @@
         </p>
     </div>
     {% else %}
-        <img src="{{ page.featured_image }}" alt="{{ page.image_description }}" class="main-header-background">
+        <img src="{{site.url}}{{ page.featured_image }}" srcset="{{site.url}}{{ page.featured_image_576px }} 576w, {{site.url}}{{ page.featured_image_768px }} 768w, {{site.url}}{{ page.featured_image_960px }} 960w, {{site.url}}{{ page.featured_image }} 1440w"  alt="{{ page.image_description }}" class="main-header-background">
         <div class="main-header-content wrapper width-100-pc">
             <h2 class="m-0 headline">
                 {{ page.headline }}
             </h2>
             {% if page.copy %} 
-                <p class="m-0 smalltext maxwidth-sm mx-auto co-white-smoke pt-1">
+                <p class="m-0 microtext maxwidth-sm mx-auto co-white-smoke pt-1">
                     {{ page.copy }}
                 </p>
             {% endif %}

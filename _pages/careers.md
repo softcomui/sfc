@@ -6,7 +6,10 @@ headline: Join us
 copy: Tackle the most challenging problems facing organizations and communities in Africa.
 cta_link_text: See openings
 cta_copy: Are you interested in tackling some of the most challenging problems facing organisations and communities in Africa?
-featured_image: https://res.cloudinary.com/softcomux/image/upload/f_auto,q_auto/v1533824263/sfc/headers/careers-header.jpg
+featured_image: /uploads/headers/career-header.jpg
+featured_image_960px: /uploads/headers/career-header-960px.jpg
+featured_image_768px: /uploads/headers/career-header-768px.jpg
+featured_image_576px: /uploads/headers/career-header-576px.jpg
 image_description: Female developer pointing at code
 whats-it-like: |-
     Softcom is a place of purpose, value, creativity and inspiration and the people here are the special ingredients to the magic we create. The essence of this organization is best expressed in our mission.

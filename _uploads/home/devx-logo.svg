@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 193 80">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-1 {
+        font-size: 69px;
+        font-family: TrebuchetMS-Italic, Trebuchet MS;
+        font-style: italic;
+      }
+    </style>
+  </defs>
+  <g id="Group_659" data-name="Group 659" transform="translate(-53 -475)">
+    <text id="Dev" class="cls-1" transform="translate(53 540)"><tspan x="0" y="0">Dev</tspan></text>
+    <g id="Group_654" data-name="Group 654" transform="translate(-242.52 358.52)">
+      <path id="Path_607" data-name="Path 607" class="cls-2" d="M4.55,0,8.711,4.884l.9,35.651c0,.643.183,5.791.183,5.791L1.372,41.921A2.31,2.31,0,0,1,.083,39.95L0,5.6Z" transform="matrix(0.719, 0.695, -0.695, 0.719, 445.307, 155.614)"/>
+      <path id="Path_608" data-name="Path 608" class="cls-2" d="M4.55,0,8.711,4.884l.9,35.651c0,.643.183,5.791.183,5.791L1.372,41.921A2.31,2.31,0,0,1,.083,39.95L0,5.6Z" transform="translate(456.925 157.358) rotate(-137)"/>
+      <path id="Path_609" data-name="Path 609" class="cls-2" d="M5.247,0,1.087,4.149l-.9,30.283c0,.546-.183,4.919-.183,4.919l8.423-3.743c1.018-.578,1.288-1.128,1.288-1.674L9.795,4.757Z" transform="translate(450.014 162.924) rotate(-48)"/>
+      <path id="Path_610" data-name="Path 610" class="cls-2" d="M5.247,0,1.087,4.149l-.9,30.283c0,.546-.183,4.919-.183,4.919l8.423-3.743c1.018-.578,1.288-1.128,1.288-1.674L9.795,4.757Z" transform="matrix(-0.695, 0.719, -0.719, -0.695, 452.379, 150.609)"/>
+    </g>
+  </g>
+</svg>
