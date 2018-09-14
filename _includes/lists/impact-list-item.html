@@ -9,7 +9,7 @@
             </h3>
         </div>
         <div class="show-cta background-is-filtered black-filtering">
-            <img src="{{ item.featured_image }}" alt="" class=""/>
+            <img src="{{ item.featured_image | prepend: site.url }}" alt="" class=""/>
             <span class="btn btn-white btn-standard absolute-middle z-depth-1">
                 <span>View story</span>
                 {% include icons.html icon="chevron-right" %}

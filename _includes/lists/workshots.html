@@ -1,3 +1,3 @@
 <li>
-    <img src="{{ item.image }}" alt="{{ item.image_description }}">
+    <img src="{{ item.image | prepend: site.url }}" alt="{{ item.image_description }}">
 </li>

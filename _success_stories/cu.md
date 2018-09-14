@@ -1,7 +1,7 @@
 ---
 title: Beyond the classroom
 name: Beyond the classroom - Edusocial
-featured_image: https://res.cloudinary.com/softcomux/image/upload/f_auto,q_auto/v1533826888/sfc/stories/edusocial.png
+featured_image: /uploads/stories/edusocial.png
 image_description: 
 case_study_link: 
 client: Covenant University

@@ -1,7 +1,7 @@
 ---
 title: Knowing your place in the market
 name: '"Knowing your place in the market" - Trade Visibility'
-featured_image: https://res.cloudinary.com/softcomux/image/upload/f_auto,q_auto/v1533826911/sfc/stories/mtn-trade-visibility.png
+featured_image: /uploads/stories/mtn-trade-visibility.png
 image_description:
 case_study_link: 
 client: MTN

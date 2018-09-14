@@ -5,7 +5,7 @@ layout: default
     <h2 class="sr">{{ page.title }} in brief</h2>
     <div class="maxwidth-xl mx-auto wrapper will-grow grid al-i-fs">
         <div class="col-12 col-4-sm">
-            <img src="{{ page.image }}" alt="{{ page.title }}" class="border-radius-preferred">
+            <img src="{{ page.image | prepend: site.url }}" alt="{{ page.title }}" class="border-radius-preferred">
         </div>
         <div class="col-12 col-4-sm offset-4-cols-from-left lead-summary">
                 {{ page.detail | markdownify }}

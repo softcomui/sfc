@@ -1,9 +1,9 @@
 ---
 layout: blog-single
 title: How Africa Is Leveraging Tech To Drive Social Impact Programmes
-featured_image: https://res.cloudinary.com/softcomux/image/upload/v1533670122/sfc/blog%20posts/africa-leveraging-tech/africa-leveraging-tech-header.png
+featured_image: /uploads/africa-leveraging-tech/africa-leveraging-tech-header.png
 image_description: A young girl holding a tablet
-author_image: https://res.cloudinary.com/softcomux/image/upload/v1533827364/sfc/people/sanmi.jpg
+author_image: /uploads/people/sanmi.jpg
 author_name: Sanmi
 tag:
 - Social Impact
@@ -26,7 +26,7 @@ Over the past 20 years however, the continent has recorded huge success in the m
 
 Affordable education and easy access to information technology tools, thus, represents a means to foster economic development, as well as improve levels of education, especially in African countries.
 
-![A couple of people](https://res.cloudinary.com/softcomux/image/upload/v1533670108/sfc/blog%20posts/africa-leveraging-tech/africa-leveraging-tech-01.jpg "Love in the Air")
+![A couple of people](/uploads/africa-leveraging-tech/africa-leveraging-tech-01.jpg "Love in the Air")
 
 Nigeria’s N-Power
 A social development program that combines technology and education is the N-Power program, launched by the current Nigerian government and chaired by Vice President, Yemi Osinbajo.

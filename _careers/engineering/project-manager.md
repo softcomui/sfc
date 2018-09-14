@@ -3,7 +3,7 @@ title:              Project Manager
 location:           Lagos
 department:         Engineering
 subunit:            
-featured_image:     https://res.cloudinary.com/softcomux/image/upload/f_auto,q_auto/v1533917920/sfc/headers/opening-header.jpg
+featured_image:     /uploads/headers/openings-header.jpg
 image_description:
 body: |-
     ### ROLE FUNCTION BRIEF

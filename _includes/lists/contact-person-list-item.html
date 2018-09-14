@@ -1,5 +1,5 @@
 <li class="d-flx">
-    <img src="{{ item.avatar_image }}" alt="{{ item.contact_person }}" class="avatar is-medium prefix is-even-wider">
+    <img src="{{ item.avatar_image | prepend: site.url }}" alt="{{ item.contact_person }}" class="avatar is-medium prefix is-even-wider">
     <div>
         <span class="nanotext co-faint-gray">
             {{ item.city }}, {{ item.country }}

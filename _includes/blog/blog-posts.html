@@ -2,7 +2,7 @@
     {% for item in site.posts %}
         <li class="post-item bg-white">
             <a href="{{ item.url | prepend: site.url }}" class="d-blk is-raised co-readable-gray">
-                <img src="{{ item.featured_image }}" alt="{{ item.image_description }}" class="post-img">
+                <img src="{{ item.featured_image | prepend: site.url }}" alt="{{ item.image_description }}" class="post-img">
                 <div class="p-1h d-flx flx-dir-c j-c-sb post-item-body">
                     <div>
                         <div class="mb-1 d-flx al-i-c">
@@ -21,7 +21,7 @@
                     </div>
                     <div class="mt-1h d-flx j-c-sb al-i-c">
                         <div class="d-flx al-i-c">
-                            <img src="{{ item.author_image }}" class="mr-h avatar is-nano" alt="{{ item.author_name }}">
+                            <img src="{{ item.author_image | prepend: site.url }}" class="mr-h avatar is-nano" alt="{{ item.author_name }}">
                             <p class="nanotext m-0">{{ item.author_name}}</p>
                         </div>
                         <p class="nanotext m-0">{{ item.date | date: ' %b %d, %Y'}}</p>

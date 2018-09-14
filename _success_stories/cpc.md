@@ -1,7 +1,7 @@
 ---
 title: Redefining Complaints Management
 name: '“Redefining Complaints Management” - Complaints Management Platform'
-featured_image: https://res.cloudinary.com/softcomux/image/upload/f_auto,q_auto/v1533914345/sfc/stories/cpc.png
+featured_image: /uploads/stories/cpc.png
 image_description: 
 case_study_link: 
 client: Consumer protection council

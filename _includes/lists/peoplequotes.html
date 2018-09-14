@@ -3,7 +3,7 @@
         {{ item.quote }}
     </p>
     <div class="lead-credit d-flx al-i-c">
-        <img src="{{ item.quote_author_image }}" alt="{{ item.quote_author }}">
+        <img src="{{ item.quote_author_image | prepend: site.url }}" alt="{{ item.quote_author }}">
         <span class="credit d-blk smalltext">
             {{ item.quote_author }}
             <span class="d-blk nano-caps opacity-7 ff-sans-serif">

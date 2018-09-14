@@ -6,7 +6,7 @@
                 {{ page.lead_text }}
             </p>
             <div class="lead-credit d-flx al-i-c">
-                <img src="{{ page.credit_image }}" alt="{{ page.lead_credit }}">
+                <img src="{{ page.credit_image | prepend: site.url }}" alt="{{ page.lead_credit }}">
                 <span class="credit d-blk smalltext">
                     {{ page.lead_credit }}, {{ page.credit_title }}
                 </span>

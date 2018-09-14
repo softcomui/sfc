@@ -1,7 +1,7 @@
 <section {% if page.layout == 'success-stories-single' or 'blog-single' %}class="background-is-filtered black-filtering"{% else %}class="background-is-filtered black-filtering top-and-bottom"{% endif %}>
     <h2 class="sr">Page Header &amp; Details</h2>
     {% if page.layout == 'success-stories-single' %}
-    <img src="{{ page.featured_image }}" alt="{{ page.image_description }}" class="main-header-background">
+    <img src="{{ page.featured_image | prepend: site.url }}" alt="{{ page.image_description }}" class="main-header-background">
     <div class="main-header-content wrapper width-100-pc maxwidth-xl mx-auto">
         <a href="{{ site.url }}/success-stories" class="badge mb-1 nano-caps co-white">
             {% include icons.html icon="chevron-left" %}
@@ -26,7 +26,7 @@
         </a> -->
     </div>
     {% elsif page.layout == 'blog-single' %}
-    <img src="{{ page.featured_image }}" alt="{{ page.image_description }}" class="main-header-background">
+    <img src="{{ page.featured_image | prepend: site.url }}" alt="{{ page.image_description }}" class="main-header-background">
     <div class="main-header-content wrapper width-100-pc maxwidth-xl mx-auto">
         <a href="{{ site.url }}/blog" class="badge nano-caps co-white">
             {% include icons.html icon="chevron-left" %}
@@ -45,12 +45,12 @@
             {{ page.title }}
         </h2>
         <div class="mt-1 d-flx al-i-c">
-            <img src="{{ page.author_image }}" class="mr-h avatar is-nano" alt="{{ page.author_name }}">
+            <img src="{{ page.author_image | prepend: site.url }}" class="mr-h avatar is-nano" alt="{{ page.author_name }}">
             <p class="nanotext m-0"> By {{ page.author_name }} on {{ page.date | date: ' %b %d, %Y'}}</p>
         </div>
     </div>
     {% elsif page.layout == 'leadership-single' %}
-    <img src="{{ page.featured_image }}" alt="{{ page.image_description }}" class="main-header-background">
+    <img src="{{ page.featured_image | prepend: site.url }}" alt="{{ page.image_description }}" class="main-header-background">
     <div class="main-header-content wrapper width-100-pc maxwidth-xl mx-auto">
         <a href="{{ site.url }}/about/leadership" class="badge mb-1 nano-caps co-white">
             {% include icons.html icon="chevron-left" %}
@@ -66,7 +66,7 @@
         </p>
     </div>
     {% elsif page.layout == 'careers-single' %}
-    <img src="{{ page.featured_image }}" alt="{{ page.image_description }}" class="main-header-background">
+    <img src="{{ page.featured_image | prepend: site.url }}" alt="{{ page.image_description }}" class="main-header-background">
     <div class="main-header-content wrapper width-100-pc maxwidth-xl mx-auto">
         <a href="{{ site.url }}/careers/openings/" class="badge mb-1 nano-caps co-white">
             {% include icons.html icon="chevron-left" %}
@@ -82,7 +82,7 @@
         </p>
     </div>
     {% else %}
-        <img src="{{site.url}}{{ page.featured_image }}" srcset="{{site.url}}{{ page.featured_image_576px }} 576w, {{site.url}}{{ page.featured_image_768px }} 768w, {{site.url}}{{ page.featured_image_960px }} 960w, {{site.url}}{{ page.featured_image }} 1440w"  alt="{{ page.image_description }}" class="main-header-background">
+        <img src="{{ page.featured_image | prepend: site.url }}" srcset="{{ page.featured_image_576px | prepend: site.url }} 576w, {{ page.featured_image_768px | prepend: site.url }} 768w, {{ page.featured_image_960px | prepend: site.url }} 960w, {{ page.featured_image | prepend: site.url }} 1440w"  alt="{{ page.image_description }}" class="main-header-background">
         <div class="main-header-content wrapper width-100-pc">
             <h2 class="m-0 headline">
                 {{ page.headline }}

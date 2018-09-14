@@ -94,7 +94,7 @@ include:
 # Gems
 plugins:
   - jekyll/tagging
-
+  
 # Handling Sass
 sass:
   sass_dir: _sass

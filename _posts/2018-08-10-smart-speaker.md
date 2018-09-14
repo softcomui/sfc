@@ -1,9 +1,9 @@
 ---
 layout: blog-single
 title: Is Africa Ready for a Smart Speaker Revolution?
-featured_image: https://res.cloudinary.com/softcomux/image/upload/f_auto,q_auto/v1534150637/sfc/blog%20posts/smart-speaker/smart-speaker-header.png
+featured_image: /uploads/smart-speaker/smart-speaker-header.png
 image_description: A young girl holding a tablet
-author_image: https://res.cloudinary.com/softcomux/image/upload/f_auto,q_auto/v1533827364/sfc/people/sanmi.jpg
+author_image: /uploads/people/sanmi.jpg
 author_name: Sanmi
 tag:
 - AI
@@ -32,7 +32,7 @@ Indeed, there are several challenges in Africa that a tech gadget like this can 
 
 Another sector smart speaker can help transform is the farming industry - especially in rural Africa. The continent is [projected](http://www.fao.org/fileadmin/templates/wsfs/docs/expert_paper/How_to_Feed_the_World_in_2050.pdf "projected") to be home to about 2 billion people by 2050, which means farm productivity must accelerate at a faster rate than the global average to avoid continued mass hunger. A smart speaker could provide periodic notifications to monitor crop growth and enable farmers monitor deviations from normal growth. While it’s still common for farmers to plant according to the phases of the moon, they can get real time weather updates so as to know the best periods to plant certain crops. This can potentially improve farm productivity and reduce input waste by using analytics to facilitate data-driven farming practices for small-scale farmers.
 
-![A couple of people](https://res.cloudinary.com/softcomux/image/upload/f_auto,q_auto/v1534150620/sfc/blog%20posts/smart-speaker/smart-speaker-01.jpg "Love in the Air")
+![A couple of people](/uploads/smart-speaker/smart-speaker-01.jpg "Love in the Air")
 
 Even designing the product to use local accents and dialects for easier understanding and acceptance by the market. Talking about use cases, one of the more popular functions of the smart speaker is its ability to provide up-to-date traffic reports. Imagine if in this part of the world, we commenced the use of smart speakers notifying users of mishap on preferred routes, as it affected the user’s already predefined Google calendar. This feature is called “proactive assistance”- a notification system for things which Google Home finds useful to the user. With the unpredictable nature of road traffic in Africa’s major cities, information readily available right before leaving the home could be the difference between being on time for appointments, or not.
 

@@ -1,6 +1,6 @@
 <li class="offices background-is-filtered black-filtering alt-bottom-only">
     <a href="{{ item.address_link }}" target="_blank">
-        <img src="{{ item.image }}" alt="{{ item.title }}" class="height-100-pc">
+        <img src="{{ item.image | prepend: site.url }}" alt="{{ item.title }}" class="height-100-pc">
         <div class="office-address">
             <h3 class="mt-0 mb-0 nano-caps fw-bold co-white">
                 {{ item.city }}, {{ item.country }}

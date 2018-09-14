@@ -1,9 +1,9 @@
 ---
 layout: blog-single
 title: "Facial Recognition: What It Is and How Organisations Can Benefit"
-featured_image: https://res.cloudinary.com/softcomux/image/upload/f_auto,q_auto/v1533827912/sfc/blog%20posts/facial-recognition/facial-recognition-header.jpg
+featured_image: /uploads/facial-recognition/facial-recognition-header.jpg
 image_description: Placeholder text
-author_image: https://res.cloudinary.com/softcomux/image/upload/v1533827393/sfc/people/caleb.jpg
+author_image: /uploads/people/caleb.jpg
 author_name: Caleb
 tag:
 - AI
@@ -17,7 +17,7 @@ With Facial recognition being one of the blow-the-trumpet features to come to sm
 ### How Does FR Actually work?   
 FR algorithms simply extract facial information from a person’s face and analyses these features against a set of rules previously set up within the algorithm. The most popular face recognition method (Three-Dimensional Recognition) uses 3D sensors to determine certain facial information — face structure, chin, nose and eye sockets and compares it against a previously saved copy of the image on a phone or a database.
 
-![Placeholder](https://res.cloudinary.com/softcomux/image/upload/f_auto,q_auto/v1533827921/sfc/blog%20posts/facial-recognition/facial-recognition-01.jpg "Placeholder")
+![Placeholder](/uploads/facial-recognition/facial-recognition-01.jpg "Placeholder")
 
 For example, Apple’s Face ID on the iPhone X “uses a ‘TrueDepth’ camera setup, which blasts your face with more than 30,000 infrared dots and scans your face in 3D. A portion of the A11 Bionic chip’s neural engine transforms the depth map and infrared image into a mathematical representation and compares that representation to the enrolled facial data.” This method helps the smartphone make a quick decision on if the person holding the phone to his or her face truly owns the phone.
 
@@ -28,7 +28,7 @@ For example, Apple’s Face ID on the iPhone X “uses a ‘TrueDepth’ camera 
 
 **Data Analytics:** For example, a shopper goes to ShopRite, Maryland Mall and makes several purchases of a specific brand of chocolate over the course of 1 month. ShopRite can store these vital biometric information which may give quite some insight into a customer’s in-store purchasing behaviour, demographics, psychographics etc. With access to this type of data, businesses can make more informed marketing decisions like simply offering him discount on many purchases of his favourite chocolate or presenting him with loyalty schemes etc.
 
-![Placeholder](https://res.cloudinary.com/softcomux/image/upload/f_auto,q_auto/v1533827971/sfc/blog%20posts/facial-recognition/facial-recognition-02.jpg "Placeholder")
+![Placeholder](/uploads/facial-recognition/facial-recognition-02.jpg "Placeholder")
 
 **Identity Management:** Examination bodies like UTME, IELTS and TOEFL can also utilize facial recognition in managing various attendees’ identity in physical or online examinations. FR can also be used in checking travelers at airports and boarding stations.In the United States, the Transportation Security Administration (TSA) recently launched a facial check-in feature at airports.This was piloted a few weeks ago at the Los Angeles LAX airport. With this feature, travelers can literally walk the check-in aisle and get checked-in via facial recognition.
 
