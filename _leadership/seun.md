@@ -1,6 +1,6 @@
 ---
 title: Seun Williams
-featured_image: /uploads/headers/leadership-header-adj.png
+featured_image: /uploads/headers/leadership-header.png
 image_description: Black and white collage of business executives
 name: Seun Williams
 designation: Chief Marketing Officer
