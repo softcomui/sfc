@@ -6,7 +6,7 @@
             {% assign class = class | append: ' is-active' %}
         {% endif %}
         <a class="{{ class }}" href="{{ site.url }}/contact/">
-            <span>{% include icons.html icon="map-pin" %}</span>
+            {% include icons.html icon="map-pin" %}
             <span class="suffix show-mediumup">Contact</span>
         </a>
         <span class="vertical-divider"></span>
