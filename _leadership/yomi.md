@@ -1,6 +1,6 @@
 ---
 title: Yomi Adedeji
-featured_image: /uploads/headers/leadership-header.png
+featured_image: /uploads/headers/leadership-header.jpg
 image_description: Black and white collage of business executives
 name: Yomi Adedeji
 designation: Chief Executive Officer

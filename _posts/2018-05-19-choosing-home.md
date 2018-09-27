@@ -6,7 +6,7 @@ image_description: Meet Opeyemi Adeyemi, the Solutions Architect who shares the 
 author_image: /uploads/people/sanmi.jpg
 author_name: Sanmi
 tag:
-- African Diaspora
+- African Diasporaee    A5 . m    kiuytds```dfgutrewq    `
 excerpt: "The idea behind Nigerians in the Diaspora, now established as a euphemism for Nigerians living outside the country, particularly in Europe and America, is fascinating. Read about the reason behind Ope Adeyemi’s decision to return to Nigeria, after an almost 2-year stay in the United Kingdom."
 ---
 

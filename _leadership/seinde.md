@@ -1,6 +1,6 @@
 ---
 title: Omoseindemi Olobayo
-featured_image: /uploads/headers/leadership-header.png
+featured_image: /uploads/headers/leadership-header.jpg
 image_description: Black and white collage of business executives
 name: Omoseindemi Olobayo
 designation: Chief Solutions Officer
