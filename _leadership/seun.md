@@ -5,7 +5,7 @@ image_description: Black and white collage of business executives
 name: Seun Williams
 designation: Chief Marketing Officer
 profile: executive
-position: 4
+position: 5
 image: /uploads/leadership/seun.png
 summary: |-
     Lorem ipsum is placeholder text commonly used in the graphic,  print, and publishing industries for previewing layouts and visual mockups

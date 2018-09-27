@@ -5,7 +5,7 @@ image_description: Black and white collage of business executives
 name: Tomi Amao
 designation: Chief Innovation Officer
 profile: executive
-position: 3
+position: 4
 image: /uploads/leadership/tomi.png
 summary: |-
     Lorem ipsum is placeholder text commonly used in the graphic,  print, and publishing industries for previewing layouts and visual mockups
