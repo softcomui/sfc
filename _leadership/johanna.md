@@ -3,7 +3,7 @@ title: Johanna Stamps Egbe
 featured_image: /uploads/headers/leadership-header.jpg
 image_description: Black and white collage of business executives
 name: Johanna Stamps Egbe
-designation: Chief of People Culture and Organisation
+designation: Chief of People, Culture and Organisation
 profile: executive
 position: 3
 image: /uploads/leadership/johanna.jpg
