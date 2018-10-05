@@ -34,7 +34,7 @@ body: |-
     - Proven sales track record would be an advantage.
 
     ### Organizational Relationships
-    **Report to:** Account Management, Manager
+    **Report to:** Account Management, Manager    
     **Liaises with:** Client Service, Engineering and Marketing & Communications team.
 
     ### WORK ENVIRONMENT
