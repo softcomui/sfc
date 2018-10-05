@@ -2,7 +2,7 @@
 title:              Product manager
 location:           Lagos
 department:         Engineering
-subunit:            Frontend
+subunit:            
 featured_image:     /uploads/headers/openings-header.jpg
 image_description:
 body: |-
