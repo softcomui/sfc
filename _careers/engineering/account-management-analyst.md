@@ -41,5 +41,5 @@ body: |-
     This job operates in a professional office environment. This role routinely uses standard office equipment such as laptop computers,smart phones, photocopiers, filing cabinets and other presentation materials.
 
     ### How to apply
-    To apply, send a cover letter as email with your CV and other details enclosed to [people@softcom.ng](//mailto:people@softcom.ng)
+    To apply, send a cover letter as email with your CV and other details enclosed to [people@softcom.ng](mailto:people@softcom.ng)
 ---
