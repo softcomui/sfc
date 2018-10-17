@@ -1,6 +1,7 @@
 ---
 title:              Solutions specialist
 location:           Lagos, Nigeria
+contract_type:      Full time
 department:         Client Services
 subunit:            Client Services
 featured_image:     /uploads/headers/openings-header.jpg

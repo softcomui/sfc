@@ -1,10 +1,9 @@
 ---
 title:              Android developer
-location:           Lagos, Nigeria
+location:           Lagos
 contract_type:      Full time  
-subunit:            Mobile
+department:         Engineering
 featured_image:     /uploads/headers/openings-header.jpg
-image_description:
 body: |-
     ### Role Function Brief
     As an Android Developer with Softcom, you will be teamed up with a front-end designer who will deliver assets, as well as a backend engineer who will provide API-driven endpoints. Your job will be to produce snappy and rewarding Android apps that are a joy to use. You will take designs and prototypes from the designer and turn them into a consumer-ready piece of software. You will work closely with the backend engineer to ensure data is passed clearly and efficiently back and forth between the app and server. 

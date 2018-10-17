@@ -2,9 +2,8 @@
 title:              Senior Frontend Developer
 location:           Lagos
 contract_type:      Full time  
-subunit:            Frontend
+department:         Engineering
 featured_image:     /uploads/headers/openings-header.jpg
-image_description:
 body: |-
     ### Role Function Brief
     Softcom is a modern firm hoping to solve complex problems in Africa's biggest and fastest growing economy. The stakes are high and our expectations are even higher. We’re looking for a Senior Front End Developer to become an integral part our team.

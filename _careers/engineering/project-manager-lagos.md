@@ -1,10 +1,9 @@
 ---
-title:              Project Manager - Lagos
+title:              Project Manager
 location:           Lagos
 contract_type:      Full time  
-subunit:            
+department:         Engineering
 featured_image:     /uploads/headers/openings-header.jpg
-image_description:
 body: |-
     ### ROLE FUNCTION BRIEF
 

@@ -2,9 +2,8 @@
 title:              Junior Frontend Developer
 location:           Lagos
 contract_type:      Full time  
-subunit:            Frontend
+department:         Engineering
 featured_image:     /uploads/headers/openings-header.jpg
-image_description:
 body: |-
     ### Role Function Brief
     As a Junior Frontend Developer with Softcom, you’ll be responsible for researching client behaviour, crafting product positioning, and effectively articulating the value of Softcom’s products to new and existing customers. In doing so, you’ll be working within a growing team of product managers, while collaborating with our engineering team, helping steer Softcom’s product roadmap and improving the client to customer journey.

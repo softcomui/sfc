@@ -1,10 +1,9 @@
 ---
 title:              Account Management Analyst
-location:           Lagos, Nigeria
+location:           Lagos
 contract_type:      Full time  
-subunit:            Account Management
+department:         Engineering
 featured_image:     /uploads/headers/openings-header.jpg
-image_description:
 body: |-
     ### Role Function Brief
     Softcom creates some of Africa’s most cutting-edge software products. Our vision is to be the foremost technology company out of Africa and our mission is to connect people and businesses with meaningful innovation and we want you to be a part of our team. As an experienced, ambitious and energetic Account Management Analyst, you will help us create an environment where stakeholders value the outcomes of the services we deliver and make stakeholder feel respected through the engagement process associated with business development activities.    

@@ -1,10 +1,9 @@
 ---
 title:              Product manager
 location:           Lagos
-contract_type:      Full time  
-subunit:            
+contract_type:      Full time       
+department:         Engineering
 featured_image:     /uploads/headers/openings-header.jpg
-image_description:
 body: |-
     ### ROLE FUNCTION BRIEF
 
