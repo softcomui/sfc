@@ -1,7 +1,7 @@
 ---
 title:              Senior Back end developer
 location:           Lagos
-department:         Engineering
+contract_type:      Full time  
 subunit:            
 featured_image:     /uploads/headers/openings-header.jpg
 image_description:

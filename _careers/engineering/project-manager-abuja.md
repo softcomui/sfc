@@ -1,7 +1,7 @@
 ---
 title:              Project Manager - Abuja
 location:           Abuja
-department:         Engineering
+contract_type:      Full time  
 subunit:            
 featured_image:     /uploads/headers/openings-header.jpg
 image_description:

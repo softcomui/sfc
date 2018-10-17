@@ -1,7 +1,7 @@
 ---
 title:              Account Management Analyst
 location:           Lagos, Nigeria
-department:         Engineering
+contract_type:      Full time  
 subunit:            Account Management
 featured_image:     /uploads/headers/openings-header.jpg
 image_description:

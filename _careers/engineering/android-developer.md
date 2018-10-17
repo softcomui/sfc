@@ -1,7 +1,7 @@
 ---
 title:              Android developer
 location:           Lagos, Nigeria
-department:         Engineering
+contract_type:      Full time  
 subunit:            Mobile
 featured_image:     /uploads/headers/openings-header.jpg
 image_description:

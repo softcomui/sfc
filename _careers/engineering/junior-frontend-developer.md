@@ -1,7 +1,7 @@
 ---
 title:              Junior Frontend Developer
 location:           Lagos
-department:         Engineering
+contract_type:      Full time  
 subunit:            Frontend
 featured_image:     /uploads/headers/openings-header.jpg
 image_description:
