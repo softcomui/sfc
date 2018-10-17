@@ -1,5 +1,5 @@
 ---
-title:              Project Manager
+title:              Project Manager - Lagos
 location:           Lagos
 department:         Engineering
 subunit:            
