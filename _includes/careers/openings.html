@@ -4,6 +4,7 @@
         {% assign sorted_careers    = site.careers %}
         {% assign client_services   = sorted_careers | where: "department", "Client Services" %}
         {% assign engineering       = sorted_careers | where: "department", "Engineering" %}
+        {% assign npower            = sorted_careers | where: "department", "Npower" %}
         {% assign marketing         = sorted_careers | where: "department", "Marketing" %}
         {% assign operations        = sorted_careers | where: "department", "Operations" %}
         {% if engineering %}
@@ -21,8 +22,23 @@
                 </ul>
             </section>
         {% endif %}
-        {% if operations %}
+        {% if npower %}
             <section>
+                <div class="section-header co-readable-gray">
+                    <h3 class="section-title">
+                        Npower
+                        <sup class="fw-normal co-faint-gray">({{ npower | size }})</sup>
+                    </h3>
+                </div>
+                <ul class="none">
+                    {% for item in npower %}
+                        {% include lists/careers-list-item.html %}
+                    {% endfor %}
+                </ul>
+            </section>
+        {% endif %}
+        {% if operations %}
+            <!-- <section>
                 <div class="section-header co-readable-gray">
                     <h3 class="section-title">
                         Operations
@@ -34,7 +50,7 @@
                         {% include lists/careers-list-item.html %}
                     {% endfor %}
                 </ul>
-            </section>
+            </section> -->
         {% endif %}
         {% if client_services %}
             <section>
