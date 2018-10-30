@@ -1,6 +1,6 @@
 ---
 title:              Back end developer
-location:           Abuja
+location:           Lagos
 contract_type:      Full time  
 department:         Engineering
 featured_image:     /uploads/headers/openings-header.jpg
