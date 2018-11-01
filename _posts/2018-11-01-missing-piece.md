@@ -39,7 +39,7 @@ However, a couple of organizations in Africa are looking to take advantage of th
 
 Bad data is costly.  With data driving so many decisions in our lives, the cost of bad data truly impacts us all, whether or not we realize it. IBM estimates that bad data costs the U.S. economy around $3.1 trillion dollars each year. The data that most businesses analyze is about their customers and if you’re relying on bad data, there is no way your business can succeed. Many companies have failed to maximize their potentials for lack of knowledge on how to store, enrich, analyze and monetize a huge volume of data they generate from their everyday operations.
 
-![Opeyemi Adeyemi sharing his job description at Softcom Limited.](/uploads/missing-piece/missing-piece-01.png "Opeyemi Adeyemi sharing his job description at Softcom Limited.")
+![Opeyemi Adeyemi sharing his job description at Softcom Limited.](/uploads/missing-piece/missing-piece-02.png "Opeyemi Adeyemi sharing his job description at Softcom Limited.")
 
 It is important to note that with this great access to information comes the equally great responsibility to guard such data. A data breach can occur when private/confidential information is intentionally or unintentionally released into an untrusted environment. Data breaches may involve financial information such as credit card or bank details, Personal Health Information (PHI), Personally Identifiable Information (PII), trade secrets of corporations or intellectual property. Most data breaches involve overexposed and vulnerable unstructured data – files, documents, and sensitive information.
 
