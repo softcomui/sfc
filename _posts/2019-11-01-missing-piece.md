@@ -23,7 +23,7 @@ Over time, human data collection moved beyond just information pertaining to sur
 
 ### What is Big Data?
 
-“It’s not the amount of data that’s important. It’s what organizations do with the data that matters.” 
+“It’s not the amount of data that’s important. It’s what organizations do with the data that matters.”
 
 Big data can be analyzed for insights that lead to better decisions and strategic business moves. Nowadays, our issues have shifted from data production to utilizing these vast quantities of data. Big Data can be considered as the microscope used to peer into the world around us.  The significance of big data does not, in fact, revolve around how much data an organization has but what they can do with it. You can take data from any source, analyze it and yield answers that solve problems regarding cost optimization, time management, whether or not a new product should be developed and its most effective offerings and most relevant today, smart decision making.
 
