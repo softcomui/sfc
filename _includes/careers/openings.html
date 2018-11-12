@@ -22,16 +22,16 @@
                 </ul>
             </section>
         {% endif %}
-        {% if npower %}
+        {% if client_services %}
             <section>
                 <div class="section-header co-readable-gray">
                     <h3 class="section-title">
-                        Npower
-                        <sup class="fw-normal co-faint-gray">({{ npower | size }})</sup>
+                        Client Services
+                        <sup class="fw-normal co-faint-gray">({{ client_services | size }})</sup>
                     </h3>
                 </div>
                 <ul class="none">
-                    {% for item in npower %}
+                    {% for item in client_services %}
                         {% include lists/careers-list-item.html %}
                     {% endfor %}
                 </ul>

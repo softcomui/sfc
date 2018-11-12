@@ -2,7 +2,7 @@
 title:              Business Analyst
 location:           Abuja
 contract_type:      Full time  
-department:         Npower
+department:         Client Services
 featured_image:     /uploads/headers/openings-header.jpg
 body: |-
     ### You'll need to have
