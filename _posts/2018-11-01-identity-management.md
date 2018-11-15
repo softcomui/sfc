@@ -3,8 +3,8 @@ layout: blog-single
 title: "Identity Management: Is IDaas the way forward?"
 featured_image: /uploads/identity-mgt/identity-mgt-header.png
 image_description: 
-author_image: /uploads/people/sanmi.jpg
-author_name: Sanmi
+author_image: /uploads/people/isioma.jpg
+author_name: Isioma
 tag:
 - Data Analytics
 excerpt: "Identity is a socially and historically constructed concept. We learn about our own identity and the identity of others through interactions with family, peers, organizations, institutions, media and other connections we make in our everyday life."

@@ -3,8 +3,8 @@ layout: blog-single
 title: "Data: The Missing Piece for Effective Business Decision Making"
 featured_image: /uploads/missing-piece/missing-piece-header.png
 image_description: 
-author_image: /uploads/people/sanmi.jpg
-author_name: Sanmi
+author_image: /uploads/people/isioma.jpg
+author_name: Isioma
 tag:
 - Data Analytics
 excerpt: "In recent times, there has been a microfocus on data in the technology industry and the global economy at large. More people are becoming aware of what it is, how it works and why it has become so important in our dealings."
