@@ -3,6 +3,7 @@
     <div class="grid is-multi-col mostly-3 maxwidth-xl mx-auto wrapper will-grow">
         {% assign sorted_careers    = site.careers %}
         {% assign client_services   = sorted_careers | where: "department", "Client Services" %}
+        {% assign pco               = sorted_careers | where: "department", "People, Culture and Organisation" %}
         {% assign engineering       = sorted_careers | where: "department", "Engineering" %}
         {% assign npower            = sorted_careers | where: "department", "Npower" %}
         {% assign marketing         = sorted_careers | where: "department", "Marketing" %}
@@ -37,8 +38,23 @@
                 </ul>
             </section>
         {% endif %}
-        {% if operations %}
-            <!-- <section>
+        {% if pco %}
+            <section>
+                <div class="section-header co-readable-gray">
+                    <h3 class="section-title">
+                        People, Culture and Organisation
+                        <sup class="fw-normal co-faint-gray">({{ client_services | size }})</sup>
+                    </h3>
+                </div>
+                <ul class="none">
+                    {% for item in pco %}
+                        {% include lists/careers-list-item.html %}
+                    {% endfor %}
+                </ul>
+            </section>
+        {% endif %}
+        <!-- {% if operations %}
+            <section>
                 <div class="section-header co-readable-gray">
                     <h3 class="section-title">
                         Operations
@@ -50,22 +66,7 @@
                         {% include lists/careers-list-item.html %}
                     {% endfor %}
                 </ul>
-            </section> -->
-        {% endif %}
-        {% if client_services %}
-            <section>
-                <!-- <div class="section-header co-readable-gray">
-                    <h3 class="section-title">
-                        Client Services
-                        <sup class="fw-normal co-faint-gray">({{ client_services | size }})</sup>
-                    </h3>
-                </div>
-                <ul class="none">
-                    {% for item in client_services %}
-                        {% include lists/careers-list-item.html %}
-                    {% endfor %}
-                </ul> -->
             </section>
-        {% endif %}
+        {% endif %} -->
     </div>
 </section>
