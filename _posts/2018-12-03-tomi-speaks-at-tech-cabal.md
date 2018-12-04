@@ -1,7 +1,7 @@
 ---
 layout: blog-single
 title: "Softcom CIO, Tomi Amao speaks at TechCabal FinTech 2.0 summit"
-featured_image: /uploads/tech-cabal/tech-cabal-header.jpg
+featured_image: /uploads/tech-cabal/tech-cabal-header.JPG
 image_description: 
 author_image: /uploads/people/benjamin.jpg
 author_name: Benjamin
@@ -31,13 +31,13 @@ A few minutes past 11 am, Tomiwa Aladekomo--CEO, Big Cabal Media (BCM) and other
 
 ### Kick-off
 
-![Timi Ajiboye of BuyCoins](/uploads/tech-cabal/tech-cabal-02.jpg)
+![Timi Ajiboye of BuyCoins](/uploads/tech-cabal/tech-cabal-02.JPG)
 
 Timi Ajiboye of [BuyCoins](http://www.buycoins.io/), started the main event with a presentation on cryptocurrency and how they have done over a billion naira in trade in less than six months of launch. BuyCoins enables Nigerians to buy bitcoin and other digital currencies with their naira debit cards. He submitted that the best use case of cryptocurrency at the moment is in facilitating borderless transfers. I usually discourage people from seeing cryptocurrency as another get-rich-quick scheme,” Timi said.
 
 He added that there are new innovations towards mitigating the volatility of the digital currencies. Timi in particular asked a lot of questions during the session. Just as expected because the cryptocurrency market in Nigeria, is still in a state of flux as the regulators are yet to give a go on it. So, crypto innovators like Timi are jittery as to whether a statement from the CBN can blow their entire business out-the-water. However, the International Monetary Fund (IMF) has advised [central banks to set up their own cryptocurrencies](https://www.theguardian.com/business/2018/nov/14/imf-says-governments-could-set-up-their-own-cryptocurrencies).
 
-![Emmanuel Mimshach Obioha, Program Manager at Ventures Platform](/uploads/tech-cabal/tech-cabal-03.jpg)
+![Emmanuel Mimshach Obioha, Program Manager at Ventures Platform](/uploads/tech-cabal/tech-cabal-03.JPG)
 
 Thereafter, Emmanuel Mimshach Obioha, Program Manager at Ventures Platform, took the stage. He spoke on fintech opportunities in Nigeria and the offerings of Ventures Platform.
 
@@ -49,7 +49,7 @@ There was agitation in the room as more people wanted to receive the money, than
 
 Tomi’s demo signalled his introduction into presenting Eyowo to the captivated audience.
 
-![Tomi Amao's Eyowo demo](/uploads/tech-cabal/tech-cabal-04.jpg)
+![Tomi Amao's Eyowo demo](/uploads/tech-cabal/tech-cabal-04.JPG)
 
 “In Nigeria, Banks have existed for 5 decades and mobile phones for barely 2 decades, yet, mobile phones have a deeper penetration”, reads page 3 of his Eyowo presentation.
 
@@ -71,13 +71,13 @@ Here are highlights of the report:
 
 The panel session was moderated by the amiable Academic Director of the Lagos Business School, Dr Yinka David-West.
 
-![Academic Director of the Lagos Business School, Dr Yinka David-West](/uploads/tech-cabal/tech-cabal-06.jpg)
+![Academic Director of the Lagos Business School, Dr Yinka David-West](/uploads/tech-cabal/tech-cabal-06.JPG)
 
 So many gems were dropped during the panel session. They also touched on the infamous [Payment Service Banks Guidelines draft](https://www.benjamindada.com/5-billion-psb-psp-mfb/) recently released by the Central Bank of Nigeria.
 
 “Contrary to popular opinion, the N5 billion licencing fee is not a limitation. Rather, the CBN has made it easy for that young guy in Surulere to own a bank”, GB said. “It’s not like the fee is going from N0 - N5 billion, but it is being reduced from N20 billion [capital requirement of commercial banks] to N5 billion”. He concludes by saying, “The CBN is open to more innovation than most people think”.
 
-![The panellists submitted that to achieve the financial inclusion target, money has to become digital](/uploads/tech-cabal/tech-cabal-07.jpg)
+![The panellists submitted that to achieve the financial inclusion target, money has to become digital](/uploads/tech-cabal/tech-cabal-07.JPG)
 
 Looking at the future of fintech, the panellists submitted that to achieve the financial inclusion target, money has to become digital. “For the future, money needs to become digital, to enable us to do all these things [e.g quicker cross-border transaction] that we’ve outlined,” said Tomi. “People need to trust digital money”.
 
@@ -85,7 +85,7 @@ Looking at the future of fintech, the panellists submitted that to achieve the f
 
 Really, what purchasing power does the person living on less than a dollar (now N364) have? On his/her scale of preference, surviving comes before savings and investment. For such people, who are the bulk of the financially excluded, unbanked and underserved Nigerians, wealth creation is the financial service they need, she submits.
 
-![A Panellist](/uploads/tech-cabal/tech-cabal-08.jpg)
+![A Panellist](/uploads/tech-cabal/tech-cabal-08.JPG)
 
 The panel concluded by saying, “we need to take off our Lagos lens. Lagos is not Nigeria. We need to look into solving the problem of poverty by unlocking agriculture”.
 
@@ -97,6 +97,6 @@ Other takeaways:
 - Uphold global standards vis-a-vis cybersecurity
 - Leverage on partnerships and collaborations to scale and even to get an operating licence
 
-![Adia Sowho](/uploads/tech-cabal/tech-cabal-09.jpg)
+![Adia Sowho](/uploads/tech-cabal/tech-cabal-09.JPG)
 
 The event was so enlightening that Adia Sowho voiced out that representatives of the regulators should be at such important stakeholder gatherings. We all nodded in agreement and went to grab snacks outside the main centre. 
