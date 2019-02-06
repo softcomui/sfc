@@ -6,7 +6,7 @@
         {% assign pco               = sorted_careers | where: "department", "People, Culture and Organisation" %}
         {% assign engineering       = sorted_careers | where: "department", "Engineering" %}
         {% assign npower            = sorted_careers | where: "department", "Npower" %}
-        {% assign marketing         = sorted_careers | where: "department", "Marketing" %}
+        {% assign marketing         = sorted_careers | where: "department", "Marketing and Communications" %}
         {% assign operations        = sorted_careers | where: "department", "Operations" %}
         {% if engineering %}
             <section>
@@ -18,6 +18,21 @@
                 </div>
                 <ul class="none">
                     {% for item in engineering %}
+                        {% include lists/careers-list-item.html %}
+                    {% endfor %}
+                </ul>
+            </section>
+        {% endif %}
+        {% if marketing %}
+            <section>
+                <div class="section-header co-readable-gray">
+                    <h3 class="section-title">
+                        Marketing and Communications
+                        <sup class="fw-normal co-faint-gray">({{ marketing | size }})</sup>
+                    </h3>
+                </div>
+                <ul class="none">
+                    {% for item in marketing %}
                         {% include lists/careers-list-item.html %}
                     {% endfor %}
                 </ul>
