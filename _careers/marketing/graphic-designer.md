@@ -25,4 +25,5 @@ body: |-
     - Excellent communication skills
     - Ability to absorb and apply constructive criticism
 
+    To apply, kindly send an email to people@softcom.ng
 ---

@@ -28,4 +28,6 @@ body: |-
     - Passion for building new technical skills and inquisitive mindset 
     - Absolute team player 
     - Observational, listening and consultative approach within working groups.
+
+    To apply, kindly send an email to people@softcom.ng
 ---
