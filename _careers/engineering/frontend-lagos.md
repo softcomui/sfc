@@ -39,4 +39,6 @@ body: |-
 
 
     Junior (< a year) & Senior level (<4 years) developers needed. 
+
+    To apply, kindly send an email to people@softcom.ng
 ---
