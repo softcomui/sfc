@@ -2,7 +2,7 @@
 title:              Senior Account Manager
 location:           Lagos
 contract_type:      Permanent 
-department:         Finance
+department:         Client Services
 featured_image:     /uploads/headers/openings-header.jpg
 body: |-
     Softcom was established in 2007 and we are a group of professionals whose overarching goal is to add value to our businesses and communities in Africa.    
