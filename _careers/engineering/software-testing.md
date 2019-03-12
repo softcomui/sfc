@@ -40,6 +40,6 @@ body: |-
     - You have knowledge of API testing (Postman preferably) and developing automation framework.
     - You can automate using selenium and katalon. 
 
-    The role reports to the Manager, QA.
+    The role reports to the Manager, QA.    
     To apply, kindly send an email to people@softcom.ng
 ---

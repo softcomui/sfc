@@ -1,5 +1,5 @@
 ---
-title:              Graphic Designer Graduate Intern
+title:              Graphic Designer
 location:           Lagos
 contract_type:      Internship
 department:         Client Services
@@ -31,6 +31,6 @@ body: |-
     - You pay attention to the details. As far as you are concerned everything worth doing is worth doing right every single time. You stay focused and nothing falls through the cracks on your watch.
     - You have an understanding of the latest trends and their role within a commercial environment
 
-    The role reports to the Business Development Lead.
+    The role reports to the Business Development Lead.    
     To apply, kindly send an email to people@softcom.ng
 ---

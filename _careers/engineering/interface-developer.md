@@ -29,6 +29,6 @@ body: |-
     - You have a strong understanding of HTML/CSS screens, code components, animated/interactive demos.
     - You possess significant experience using the following skills VS Code, Git (Github + Bitbucket), Jekyll, Liquid (templating engine), Sass (CSS preprocessor), Pen & Paper, and Todoist.
     
-    The role reports to the UI/UX Manager.
+    The role reports to the UI/UX Manager.    
     To apply, kindly send an email to people@softcom.ng
 ---
