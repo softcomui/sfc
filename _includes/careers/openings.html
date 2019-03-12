@@ -53,6 +53,21 @@
                 </ul>
             </section>
         {% endif %}
+        {% if client_services %}
+            <section>
+                <div class="section-header co-readable-gray">
+                    <h3 class="section-title">
+                        Client Services
+                        <sup class="fw-normal co-faint-gray">({{ client_services | size }})</sup>
+                    </h3>
+                </div>
+                <ul class="none">
+                    {% for item in client_services %}
+                        {% include lists/careers-list-item.html %}
+                    {% endfor %}
+                </ul>
+            </section>
+        {% endif %}
         {% if pco %}
             <section>
                 <!-- <div class="section-header co-readable-gray">
@@ -63,21 +78,6 @@
                 </div> -->
                 <ul class="none">
                     {% for item in pco %}
-                        {% include lists/careers-list-item.html %}
-                    {% endfor %}
-                </ul>
-            </section>
-        {% endif %}
-        {% if client_services %}
-            <section>
-                <!-- <div class="section-header co-readable-gray">
-                    <h3 class="section-title">
-                        Client Services
-                        <sup class="fw-normal co-faint-gray">({{ client_services | size }})</sup>
-                    </h3>
-                </div> -->
-                <ul class="none">
-                    {% for item in client_services %}
                         {% include lists/careers-list-item.html %}
                     {% endfor %}
                 </ul>
