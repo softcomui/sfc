@@ -23,21 +23,6 @@
                 </ul>
             </section>
         {% endif %}
-        {% if marketing %}
-            <section>
-                <div class="section-header co-readable-gray">
-                    <h3 class="section-title">
-                        Marketing and Communications
-                        <sup class="fw-normal co-faint-gray">({{ marketing | size }})</sup>
-                    </h3>
-                </div>
-                <ul class="none">
-                    {% for item in marketing %}
-                        {% include lists/careers-list-item.html %}
-                    {% endfor %}
-                </ul>
-            </section>
-        {% endif %}
         {% if finance %}
             <section>
                 <div class="section-header co-readable-gray">
@@ -63,6 +48,21 @@
                 </div>
                 <ul class="none">
                     {% for item in client_services %}
+                        {% include lists/careers-list-item.html %}
+                    {% endfor %}
+                </ul>
+            </section>
+        {% endif %}
+        {% if marketing %}
+            <section>
+                <!-- <div class="section-header co-readable-gray">
+                    <h3 class="section-title">
+                        Marketing and Communications
+                        <sup class="fw-normal co-faint-gray">({{ marketing | size }})</sup>
+                    </h3>
+                </div> -->
+                <ul class="none">
+                    {% for item in marketing %}
                         {% include lists/careers-list-item.html %}
                     {% endfor %}
                 </ul>
